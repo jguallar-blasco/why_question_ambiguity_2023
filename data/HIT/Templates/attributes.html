@@ -1,0 +1,777 @@
+<!-- You must include this JavaScript file -->
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+
+<!-- For the full list of available Crowd HTML Elements and their input/output documentation,
+      please refer to https://docs.aws.amazon.com/sagemaker/latest/dg/sms-ui-template-reference.html -->
+
+<!-- You must include crowd-form so that your task submits answers to MTurk -->
+<crowd-form answer-format="flatten-objects">
+    
+<meta charset="utf-8" /><script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" />
+<style type="text/css">/*
+  Outline of DOM structure
+  ------------------------
+
+    div.container
+      div.content
+        div#instructions
+        div#hit
+          div#questions_for_arguments
+            div.sentence_section
+              div.sentence_text
+              div
+                label
+                  input.grammatical_radio.grammatical_radio_yes
+                label
+                  input.grammatical_radio.grammatical_radio_no
+                span
+              div.question_list
+                ul
+                  li.question_form_elements
+                    div.likelihood_questions
+                      span.unlikely_radio_buttons
+                        label
+                          input.likelihood_radio
+                        label
+                          input.likelihood_radio
+                      label
+                        input.likelihood_radio
+                      span.likely_radio_buttons
+                        label
+                          input.likelihood_radio
+                        label
+                          input.likelihood_radio
+                    div.question_makes_sense
+                      div
+                        span
+                          label
+                            input.makes_sense_radio.makes_sense_radio_no
+                        span
+                          label
+                            input.makes_sense_radio.makes_sense_radio_yes
+                        span.question_makes_sense_text
+                    div.question_grammatical
+                      div
+                        span
+                          label
+                            input.question_grammatical_box
+                    div.question_bottom_border
+                  li.question_form_elements
+                  ...
+            div.sentence_section
+            ...
+          div#submit_section
+            div#submit_instructions
+            div
+              input#submit_button
+              button#highlight_unanswered_questions
+  */
+
+  .content {
+    font-size: 1.2em;
+  }
+  .sentence_section {
+    margin-bottom: 2em;
+  }
+  .sentence_text {
+    border: 1px solid #E0E0E0;
+    background-color: #F0F0FF;
+    margin-bottom: 1em;
+    padding: 0.5em;
+  }
+  .predicate {
+    background-color: #EEDA6E;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+  .argument {
+    background-color: yellow;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+  .question_list li {
+    padding-bottom: 1.2em;
+  }
+  div.question_list {
+  }
+  div.sentence_section + div.sentence_section {
+    border-top: 1px solid black;
+    margin-top: 2em;
+    padding-top: 3em;
+  }
+
+  div.likelihood_questions {
+    font-size: 0.8em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+  div.likelihood_questions span + span {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .likelihood_questions label {
+    font-weight: normal;
+  }
+
+  div.question_makes_sense {
+    margin-top: 0.3em;
+    font-size: 0.8em;
+    visibility: hidden;
+  }
+  .question_makes_sense label {
+    background-color: #F0F0FF;
+    font-weight: normal;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .sentence_grammatical label {
+    background-color: #F0F0FF;
+    font-weight: normal;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .question_makes_sense_text {
+    margin-right: 1em;
+  }
+
+  div.question_bottom_border {
+    border-bottom: 1px solid #D0D0D0;
+  }
+
+  #submit_instructions {
+    margin-bottom: 1em;
+  }
+
+  .likely_radio_buttons {
+    background-color: #B0FFB0;
+    padding: 0.5em;
+  }
+  .unlikely_radio_buttons {
+    background-color: #FFC0C0;
+    padding: 0.5em;
+  }
+
+  .likely_example_text {
+    background-color: #B0FFB0;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+  .unlikely_example_text {
+    background-color: #FFC0C0;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+
+  .question_makes_sense_example_text {
+    background-color: #F0F0FF;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+
+  #instructions p.example_sentence {
+    border: 1px solid #E0E0E0;
+    background-color: #F0F0FF;
+    margin-left: 5em;
+    padding: 0.5em;
+  }
+
+  #instructions p.example_question {
+    background-color: #F8F8F8;
+    margin-left: 5em;
+  }
+
+  li.question_form_elements {
+    border: 3px solid white;
+  }
+  li.question_form_elements.unanswered_question {
+    border: 3px solid red;
+  }
+
+  .btn-lg, .btn-lg {
+    margin-right: 0.5em;
+  }
+</style>
+<script type="text/javascript">
+  // The INITIAL_QUESTIONS array stores the names of the questions to
+  // initially be shown workers.
+  //
+  // The array can contain strings or arrays of strings.  Arrays of
+  // strings are treated as question blocks that should be treated as
+  // a unit when INITIAL_QUESTIONS is shuffled.
+  var INITIAL_QUESTIONS = [
+    'awareness',
+    'change_of_location',
+    'change_of_state',
+    'change_of_possession',
+    [
+      'existed_before',
+      'existed_during',
+      'existed_after'
+    ],
+    'instigation',
+    'was_used',
+    'volition',
+    'was_for_benefit',
+    'partitive',
+    'sentient',
+    'dynamicty'
+  ];
+
+  function simpleQuestion(questionName, questionText) {
+    return {qname: questionName, qtext: questionText, deps: []};
+  }
+
+  // WARNING: Currently, dynamic reveal only works with
+  // dependency structures of depth 2; that is, the child of
+  // another question cannot itself have children.
+  var LIKELIHOOD_QUESTIONS = {
+    "awareness": simpleQuestion('awareness', '<ARG> was/were aware of being involved in the <PRED>?'),
+    "change_of_location": simpleQuestion('change_of_location', '<ARG> changed location during the <PRED>?'),
+    "change_of_state": {qname: 'change_of_state', 
+                        qtext: '<ARG> was/were altered or somehow changed during or by the end of the <PRED>?', 
+                        deps: [simpleQuestion('change_of_state_continuous', 'the change in <ARG> happened throughout the <PRED>?')]},
+    "change_of_possession": simpleQuestion('change_of_possession', '<ARG> changed possession during the <PRED>?'),
+    "existed_before": simpleQuestion('existed_before', '<ARG> existed before the <PRED> began?'),
+    "existed_during": simpleQuestion('existed_during','<ARG> existed during the <PRED>?'),
+    "existed_after": simpleQuestion('existed_after', '<ARG> existed after the <PRED> stopped?'),
+    "instigation": simpleQuestion('instigation','<ARG> caused the <PRED> to happen?'),
+    "was_used": simpleQuestion('was_used','<ARG> was/were used in carrying out the <PRED>?'),
+    "volition": simpleQuestion('volition','<ARG> chose to be involved in the <PRED>?'),
+    'was_for_benefit': simpleQuestion('was_for_benefit', '<PRED> happened for the benefit of <ARG>?'),
+    'partitive': simpleQuestion('partitive','<b><i>only</i></b> a part or portion of <ARG> was involved in the <PRED>?'),
+    'sentient': simpleQuestion('sentient', '<ARG> was/were sentient?'),
+    'dynamicity': simpleQuestion('dynamicity', '<ARG> is active or changing?')
+  };
+
+  /** Add HTML for questions to DOM element with ID 'questions_for_arguments'
+   */
+  function writeArgumentQuestions() {
+    // Mechanical Turk will fill in '$ { varname }' variables when HTML template is rendered
+    var predicate_lemma = "${predicate_lemma}";
+    var predicate_progressive = "${predicate_progressive}";
+    var sentences_and_args_as_json = '${sentences_and_args_as_json}';
+
+    var sentences_and_args = jQuery.parseJSON(sentences_and_args_as_json);
+
+    // var argument_labels = Object.keys(sentences_and_args);
+    // var shuffled_argument_labels = shuffleArray(argument_labels);
+
+    var question_html = '';
+    var sentence_counter = 0;
+
+    // var short_argument_label = shuffled_argument_labels[shuffled_argument_index];
+    var full_argument_label = sentences_and_args['full_argument_label'];
+    var argument_phrase = sentences_and_args['argument_phrase'];
+    var sentence = sentences_and_args['sentence'];
+
+    var shuffled_questions = flattenArray(shuffleArray(INITIAL_QUESTIONS));
+
+    var REDISPLAY_SENTENCE_AFTER_N_QUESTIONS = 4;
+
+    sentence_counter += 1;
+
+    question_html += '<div class="sentence_section">';
+
+    question_html += '<h2>Sentence</h2>';
+
+    question_html += '  <div class="sentence_text">' + sentence + '</div>';
+
+    question_html += getHTMLforTopLevelGrammatical();
+
+    question_html += '  <div class="question_list">';
+    question_html += '    For <span class="argument">' + argument_phrase + '</span>:';
+    question_html += '    <ul>';
+
+    for (i = 0; i < shuffled_questions.length; i++) {
+      if (i > 0 && i % REDISPLAY_SENTENCE_AFTER_N_QUESTIONS === 0) {
+        question_html += '<div class="sentence_text"><span style="font-weight: bold; font-size: 0.9em;">Sentence (Repeated):</span> ' + sentence + '</div>';
+      }
+
+      var question_name = shuffled_questions[i];
+      var question_obj = LIKELIHOOD_QUESTIONS[question_name];
+
+      question_html += '<li class="question_form_elements">' +
+        getHTMLforQuestion(
+          argument_phrase,
+          predicate_progressive,
+          //short_argument_label,
+          question_obj
+        ) +
+        "</li>";
+      
+    }
+
+    question_html += '    </ul>';
+    question_html += '  </div>';
+    question_html += '</div>';
+
+    question_html += '<input type="hidden" ' +
+                     'name="question_presentation_order' +
+                     '" id="question_presentation_order' + 
+                     '" value="' + shuffled_questions.join(" ") + '"/>';
+    // question_html += '<input type="hidden" name="presentation_order" id="presentation_order" value="' + shuffled_argument_labels.join(" ") + '"/>';
+
+    $("#questions_for_arguments").prepend(question_html);
+
+    for(i = 0; i < INITIAL_QUESTIONS.length; i++) {
+      var q = INITIAL_QUESTIONS[i];
+      hideChildren(q, 0);
+    }
+  }
+
+  function getHTMLforTopLevelGrammatical() {
+    question_html = '  <div class="sentence_grammatical">';
+    question_html += 'On a scale from 1 to 5, how grammatically acceptable is this sentence?';
+    // question_html += '<select name="sentence_grammatical">';
+    // question_html += '  <option value="3">is grammatical</option>';
+    // question_html += '  <option value="2">has minor errors</option>';
+    // question_html += '  <option value="1">has serious errors</option>';
+    // question_html += '</select>.';
+    question_html += ' <label><input type="radio" name="sentence_grammatical" value="1"/> 1</label>';
+    question_html += '<label><input type="radio" name="sentence_grammatical" value="2"/> 2</label>';
+    question_html += '<label><input type="radio" name="sentence_grammatical" value="3"/> 3</label>';
+    question_html += '<label><input type="radio" name="sentence_grammatical" value="4"/> 4</label>';
+    question_html += '<label><input type="radio" name="sentence_grammatical" value="5" checked /> 5</label>';
+    question_html += '  </div>';
+    question_html += '<br /><div class="question_bottom_border"></div><br />';
+    return question_html;
+  }
+
+  /** Returns HTML for question text and form fields for the given arguments
+   * @param {String} argument_phrase - Text associated with sentence argument, e.g. "Brutus", "Cesar"
+   * @param {String} predicate_progressive - Progressive form of predicate, e.g. "killing"
+   * @param {String} short_argument_label - Four-letter argument label, e.g. 'ARG0', 'ARG1'
+   * @param {String} question_name - Name for current question, e.g. "awareness", "causation"
+   * @returns {String}
+   */
+  function getHTMLforQuestion(argument_phrase, predicate_progressive, question_obj) {
+    var question_html;
+
+    question_html =
+      "<span>" +
+        "How likely or unlikely is it that " +
+        question_obj['qtext']
+        .replace('<ARG>', '<span class="argument">' + argument_phrase + '</span>')
+        .replace('<PRED>', '<span class="predicate">' + predicate_progressive + '</span>') +
+      "</span>" +
+      // getHTMLforLikelihoodScale(short_argument_label, question_name, argument_phrase) +
+      getHTMLforLikelihoodScale(question_obj['qname'], argument_phrase) +
+      // getHTMLforMakesSenseRadio(short_argument_label, question_name, argument_phrase) +
+      getHTMLforMakesSenseRadio(question_obj['qname'], argument_phrase) +
+      '<div class="question_bottom_border"></div>';
+
+    for(var i = 0; i < question_obj['deps'].length; i++) {
+      dep_obj = question_obj['deps'][i];
+      question_html += '</li><li class="question_form_elements '
+      question_html += question_obj['qname'] + '_child">'
+      question_html += getHTMLforQuestion(argument_phrase, predicate_progressive, dep_obj);
+    }
+
+    return question_html;
+  }
+
+
+  /** Returns HTML for "Likelihood" radio buttons
+   * @param {String} short_argument_label - Four-letter argument label, e.g. 'ARG0', 'ARG1'
+   * @param {String} question_name - Name for current question, e.g. "awareness", "causation"
+   * @returns {String}
+   */
+  function getHTMLforLikelihoodScale(question_name, argument_phrase) {
+    // var arg_question_name = short_argument_label + '_' + question_name;
+    var arg_question_name = question_name;
+
+    scale_html =
+      '<div class="likelihood_questions" id="likelihood_questions_' + arg_question_name + '">' +
+
+      '  <span class="unlikely_radio_buttons">' +
+      '    <span><label for="' + arg_question_name + '_1"><input type="radio" class="likelihood_radio" name="' + arg_question_name +
+             '" id="' + arg_question_name + '_1" value="1" /> very unlikely</label></span> ' +
+      '    <span><label for="' + arg_question_name + '_2"><input type="radio" class="likelihood_radio" name="' + arg_question_name +
+             '" id="' + arg_question_name + '_2" value="2" /> somewhat unlikely</label></span> ' +
+      '  </span>' +
+
+      '  <span><label for="' + arg_question_name  + '_3"><input type="radio" class="likelihood_radio" name="' + arg_question_name +
+           '" id="' + arg_question_name + '_3" value="3" /> not enough information</label></span> ' +
+
+      '  <span class="likely_radio_buttons">' +
+      '    <span><label for="' + arg_question_name + '_4"><input type="radio" class="likelihood_radio" name="' + arg_question_name +
+             '" id="' + arg_question_name + '_4" value="4" /> somewhat likely</label></span> ' +
+      '    <span><label for="' + arg_question_name + '_5"><input type="radio" class="likelihood_radio" name="' + arg_question_name +
+             '" id="' + arg_question_name + '_5" value="5" /> very likely</label></span> ' +
+      '  </span>' +
+
+      '</div>';
+
+    return scale_html;
+  }
+
+  /** Returns HTML for "Makes Sense" radio buttons
+   * @param {String} short_argument_label - Four-letter argument label, e.g. 'ARG0', 'ARG1'
+   * @param {String} question_name - Name for current question, e.g. "awareness", "causation"
+   * @returns {String}
+   */
+  function getHTMLforMakesSenseRadio(question_name, argument_phrase) {
+    // var arg_question_name = short_argument_label + '_' + question_name;
+    var arg_question_name = question_name;
+
+    scale_html =
+      '<div class="question_makes_sense" id="question_makes_sense_' + arg_question_name + '">' +
+        '<div>' +
+           '<span class="question_makes_sense_text">' +
+             'Does this question make sense?' +
+           '</span>' +
+           '<span><label for="' + arg_question_name + '_makes_sense_no">' +
+             '<input type="radio" class="makes_sense_radio makes_sense_radio_no" name="' + arg_question_name +
+               '_makes_sense" id="' + arg_question_name + '_makes_sense_no" value="no" /> No</label></span> ' +
+           '<span><label for="' + arg_question_name + '_makes_sense_yes">' +
+             '<input type="radio" class="makes_sense_radio makes_sense_radio_yes" name="' + arg_question_name +
+               '_makes_sense" id="' + arg_question_name + '_makes_sense_yes" value="yes" /> Yes</label></span> ' +
+        '</div>' +
+        getHTMLforGrammaticalRadio(question_name) +
+      '</div>';
+
+    return scale_html;
+  }
+
+  function getHTMLforGrammaticalRadio(question_name) {
+    question_html = '  <div>';
+    question_html += '    <span>Is this question hard to answer because of errors in the sentence?</span> ';
+    question_html += '    <label><input type="radio" name="'+question_name+'_grammatical" value="true" checked /> No</label>';
+    question_html += '    <label><input type="radio" name="'+question_name+'_grammatical" value="false"/> Yes</label>';
+    question_html += '  </div>';
+
+    return question_html;
+  }
+
+  /** Flattens an array containing arrays and objects
+   * @param {Array} array
+   * @returns {Array}
+   *
+   * This function only supports one level of nesting - if we have
+   * arrays of arrays of arrays, we should use Underscore's flatten():
+   *   http://underscorejs.org/#flatten
+   */
+  function flattenArray(array) {
+    return [].concat.apply([],array);
+  }
+
+
+  /** Takes an array, returns a shuffled copy of the array
+   * @param {Array} array
+   * @returns {Array}
+   *
+   * shuffleArray implementation copied from:
+   *   http://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+   */
+  function shuffleArray(array) {
+    var currentIndex = array.length,
+      temporaryValue,
+      randomIndex;
+
+    // While there remain elements to shuffle...
+    while (0 !== currentIndex) {
+
+      // Pick a remaining element...
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex -= 1;
+
+      // And swap it with the current element.
+      temporaryValue = array[currentIndex];
+      array[currentIndex] = array[randomIndex];
+      array[randomIndex] = temporaryValue;
+    }
+
+    return array;
+  }
+
+  /** Raise alert if HIT file format expected by template does not match version of HIT input file being shown
+   * @param {String} version - Expected HIT file format version
+   */
+  function checkHitFileFormatVersion(version) {
+    // If the Mechanical Turk template variable hit_file_format_version
+    // is not defined, then expectedVersion will be set to the string
+    // created by concatenating "$"+"{hit_file_format_version}" - undefined
+    // variables are NOT interpreted as empty strings.
+    //
+    // Mechanical Turk template variables will not be defined when previewing
+    // a HIT using the Mechanical Turk WYSIWYG template editor.
+    var expectedVersion = "${hit_file_format_version}";
+
+    if (expectedVersion !== "$"+"{hit_file_format_version}" && version !== expectedVersion) {
+      alert("Expected HIT file format version '" + expectedVersion + "', but version is '" + version + "'");
+    }
+  }
+
+  /** Tests if HTML form is valid
+   * @returns {Boolean}
+   */
+  function formIsValid() {
+    // All required radio buttons must be checked
+    if (totalAnsweredQuestions() === totalQuestions()) {
+      return true;
+    }
+    else {
+      return false;
+    }
+  }
+
+  /** Counts the number of likelihood questions currently being shown
+   * @returns {Number}
+   */
+  function totalQuestions() {
+    // var sentences_and_args_as_json = '${sentences_and_args_as_json}';
+    // var sentences_and_args = jQuery.parseJSON(sentences_and_args_as_json);
+
+    // // TODO: This computation will need to be modified once we start dynamically adding/removing questions
+    // var totalQs = flattenArray(INITIAL_QUESTIONS).length;
+
+    var totalQs = $('.question_form_elements').size();
+    return totalQs;
+  }
+
+  /** Counts the number of ANSWERED likelihood questions currently being shown
+   * @returns {Number}
+   */
+  function totalAnsweredQuestions() {
+    // var total_likely_4 = $("input[class=likelihood_radio][value=4]:radio:checked").size();
+    // var total_likely_5 = $("input[class=likelihood_radio][value=5]:radio:checked").size();
+    // Since questions marked with 4 or 5 are automatically given
+    // a "makes sense" value of "yes", the total number of
+    // checked makes sense radios equals the total number of
+    // answered questions
+    var total_makes_sense = $("input[class~=makes_sense_radio]:radio:checked").size();
+    //return (total_likely_4 + total_likely_5 + total_makes_sense);
+    return total_makes_sense;
+  }
+
+  /** Adds 'unanswered_question' class to all currently unanswered question <li>'s
+   */
+  function addHighlightToUnansweredQuestions() {
+    $('li.question_form_elements').each(function() {
+      if ($(this).find("input[class=likelihood_radio]:radio:checked").length === 0 ||
+          ($(this).find("input[class=likelihood_radio]:radio:checked").val() <= 3 &&
+           $(this).find("input[class~=makes_sense_radio]:radio:checked").length === 0))
+      {
+        $(this).addClass("unanswered_question");
+      }
+    });
+  }
+
+  /** Removes 'unanswered_question' class from all currently answered question <li>'s
+   */
+  function removeHighlightFromAnsweredQuestions() {
+    $('li.question_form_elements').each(function() {
+      if ($(this).find("input[class=likelihood_radio]:radio:checked").length === 1 &&
+          ($(this).find("input[class=likelihood_radio]:radio:checked").val() > 3 ||
+           $(this).find("input[class~=makes_sense_radio]:radio:checked").length === 1))
+      {
+        $(this).removeClass("unanswered_question");
+      }
+    });
+  }
+
+  /** Updates form based on number of questions remaining
+   */
+  function updateFormBasedOnQuestionsRemaining() {
+    if (formIsValid()) {
+      $("#submit_button").prop("disabled", false);
+      $("#submit_instructions").hide("slow");
+    }
+    else {
+      $("#submit_button").prop("disabled", true);
+      updateRemainingQuestionCounter();
+
+      // Show the submit instructions IFF the instructions have been hidden
+      // This can occur if someone has answered all questions, then goes
+      //  back and changes some answers in a way that makes the form invalid
+      $("#submit_instructions:hidden").show("slow");
+    }
+    removeHighlightFromAnsweredQuestions();
+  }
+
+  /** Update text in '#submit_instructions' to show number of remaining questions
+   */
+  function updateRemainingQuestionCounter() {
+    var remainingQuestions = totalQuestions() - totalAnsweredQuestions();
+    if (remainingQuestions > 0) {
+      $("#submit_instructions").html("Please answer all <b>" + remainingQuestions + "</b> remaining questions before submitting");
+    }
+  }
+
+  function showChildren(question_name, delay) {
+    delay = delay || 200; // default delay of 200 ms
+    // Show immediate dependent questions
+    var childQuestions = $('.'+question_name+'_child');
+    if (childQuestions.css('display') === 'none') {
+      childQuestions.find('input[class~=makes_sense_radio]:radio').prop('checked', false);
+      childQuestions.find('.likelihood_radio').prop('checked', false);
+      childQuestions.show(delay);
+    }
+  }
+
+  function hideChildren(question_name, delay) {
+    delay = delay || 200; // default delay of 200 ms
+    // Hide all dependent questions
+    var childQuestions = $('.'+question_name+'_child');
+    if (childQuestions.css('display') !== 'none') {
+      $('.'+question_name+'_child').hide(delay);
+      childQuestions.find('.question_makes_sense').css('visibility','hidden');
+      childQuestions.find('input[class~=makes_sense_radio]:radio').prop('checked', false);
+      childQuestions.find('.likelihood_radio').prop('checked', false);
+      childQuestions.find('.makes_sense_radio_no').prop('checked', true);
+      childQuestions.find('.likelihood_radio[value="1"]').prop('checked', true);
+    }
+  }
+
+  $(document).ready(function() {
+    checkHitFileFormatVersion("2.0.0");
+
+    // Radio button event handlers must be added after writeArgumentQuestions() adds radio buttons to DOM
+    writeArgumentQuestions();
+
+    $(".likelihood_radio").click(function(event) {
+      var arg_question_name = event.target.name;
+
+      if (event.target.value <= 3) {
+        // Show corresponding "Makes Sense" radio buttons
+        var makes_sense_div = $("#question_makes_sense_" + arg_question_name);
+        if (makes_sense_div.css('visibility') != 'visible') {
+          makes_sense_div.css('visibility', 'visible');
+          $("#question_makes_sense_" + arg_question_name + " input[class~=makes_sense_radio]")
+            .prop('checked', false);
+        }
+        hideChildren(arg_question_name);
+      }
+      else {
+        // Hide and clear corresponding "Makes Sense" radio buttons
+        $("#question_makes_sense_" + arg_question_name + " input[class~=makes_sense_radio]")
+          .prop('checked', false);
+        $("#question_makes_sense_" + arg_question_name
+          + " input[class~=makes_sense_radio_yes]")
+          .prop('checked', true);
+        $("#question_makes_sense_" + arg_question_name).css('visibility', 'hidden');
+        showChildren(arg_question_name);
+      }
+
+      updateFormBasedOnQuestionsRemaining();
+    });
+
+    $(".makes_sense_radio").click(function(event) {
+      updateFormBasedOnQuestionsRemaining();
+    });
+
+    $("#highlight_unanswered_questions_button").click(function(event) {
+      addHighlightToUnansweredQuestions();
+    });
+  });
+</script>
+<div class="container">
+<div class="content">
+<div id="instructions">
+<h1>Instructions</h1>
+
+<p style="color:red"><b>NOTICE (March 29, 2016): the instructions have changed; please reread them even if you have done related HITs before.</b></p>
+
+<p>This HIT involves estimating how likely certain conclusions are given an example English sentence. For each sentence and a highlighted phrase, you will be asked how likely several properties of that phrase are relative to the scenario described, on a scale ranging from <span class="unlikely_example_text">very unlikely</span> to <span class="likely_example_text">very likely</span>.</p>
+
+<p>There may be multiple right answers, but we are interested in the first opinion you form about the sentences. For example, if the sentence were:</p>
+
+<p class="example_sentence"><span class="argument">The bird</span> <span class="predicate">sat</span> still .</p>
+
+<p>then for the question:</p>
+
+<p class="example_question">How likely is it that <span class="argument">the bird</span> was stationary during the <span class="predicate">sitting</span>?</p>
+
+<p>you would choose <span class="likely_example_text">very likely</span> (because the bird is stationary).</p>
+
+<p>But if the sentence were:</p>
+
+<p class="example_sentence"><span class="argument">The bird</span> <span class="predicate">flew</span> away .</p>
+
+<p>then for the question:</p>
+
+<p class="example_question">How likely is it that <span class="argument">the bird</span> was stationary during the <span class="predicate">flying</span>?</p>
+
+<p>you would instead choose <span class="unlikely_example_text">very unlikely</span>.</p>
+
+<p>If you choose <span class="unlikely_example_text">very unlikely</span>, <span class="unlikely_example_text">somewhat unlikely</span>, or not enough information, a quick followup question will appear, asking whether the question makes sense. For the example here about the bird you would choose <span class="question_makes_sense_example_text">Yes</span>: the question does make sense, but it is very unlikely the bird is stationary. We will discuss further below why we sometimes ask this quick followup.</p>
+
+<p>In some cases, the sentence itself may not provide enough information to answer; in this case, please choose the middle option, "not enough information". For example, if the sentence were:</p>
+
+<p class="example_sentence">John <span class="predicate">saw</span> <span class="argument">the bird</span> .</p>
+
+<p>then you would choose "not enough information" (the bird could be standing still, or moving; the sentence doesn't make it clear). You would also choose <span class="question_makes_sense_example_text">Yes</span> when asked if the question makes sense; even though there isn't enough information, the question still makes sense.</p>
+
+<p>Finally, in some cases a question may not make sense to ask, relative to the sentence you are presented with. For example, if the sentence were:</p>
+
+<p class="example_sentence"><span class="argument">The new law</span> was <span class="predicate">approved</span> by the committee .</p>
+
+<p>and the question was again:</p>
+
+<p class="example_question">How likely is it that <span class="argument">the new law</span> was/were stationary during the <span class="predicate">approving</span>?</p>
+
+<p>then this would be confusing: this question doesn't make any sense to ask, because a new law is neither stationary, nor non-stationary. Therefore, when you answer that a property is unlikely, or that there is not enough information, we will ask a quick followup question:</p>
+
+<p class="example_question">Does this question make sense?</p>
+
+<p>In the earlier case we said that the flying bird was "very unlikely" to be stationary: this is a question that makes sense, so you would answer <span class="question_makes_sense_example_text">Yes</span> (the question makes sense, because birds can move). In the example just given, about whether the new law was stationary, you would say <span class="question_makes_sense_example_text">No</span> (the question does not make sense), because laws aren't the kind of thing that can move.</p>
+
+<p>In this HIT, one of the questions you will answer will have the following form:</p>
+
+<p class="example_question">How likely or unlikely is it that only a part or portion of <span class="argument">something</span> was involved in the <span class="predicate">event</span>?</p>
+
+<p>For the following example sentence, you would choose <span class="unlikely_example_text">very unlikely</span>, since it is clear that <span class="argument">the tea</span> was completely consumed during the <span class="predicate">drinking</span>.</p>
+
+<p class="example_sentence">Mary <span class="predicate">drank</span> <span class="argument">the tea</span> in a single gulp .</p>
+
+<p>In contrast, you would answer <span class="likely_example_text">very likely</span> for the next example:</p>
+
+<p class="example_sentence">Mary politely <span class="predicate">drank</span> <span class="argument">the tea</span> , but poured out her unfinished cup when her host was n't looking .</p>
+
+<p>Please note that there may be questions with grammatical errors (e.g. incorrect use of "he" vs. "him") or spacing errors (e.g. "do n't" instead of "don't"), as these questions are automatically generated. Please ignore these errors in doing the HIT to the extent possible. However, if a particular question simply does not make sense or is difficult to answer because of an error, please answer <span class="question_makes_sense_example_text">Yes</span> to the following question:</p>
+
+<p class="example_question">Is this question hard to answer because of errors in the sentence?</p>
+
+<p>In addition, you will also be asked about how grammatically acceptable the example sentence is on a scale from 1 (totally unacceptable) to 5 (perfectly acceptable). For this HIT, an "acceptable" sentence is something a native speaker of English would say, even if the situation the sentence describes sounds vague or implausible. In particular, if a native English speaker would say the sentence even though it violates a grammar rule you may have learned in school (e.g. using "who" instead of "whom"), you should still rate the sentence as being acceptable.</p>
+
+<p>Sometimes the example sentence will describe something that makes it initially difficult to answer one or more questions directly. For instance, given the sentence:</p>
+
+<p class="example_sentence">The bird did not fly away</p>
+
+<p>If we asked whether the bird was stationary, this would be a confusing question. Or even more confusing, consider the sentence:</p>
+
+<p class="example_sentence">John wished that Mary had seen the bird fly away</p>
+
+<p>Asking whether the bird was stationary during the flying seems nonsensical in this case.</p>
+
+<p>For example sentences such as these, we want you to respond as if the situation really did happen. That is, even if a sentence says something did not happen, pretend that it did. If a sentence says that someone wished, or believed, or wanted something to take place, pretend that it did. In any combination of these things, still answer the questions as if the underlying predicate and argument were part of some event that really did take place: in the case that the event did actually happen, then we want to know what you expect the answers to be.</p>
+
+<p>A related confusion is when a sentence describes habitual patterns or general tendencies, as in:</p>
+
+<p class="example_sentence">Every Tuesday the lions roar</p>
+
+<p>In these cases, just imagine a single situation of lions roaring, and then answer the questions under that imagined case.</p>
+
+<hr /></div>
+<!-- #instructions -->
+
+<div id="hit">
+<h1>Task</h1>
+
+<form>
+<div id="questions_for_arguments">&nbsp;</div>
+
+<div id="submit_section">
+<div id="submit_instructions">Please answer all questions before submitting</div>
+
+<div><input class="btn btn-primary btn-lg" disabled="disabled" id="submit_button" type="submit" value="Submit" /><button class="btn btn-default btn-lg" id="highlight_unanswered_questions_button" type="button">Highlight unanswered questions</button></div>
+</div>
+</form>
+</div>
+<!-- #hit --></div>
+<!-- .content --></div>
+<!-- .container -->
