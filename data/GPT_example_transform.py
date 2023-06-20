@@ -2,6 +2,11 @@ import openai
 import json 
 import re
 
+'''
+Code to conver VQA why-question examples from the why-question from to the declarative form, extract the lemma, and 
+prepare the data for UDS annotation HIT. 
+'''
+
 # CSV outpath
 out_path = 'test'
 formated_data = []
@@ -133,9 +138,9 @@ for i, question_id in enumerate(data):
 
     line_dict = {
         'hit_file_format_version' = hit_file_format_version, 
-        'corpus_id' = , # TBD 
-        'sentence_id', # Sentence ID
-        'predicate_token_id', # TBD
+        'corpus_id' = VQA, # TBD 
+        'sentence_id' = question_id, # Sentence ID
+        'predicate_token_id' = , # Position of predicate in sentence
         'roleset', # Nothing
         'predicate_lemma', # Lemma
         'predicate_progressive', # Progressive
