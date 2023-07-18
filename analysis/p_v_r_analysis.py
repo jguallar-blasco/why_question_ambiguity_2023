@@ -258,7 +258,7 @@ def f1_score(groups1, groups2):
     pairs_by_group = False
 
     if by_group:
-        all_p, all_r, all_f1 = [], [], []
+        all_p, all_r, all_f1, all_weight = [], [], [], []
         # Get total number of annwers from each annotator
         total_1 = 0
         total_2 = 0 
@@ -273,15 +273,23 @@ def f1_score(groups1, groups2):
                 f1 = 1.0
                 all_f1.append(f1)
                 continue 
+            
             p, r, f1 = f1_helper(group1, group2) 
           
             all_p.append(p)
             all_r.append(r)
-            all_f1.append(f1* ((len_1 + len_2)/(total_1+total_2)))
+            all_f1.append(f1) 
+            all_weight.append((len_1 + len_2)/(total_1+total_2))
 
-        best_f1_scores = np.mean(all_f1)
-        best_p_scores = np.mean(all_p)
-        best_r_scores = np.mean(all_r)
+
+        best_f1_scores = 0
+        best_p_scores = 0
+        best_r_scores = 0
+        for p, r, f1, w in zip(all_p, all_r, all_f1, all_weight): 
+            best_p_scores += w * p
+            best_r_scores += w * r
+            best_f1_scores += w * f1
+    
 
         f1 = best_f1_scores
 
