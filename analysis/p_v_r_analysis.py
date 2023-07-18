@@ -227,27 +227,21 @@ def f1_helper(group1, group2):
     ids1 = set([x['id'] for x in group1])
     ids2 = set([x['id'] for x in group2])
     
-    # treat 1 as pred, 2 as true (symmetric so doesn't matter)
     tp = len(ids1 & ids2)
-    #print(tp)
     fp = len(ids1 - ids2) 
-    #print(fp)
     fn = len(ids2 - ids1)
-    #print(fn)
 
     precision = safe_divide(tp, tp+fp)
     recall = safe_divide(tp, tp + fn)
     f1 = safe_divide(2 * precision * recall, precision + recall)
-    #print(f1)
-    #print(precision)
-    #print(recall)
-    if len(ids1) == 0 and len(ids2) == 0:
-        f1 = 1.0
+    
     return precision, recall, f1
 
+
 def f1_score(groups1, groups2):
-    print(groups1)
-    print(groups2)
+    print("F1 SCORE ---------------")
+    #print(groups1)
+    #print(groups2)
     """
     Compute the f1 score between two sets of groups.
     First, compute the F1 score between each of the 
@@ -255,33 +249,129 @@ def f1_score(groups1, groups2):
     Hungarian algorithm to find the maximum assignment,
     i.e. the best alignment between groups in the two sets.
     """
-    # what do if groups are different length? 
-    # just compute quadriatic, take max  
+
+    f1 = 0
+    precision = 0
+    recall = 0
+    by_group = True
+    pairs_intra_group = False
+    pairs_by_group = False
+
+    if by_group:
+        all_p, all_r, all_f1 = [], [], []
+        # Get total number of annwers from each annotator
+        total_1 = 0
+        total_2 = 0 
+        for group1, group2 in zip(groups1, groups2):
+            total_1 += len(group1)
+            total_2 += len(group2)
+
+        for group1, group2 in zip(groups1, groups2): 
+            len_1 = len(group1)
+            len_2 = len(group2)
+            if len(group1) == 0 and len(group2) == 0:
+                f1 = 1.0
+                all_f1.append(f1)
+                continue 
+            p, r, f1 = f1_helper(group1, group2) 
+          
+            all_p.append(p)
+            all_r.append(r)
+            all_f1.append(f1* ((len_1 + len_2)/(total_1+total_2)))
+
+        best_f1_scores = np.mean(all_f1)
+        best_p_scores = np.mean(all_p)
+        best_r_scores = np.mean(all_r)
+
+        f1 = best_f1_scores
+
+    if pairs_by_group:
+
+        f1_scores = []
+
+        for group1, group2 in zip(groups1, groups2):
+            pairs1 = set()
+            pairs2 = set()
+
+            print(group1)
+            print(group2)
+            
+            ids1 = set([x['id'] for x in group1])
+            ids2 = set([x['id'] for x in group2])
+
+            if len(group1) == 0 and len(group2) == 0:
+                f1_scores.append(1.0)
+                continue
+            
+            for i in ids1:
+                for e in ids1:
+                    if i != e:
+                        pairs1.add('{'+i+','+ e+'}')
+
+            for i in ids2:
+                for e in ids2:
+                    if i != e:
+                        pairs2.add('{'+i+','+ e+'}')
+
+            tp = 0
+            fp = 0
+            fn = 0
+
+            tp = len(pairs1 & pairs2)
+            fp = len(pairs1 - pairs2)
+            fn = len(pairs2 - pairs1)
+
+            precision = safe_divide(tp, tp+fp)
+            recall = safe_divide(tp, tp + fn)
+            f1 = safe_divide(2 * precision * recall, precision + recall)
+
+            f1_scores.append(f1)
+            print(f1_scores)
+
+        f1 = np.mean(f1_scores)
+        print(f1)
+
+    if pairs_intra_group:
+
+        pairs1 = set()
+        pairs2 = set()
+
+        # Create pairs lists 
+        for group1, group2 in zip(groups1, groups2): 
+
+            ids1 = set([x['id'] for x in group1])
+            ids2 = set([x['id'] for x in group2])
+
+            print(ids1)
+            print(ids2)
+            
+            if len(group1) == 0 and len(group2) == 0:
+                continue
+            
+            for i in ids1:
+                for e in ids1:
+                    if i != e:
+                        pairs1.add('{'+i+','+ e+'}')
+
+            for i in ids2:
+                for e in ids2:
+                    if i != e:
+                        pairs2.add('{'+i+','+ e+'}')
+
+        tp = 0
+        fp = 0
+        fn = 0
+
+        tp = len(pairs1 & pairs2)
+        fp = len(pairs1 - pairs2)
+        fn = len(pairs2 - pairs1)
+
+        precision = safe_divide(tp, tp+fp)
+        recall = safe_divide(tp, tp + fn)
+        f1 = safe_divide(2 * precision * recall, precision + recall)
+        print(f1)
     
-    #p_scores = np.zeros((len(groups1), len(groups2)))
-    #r_scores = np.zeros((len(groups1), len(groups2)))
-    #f1_scores = np.zeros((len(groups1), len(groups2)))
-    all_p, all_r, all_f1 = [], [], []
-    for group1, group2 in zip(groups1, groups2): 
-        if len(group1) == 0 and len(group2) == 0:
-            continue
-        p, r, f1 = f1_helper(group1, group2) 
-        #p_scores[i,j] = p
-        #r_scores[i,j] = r
-        #f1_scores[i,j] = f1
-        all_p.append(p)
-        all_r.append(r)
-        all_f1.append(f1)
-    #cost_matrix = np.ones_like(f1_scores) * np.max(f1_scores) - f1_scores
-    #f1_assignment = linear_sum_assignment(cost_matrix) 
-    #best_f1_scores = f1_scores[f1_assignment]
-    #best_p_scores = p_scores[f1_assignment]
-    #best_r_scores = r_scores[f1_assignment]
-    best_f1_scores = np.mean(all_f1)
-    best_p_scores = np.mean(all_p)
-    best_r_scores = np.mean(all_r)
-    #return np.mean(best_f1_scores, axis=0), np.mean(best_p_scores, axis=0), np.mean(best_r_scores, axis=0), f1_assignment
-    return best_f1_scores, best_p_scores, best_r_scores, 0
+    return f1, precision, recall, 0
 
 def group_agreement(rows, enforce_num_anns = False, num_anns=2, interact=False, mturk=False, string_scorers = None): 
     rows_by_hit_id = get_groups(rows, enforce_num_anns = enforce_num_anns, num_anns = num_anns, mturk=mturk) 
@@ -335,6 +425,7 @@ def group_agreement(rows, enforce_num_anns = False, num_anns=2, interact=False, 
     scores_for_avg = []
     mean_string_metrics = defaultdict(list)
     mean_string_to_ref_metrics = defaultdict(list)
+    group_f1 = 0
     for i, hit_id in enumerate(id_sorted_scores.keys()):
         for ann1_idx, (ann1_name, ann1_groups) in enumerate(id_sorted_scores[hit_id]['Answer.answer_groups']):
             for ann2_idx, (ann2_name, ann2_groups) in enumerate(id_sorted_scores[hit_id]['Answer.answer_groups']):
@@ -355,6 +446,10 @@ def group_agreement(rows, enforce_num_anns = False, num_anns=2, interact=False, 
                     continue
                 
                 group_f1, __, __, assignment = f1_score(ann1_groups, ann2_groups)
+
+                # Add examples that have low f1 score to disagreement file
+                #temp_dict 
+
                 if string_scorers is not None:
                     string_metrics = get_string_metrics(rows[0]['Answer.answer_questions'], 
                                                         rows[1]['Answer.answer_questions'], 
@@ -369,6 +464,9 @@ def group_agreement(rows, enforce_num_anns = False, num_anns=2, interact=False, 
                 group_scores[ann1_idx, ann2_idx] += group_f1
                 group_totals[ann1_idx, ann2_idx] += 1
             
+            if ann1_name == ann2_name:
+                continue
+            
             rows = rows_by_hit_id[hit_id]
             rows = [r for r in rows if r[user_key] == ann1_name]
             if rows[0]['Answer.is_skip'] or string_scorers is None:
@@ -381,6 +479,39 @@ def group_agreement(rows, enforce_num_anns = False, num_anns=2, interact=False, 
                                                         scorers=string_scorers)
                 for k, l in ref_string_metrics.items():
                     mean_string_to_ref_metrics[k] += l
+
+            
+            if group_f1 <= 1.0:
+                with open("disagreement_output.txt", 'a') as f:
+                    f.write("--------------------------------------------------------------\n")
+                    f.write("F1 Score: " + str(group_f1) + "\n")
+                    #f.write("Pc Score: " + str(group_pc) + "\n")
+                    f.write("Question: " + rows[0]['Input.questionStr']+ "\n")
+                    f.write(rows[0]["Input.imgUrl"]+ "\n")
+                    f.write("Response from: " + ann1_name+ "\n")
+                    f.write("     Both: "+ "\n")
+                    for item in ann1_groups[0]:
+                        f.write("           "+item['content']+ "\n")
+                    f.write("     Purpose: "+ "\n")
+                    for item in ann1_groups[1]:
+                        f.write("           "+item['content']+ "\n")
+                    f.write("     Reason: "+ "\n") 
+                    for item in ann1_groups[2]:
+                        f.write("           "+item['content']+ "\n")
+                #print(ann1_groups)
+                    f.write("Response from: " + ann2_name+ "\n")
+                    f.write("     Both: "+ "\n")
+                    for item in ann2_groups[0]:
+                        f.write("           "+item['content']+ "\n")
+                    f.write("     Purpose: "+ "\n")
+                    for item in ann2_groups[1]:
+                        f.write("           "+item['content']+ "\n")
+                    f.write("     Reason: "+ "\n") 
+                    for item in ann2_groups[2]:
+                        f.write("           "+item['content']+ "\n")             
+                #print(ann2_groups)
+
+    
     avg_score = group_scores / group_totals
     # reshape to take just upper triangle 
     avg_score = avg_score[np.triu_indices(num_anns, k=1)]
@@ -419,7 +550,10 @@ if __name__ == "__main__":
     parser.add_argument("--pilot", action="store_true", help="set flag to true if csv is from pilot")
     parser.add_argument("--anns", type=str, default=None, help='path to annotator file')
     parser.add_argument("--string-metrics", action="store_true")
+    parser.add_argument("--output-disagreement", action="store_true")
     args = parser.parse_args()
+
+
 
     if args.anns is not None:
         anns = open(args.anns).read().split("\n")

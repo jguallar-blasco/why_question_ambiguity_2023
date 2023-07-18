@@ -44,7 +44,7 @@ def get_line(line, url_base = "https://ugrad.cs.jhu.edu/~jgualla1/"):
    
     answer_groups = get_answer_groups(line['non_repeat_answers']) # getting new groups
     #annotator_1 = line['annotations'][0]
-    answer_questions = ["both", "purpose", "reason"] # getting new questions
+    answer_questions = ["both", "purpose/motivation", "reason/cause"] # getting new questions
 
     # metadata
     #line_dict['question_id'] = line['question_id'] # question id
