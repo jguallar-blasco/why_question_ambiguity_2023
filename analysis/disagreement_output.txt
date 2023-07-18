@@ -1,5 +1,5 @@
 --------------------------------------------------------------
-F1 Score: 0.9
+F1 Score: 0.8
 Question: "Why is the man on the street?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000524314.jpg"
 Response from: esteng
@@ -141,7 +141,7 @@ Response from: jgualla1
            its' sunny
            it's sunny
 --------------------------------------------------------------
-F1 Score: 1.0
+F1 Score: 0.9473684210526316
 Question: "Why would someone not like the fruit at the front?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000039288.jpg"
 Response from: esteng
@@ -226,7 +226,7 @@ Response from: jgualla1
            making ski jump
            ramp
 --------------------------------------------------------------
-F1 Score: 1.0
+F1 Score: 0.0
 Question: "Why are the people on the elephants?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000000061.jpg"
 Response from: esteng
@@ -274,7 +274,7 @@ Response from: jgualla1
            autumn
            it is fall
 --------------------------------------------------------------
-F1 Score: 0.05555555555555555
+F1 Score: 0.8888888888888888
 Question: "Why are these people on their cell phones?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000157125.jpg"
 Response from: esteng
@@ -368,7 +368,7 @@ Response from: jgualla1
            skiing
            they're skiing
 --------------------------------------------------------------
-F1 Score: 0.893939393939394
+F1 Score: 0.6666666666666667
 Question: "Why are there stripes on the runway?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000524925.jpg"
 Response from: esteng
@@ -398,7 +398,7 @@ Response from: jgualla1
            parking spots for airplanes
            parking areas
 --------------------------------------------------------------
-F1 Score: 0.9646464646464648
+F1 Score: 0.8888888888888888
 Question: "Why are all of the surfboards upside down?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000000673.jpg"
 Response from: esteng
@@ -428,7 +428,7 @@ Response from: jgualla1
            not in use
            broken
 --------------------------------------------------------------
-F1 Score: 0.05555555555555555
+F1 Score: 0.8888888888888888
 Question: "Why does the sign say SLOW?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000393922.jpg"
 Response from: esteng
@@ -458,7 +458,7 @@ Response from: jgualla1
            merging traffic
            turtle crossing
 --------------------------------------------------------------
-F1 Score: 0.9513888888888888
+F1 Score: 0.875
 Question: "Why are the police there?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000480717.jpg"
 Response from: esteng
@@ -514,7 +514,7 @@ Response from: jgualla1
            he is happy
            happy
 --------------------------------------------------------------
-F1 Score: 1.0
+F1 Score: 0.7142857142857143
 Question: "Why is he using ski poles?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000525015.jpg"
 Response from: esteng
@@ -586,7 +586,7 @@ Response from: jgualla1
            doesn't want to
            sand
 --------------------------------------------------------------
-F1 Score: 1.0
+F1 Score: 0.8571428571428571
 Question: "Why is the bike connected to the pole?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000262967.jpg"
 Response from: esteng
@@ -642,7 +642,7 @@ Response from: jgualla1
            too loose
            too short
 --------------------------------------------------------------
-F1 Score: 1.0
+F1 Score: 0.5333333333333332
 Question: "Why must the tables be made of stainless steel in this environment?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000131909.jpg"
 Response from: esteng
@@ -669,7 +669,7 @@ Response from: jgualla1
            stove
            environment
 --------------------------------------------------------------
-F1 Score: 1.0
+F1 Score: 0.7142857142857144
 Question: "Why is there an umbrella on top of this truck in the foreground?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000263002.jpg"
 Response from: esteng
@@ -695,7 +695,7 @@ Response from: jgualla1
            to stop rain
      Reason: 
 --------------------------------------------------------------
-F1 Score: 1.0
+F1 Score: 0.6666666666666666
 Question: "Why is the ground white?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000436481.jpg"
 Response from: esteng
@@ -710,7 +710,7 @@ Response from: jgualla1
      Reason: 
            snow
 --------------------------------------------------------------
-F1 Score: 1.0
+F1 Score: 0.7142857142857142
 Question: "Why are the men wearing aprons?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000525180.jpg"
 Response from: esteng
@@ -736,7 +736,7 @@ Response from: jgualla1
            they are cooking
            they're cooking
 --------------------------------------------------------------
-F1 Score: 1.0
+F1 Score: 0.7999999999999999
 Question: "Why is the door open?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000497558.jpg"
 Response from: esteng
@@ -843,7 +843,7 @@ Response from: jgualla1
            old
            museum
 --------------------------------------------------------------
-F1 Score: 0.8888888888888888
+F1 Score: 0.5555555555555556
 Question: "Why do they wear head protection?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000525300.jpg"
 Response from: esteng
@@ -899,7 +899,7 @@ Response from: jgualla1
            angle of shot
            because she's jumping
 --------------------------------------------------------------
-F1 Score: 1.0
+F1 Score: 0.25
 Question: "Why is the person's arm upraised?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000270636.jpg"
 Response from: esteng
@@ -941,7 +941,7 @@ Response from: jgualla1
            friction
            brake smoke
 --------------------------------------------------------------
-F1 Score: 0.7857142857142858
+F1 Score: 0.5714285714285715
 Question: "Why is the woman sit on a cushion?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000410302.jpg"
 Response from: esteng
@@ -1125,7 +1125,7 @@ Response from: jgualla1
            he cannot use his legs
            his legs are disabled
 --------------------------------------------------------------
-F1 Score: 1.0
+F1 Score: 0.0
 Question: "Why are the animal's heads down?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000109156.jpg"
 Response from: esteng
@@ -1171,7 +1171,7 @@ Response from: jgualla1
            it's their destination
            festival
 --------------------------------------------------------------
-F1 Score: 0.16666666666666666
+F1 Score: 0.6666666666666669
 Question: "Why is there a sticker on this banana?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000525640.jpg"
 Response from: esteng
@@ -1195,7 +1195,7 @@ Response from: jgualla1
            decorated
            decoration
 --------------------------------------------------------------
-F1 Score: 0.8333333333333333
+F1 Score: 0.3333333333333333
 Question: "Why is the grown up beside the child?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000394590.jpg"
 Response from: esteng
@@ -1253,7 +1253,7 @@ Response from: jgualla1
            boundaries
            road lanes
 --------------------------------------------------------------
-F1 Score: 0.9126984126984128
+F1 Score: 0.8888888888888888
 Question: "Why is the person holding an umbrella?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000263609.jpg"
 Response from: esteng
@@ -1283,7 +1283,7 @@ Response from: jgualla1
            raining
            it's sunny outside
 --------------------------------------------------------------
-F1 Score: 0.0625
+F1 Score: 0.875
 Question: "Why is this bird feather black?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000132549.jpg"
 Response from: esteng
@@ -1311,7 +1311,7 @@ Response from: jgualla1
            its species
            breed
 --------------------------------------------------------------
-F1 Score: 0.0625
+F1 Score: 0.2222222222222222
 Question: "Why is the persons face covered?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000525813.jpg"
 Response from: esteng
@@ -1332,7 +1332,7 @@ Response from: jgualla1
            keeping warm
      Reason: 
 --------------------------------------------------------------
-F1 Score: 1.0
+F1 Score: 0.9090909090909091
 Question: "Why are the cat's eyes red?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000132654.jpg"
 Response from: esteng
@@ -1355,7 +1355,7 @@ Response from: jgualla1
            reflection from camera
            flash
 --------------------------------------------------------------
-F1 Score: 1.0
+F1 Score: 0.0
 Question: "Why is this truck stopped?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000202523.jpg"
 Response from: esteng
@@ -1373,7 +1373,7 @@ Response from: jgualla1
      Purpose: 
      Reason: 
 --------------------------------------------------------------
-F1 Score: 1.0
+F1 Score: 0.9090909090909092
 Question: "Why are the mountains covered with snow?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000263873.jpg"
 Response from: esteng
@@ -1396,7 +1396,7 @@ Response from: jgualla1
            winter
            climate
 --------------------------------------------------------------
-F1 Score: 0.8833333333333334
+F1 Score: 0.8333333333333334
 Question: "Why does the bus have its headlights on during the day?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000394964.jpg"
 Response from: esteng
@@ -1420,7 +1420,7 @@ Response from: jgualla1
            law
            visibility
 --------------------------------------------------------------
-F1 Score: 0.8833333333333334
+F1 Score: 0.7142857142857142
 Question: "Why are the objects obsolete?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000394975.jpg"
 Response from: esteng
@@ -1446,7 +1446,7 @@ Response from: jgualla1
            old technology
            old
 --------------------------------------------------------------
-F1 Score: 1.0
+F1 Score: 0.8
 Question: "Why does its pupils look like that?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000133565.jpg"
 Response from: esteng
@@ -1503,7 +1503,7 @@ Response from: jgualla1
            focus is on tie
            angle
 --------------------------------------------------------------
-F1 Score: 1.0
+F1 Score: 0.9
 Question: "Why is the girl so dressed up?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000526098.jpg"
 Response from: esteng
@@ -1535,7 +1535,7 @@ Response from: jgualla1
            dress up
            halloween
 --------------------------------------------------------------
-F1 Score: 1.0
+F1 Score: 0.3636363636363636
 Question: "Why is the animal on the beach?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000263993.jpg"
 Response from: esteng
@@ -1610,7 +1610,7 @@ Response from: jgualla1
            light's off
            lights off
 --------------------------------------------------------------
-F1 Score: 0.9285714285714286
+F1 Score: 0.8571428571428571
 Question: "Why is she playing Wii?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000132973.jpg"
 Response from: esteng
@@ -1636,7 +1636,7 @@ Response from: jgualla1
            cool
            she is playing wii for fun
 --------------------------------------------------------------
-F1 Score: 0.9285714285714286
+F1 Score: 0.6000000000000001
 Question: "Why is a man's head on the wall?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000395142.jpg"
 Response from: esteng
@@ -1686,7 +1686,7 @@ Response from: jgualla1
            low quality camera
            camera quality
 --------------------------------------------------------------
-F1 Score: 0.8857142857142857
+F1 Score: 0.42857142857142855
 Question: "Why are the people gathered around this vehicle?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000393553.jpg"
 Response from: esteng
@@ -1744,7 +1744,7 @@ Response from: jgualla1
      Reason: 
            light
 --------------------------------------------------------------
-F1 Score: 0.9730769230769231
+F1 Score: 0.8999999999999999
 Question: "Why are the chairs outside?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000133114.jpg"
 Response from: esteng
@@ -1776,7 +1776,7 @@ Response from: jgualla1
            restaurant seating
            nice out
 --------------------------------------------------------------
-F1 Score: 1.0
+F1 Score: 0.9411764705882353
 Question: "Why is the symbol in the bus window a lemon?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000395314.jpg"
 Response from: esteng
@@ -1829,7 +1829,7 @@ Response from: jgualla1
            sliding
            because he slid
 --------------------------------------------------------------
-F1 Score: 0.7916666666666666
+F1 Score: 0.75
 Question: "Why is he wearing a wetsuit?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000395341.jpg"
 Response from: esteng
@@ -1881,7 +1881,7 @@ Response from: jgualla1
            sunny
            sunlight
 --------------------------------------------------------------
-F1 Score: 1.0
+F1 Score: 0.8333333333333333
 Question: "Why is the laptop sitting above a larger keyboard?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000526467.jpg"
 Response from: esteng
@@ -1931,7 +1931,7 @@ Response from: jgualla1
            he bought new fridge
            he's buying fridge
 --------------------------------------------------------------
-F1 Score: 1.0
+F1 Score: 0.25
 Question: "Why is the man speaking at the microphone?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000526491.jpg"
 Response from: esteng
@@ -1959,7 +1959,7 @@ Response from: jgualla1
      Reason: 
            keynote speaker
 --------------------------------------------------------------
-F1 Score: 0.9238095238095239
+F1 Score: 0.7999999999999998
 Question: "Why are there cushions on the wall?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000395426.jpg"
 Response from: esteng
@@ -1986,7 +1986,7 @@ Response from: jgualla1
            they don't need to use them
            someone put them there
 --------------------------------------------------------------
-F1 Score: 0.938888888888889
+F1 Score: 0.9
 Question: "Why is the guy in white almost on his knees?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000264356.jpg"
 Response from: esteng
@@ -2044,7 +2044,7 @@ Response from: jgualla1
            storage
            museum piece
 --------------------------------------------------------------
-F1 Score: 0.4
+F1 Score: 0.2
 Question: "Why is the giraffe standing so still?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000133314.jpg"
 Response from: esteng
@@ -2104,7 +2104,7 @@ Response from: jgualla1
            vehicle
            photo taken from car
 --------------------------------------------------------------
-F1 Score: 1.0
+F1 Score: 0.75
 Question: "Why does this dog wear a vest?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000264436.jpg"
 Response from: esteng
@@ -2132,7 +2132,7 @@ Response from: jgualla1
      Reason: 
            can't swim
 --------------------------------------------------------------
-F1 Score: 1.0
+F1 Score: 0.8333333333333335
 Question: "Why are the boys dressed alike?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000133384.jpg"
 Response from: esteng
@@ -2188,7 +2188,7 @@ Response from: jgualla1
      Purpose: 
      Reason: 
 --------------------------------------------------------------
-F1 Score: 0.8666666666666667
+F1 Score: 0.6
 Question: "Why are the people sitting there?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000133467.jpg"
 Response from: esteng
@@ -2210,7 +2210,7 @@ Response from: jgualla1
      Reason: 
            bench
 --------------------------------------------------------------
-F1 Score: 0.8666666666666667
+F1 Score: 0.6
 Question: "Why are there so many children skiing?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000002402.jpg"
 Response from: esteng
@@ -2322,7 +2322,7 @@ Response from: jgualla1
            it's pond
            inside fountain
 --------------------------------------------------------------
-F1 Score: 1.0
+F1 Score: 0.7777777777777777
 Question: "Why are the coats painted?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000133540.jpg"
 Response from: esteng
@@ -2352,7 +2352,7 @@ Response from: jgualla1
      Reason: 
            they will be shorn
 --------------------------------------------------------------
-F1 Score: 0.6666666666666667
+F1 Score: 0.33333333333333337
 Question: "Why is the woman sitting on the bench?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000393630.jpg"
 Response from: esteng
@@ -2440,7 +2440,7 @@ Response from: jgualla1
            rain
            raining
 --------------------------------------------------------------
-F1 Score: 1.0
+F1 Score: 0.5714285714285714
 Question: "Why is the kitten blurry?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000002606.jpg"
 Response from: esteng
@@ -2466,7 +2466,7 @@ Response from: jgualla1
            reflection in window
            camera
 --------------------------------------------------------------
-F1 Score: 0.625
+F1 Score: 0.25
 Question: "Why are they on the sill?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000002606.jpg"
 Response from: esteng
@@ -2494,7 +2494,7 @@ Response from: jgualla1
      Reason: 
            sun
 --------------------------------------------------------------
-F1 Score: 0.625
+F1 Score: 0.0
 Question: "Why are some of the people standing?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000002693.jpg"
 Response from: esteng
@@ -2522,7 +2522,7 @@ Response from: jgualla1
            playing game
      Reason: 
 --------------------------------------------------------------
-F1 Score: 0.6818181818181819
+F1 Score: 0.5454545454545455
 Question: "Why is the bus parked?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000395920.jpg"
 Response from: esteng
@@ -2577,7 +2577,7 @@ Response from: jgualla1
            lens type
            type of lens
 --------------------------------------------------------------
-F1 Score: 0.9147727272727273
+F1 Score: 0.625
 Question: "Why is the man reaching his arm up?"
 "https://ugrad.cs.jhu.edu/~jgualla1/COCO_train2014_000000066003.jpg"
 Response from: esteng
