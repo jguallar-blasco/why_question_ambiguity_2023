@@ -239,7 +239,7 @@ def f1_helper(group1, group2):
 
 
 def f1_score(groups1, groups2):
-    print("F1 SCORE ---------------")
+    #print("F1 SCORE ---------------")
     #print(groups1)
     #print(groups2)
     """
@@ -258,10 +258,11 @@ def f1_score(groups1, groups2):
     pairs_by_group = False
 
     if by_group:
+        
         all_p, all_r, all_f1, all_weight = [], [], [], []
-        # Get total number of annwers from each annotator
-        total_1 = 0
-        total_2 = 0 
+        # Get total number of answers from each annotator
+        total_1 = 0.0
+        total_2 = 0.0 
         for group1, group2 in zip(groups1, groups2):
             total_1 += len(group1)
             total_2 += len(group2)
@@ -269,9 +270,14 @@ def f1_score(groups1, groups2):
         for group1, group2 in zip(groups1, groups2): 
             len_1 = len(group1)
             len_2 = len(group2)
-            if len(group1) == 0 and len(group2) == 0:
+            print(group1)
+            print(group2)
+            if (len(group1) == 0 and len(group2) == 0):
                 f1 = 1.0
                 all_f1.append(f1)
+                all_p.append(1.0)
+                all_r.append(1.0)
+                all_weight.append((len_1 + len_2)/(total_1+total_2))
                 continue 
             
             p, r, f1 = f1_helper(group1, group2) 
@@ -442,7 +448,7 @@ def group_agreement(rows, enforce_num_anns = False, num_anns=2, interact=False, 
                 # check if skipped for either annotator, if yes then skip
                 rows = rows_by_hit_id[hit_id]
                 rows = [r for r in rows if r[user_key] == ann1_name or r[user_key] == ann2_name]
-                if rows[0]['Answer.is_skip'] or rows[1]['Answer.is_skip']:
+                if rows[0]['Answer.is_skip'] == 'TRUE' or rows[1]['Answer.is_skip'] == 'TRUE':
                     total_skipped += 1
                     continue
 

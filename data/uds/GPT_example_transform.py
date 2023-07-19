@@ -3,7 +3,7 @@ import json
 import re
 
 '''
-Code to conver VQA why-question examples from the why-question from to the declarative form, extract the lemma, and 
+Code to convert VQA why-question examples from the why-question to the declarative form, extract the lemma, and 
 prepare the data for UDS annotation HIT. 
 '''
 
@@ -14,10 +14,10 @@ hit_file_format_version = 1
 
 # Process VQA why-questions
 data = []
-f = open('examples.json', 'r')
+f = open('../examples.json', 'r')
 data = json.load(f)
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 for i, question_id in enumerate(data): 
 
@@ -137,16 +137,16 @@ for i, question_id in enumerate(data):
     print("------------------------------------------------")
 
     line_dict = {
-        'hit_file_format_version' = hit_file_format_version, 
-        'corpus_id' = VQA, # TBD 
-        'sentence_id' = question_id, # Sentence ID
-        'predicate_token_id' = , # Position of predicate in sentence
-        'roleset', # Nothing
-        'predicate_lemma', # Lemma
-        'predicate_progressive', # Progressive
-        'argnum', # TBD
-        'sentences_and_args_as_json', # example -- {"argument_phrase": " ", "full_argument_label": " ", "sentence": "I <span class=\\\"predicate\\\">understand</span> <span class=\\\"argument\\\" class=\\\"dobj\\\">all of those comparisons</span> , however , the reality is if we lose Dean ( which we will if we do n&#39;t pay 65 k + 10 k ) , we will end up hiring a replacement at 75 - 80 k ."}
-        'sampling_method' # TBD
+        'hit_file_format_version': hit_file_format_version, 
+        'corpus_id': VQA, # TBD 
+        'sentence_id': question_id, # Sentence ID
+        'predicate_token_id': 0, # Position of predicate in sentence
+        'roleset': 0, # Nothing
+        'predicate_lemma': 0, # Lemma
+        'predicate_progressive': 0, # Progressive
+        'argnum': 0, # TBD
+        'sentences_and_args_as_json': 0, # example -- {"argument_phrase": " ", "full_argument_label": " ", "sentence": "I <span class=\\\"predicate\\\">understand</span> <span class=\\\"argument\\\" class=\\\"dobj\\\">all of those comparisons</span> , however , the reality is if we lose Dean ( which we will if we do n&#39;t pay 65 k + 10 k ) , we will end up hiring a replacement at 75 - 80 k ."}
+        'sampling_method': 0 # TBD
     }
 
 
