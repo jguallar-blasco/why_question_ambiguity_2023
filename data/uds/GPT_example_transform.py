@@ -1,6 +1,7 @@
 import openai
 import json 
 import re
+import csv
 
 '''
 Code to convert VQA why-question examples from the why-question to the declarative form, extract the lemma, and 
@@ -16,8 +17,10 @@ hit_file_format_version = 1
 data = []
 f = open('../examples.json', 'r')
 data = json.load(f)
+to_write = []
 
-openai.api_key = "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"
+openai.api_key = "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"
+
 
 for i, question_id in enumerate(data): 
 
@@ -43,9 +46,10 @@ for i, question_id in enumerate(data):
     subjects = re.findall(r'"(.*?)"', text)
     declarative = subjects[0]
     print(f"Declarative: {declarative}")
+    declarative_tokens = declarative.split(' ').copy()
 
 
-    arg_prompt = "The subject of the sentence \"The man walking\" is \"man\". \n The subject of the sentence \""
+    arg_prompt = "The subject of the sentence \"The man walking\" is \"the man\". The subject of the sentence \"The birds are here\" is \"The birds\". The subject of the sentence \"The police are running\" is \"The police\". The subject of the sentence \"The child is sad\" is \"The child\". The subject of the sentence \"The are only the birds in the sky\" is \"only birds in the sky\". \n The subject of the sentence \""
 
     # Extract argument
     response_arg = openai.Completion.create(
@@ -68,7 +72,7 @@ for i, question_id in enumerate(data):
     print(f"Subject: {subject}")
 
 
-    pred_prompt = "The predicate of the sentence \"The tree is blue\" is \"is blue\". The predicate of the sentence of \"The clothes are on the chair\" is \"are on the chair\". The predicate of the sentence of \"The men are walking\" is \"are walking\".\n The predicate of the sentence \""
+    pred_prompt = "The predicate of the sentence \"The tree is blue\" is \"is blue\". The predicate of the sentence \"The man is cooking so many hot dogs\" is \"is cooking\". The predicate of the sentence of \"The clothes are on the chair\" is \"are on the chair\". The predicate of the sentence of \"The men are walking\" is \"are walking\". The predicate of the sentence of \"The men appear only as they are\" is \"the men appear only as\".\n The predicate of the sentence \""
 
     # Extract predicate
     response_pred = openai.Completion.create(
@@ -81,6 +85,9 @@ for i, question_id in enumerate(data):
         presence_penalty=0
     )
 
+    
+
+
     #print(f"Prompt for predicate extraction: {pred_prompt + cur_why_question}")
     choices = response_pred["choices"]
     text = choices[-1]["text"]
@@ -89,7 +96,11 @@ for i, question_id in enumerate(data):
     predicate = predicates[0]
     print(f"Predicate: {predicate}")
 
-
+    # Locate predicate tokens
+    predicate_split = predicate.split(' ').copy()
+    predicate_loc_s = declarative_tokens.index(predicate_split[0])
+    predicate_loc_e = declarative_tokens.index(predicate_split[-1])
+    predicate_loc = (predicate_loc_s, predicate_loc_e)
 
     lemma_prompt = "The lemma of \"is walking\" is \"to walk\". The lemma of \"is brown\" is \"to be brown\". \n The lemma of \""
 
@@ -111,10 +122,10 @@ for i, question_id in enumerate(data):
     lemma = lemmas[0]
     print(f"Lemma: {lemma}")
 
-    pp_prompt = "The present progressive of \"to walk\" is \"walking\". The present progressive of \"to be brown\" is \"being brown\". \n The present progressive of \""
+    pp_prompt = "The present progressive of \"to walk\" is \"walking\". The present progressive of \"to be brown\" is \"being brown\". The present progressive of \"to be in the car\" is \"being in the car\". \n The present progressive of \""
 
     # Extract progressive form
-    response_lemma = openai.Completion.create(
+    response_pp = openai.Completion.create(
         model="text-davinci-003",
         prompt = pp_prompt + lemma + "\" is",
         temperature=0.1,
@@ -125,36 +136,39 @@ for i, question_id in enumerate(data):
     )
 
     #print(f"Generated text: {response_lemma}")
-    choices = response_lemma["choices"]
+    choices = response_pp["choices"]
     text = choices[-1]["text"]
-    lemmas = re.findall(r'"(.*?)"', text)
-    lemma = lemmas[0]
-    print(f"Present progressive: {lemma}")
-
-    if i == 20:
-        exit()
+    pp = re.findall(r'"(.*?)"', text)
+    #lemma = lemmas[0]
+    print(f"Present progressive: {pp[0]}")
 
     print("------------------------------------------------")
 
     line_dict = {
-        'hit_file_format_version': hit_file_format_version, 
-        'corpus_id': VQA, # TBD 
+        'hit_file_format_version': '45-example-pilot', 
+        'corpus_id': 'VQA', # TBD 
         'sentence_id': question_id, # Sentence ID
-        'predicate_token_id': 0, # Position of predicate in sentence
-        'roleset': 0, # Nothing
-        'predicate_lemma': 0, # Lemma
-        'predicate_progressive': 0, # Progressive
+        'predicate_token_id': predicate_loc, # Position of predicate in sentence
+        'roleset': 'role', # Nothing
+        'predicate_lemma': lemma, # Lemma
+        'predicate_progressive': pp, # Progressive
         'argnum': 0, # TBD
-        'sentences_and_args_as_json': 0, # example -- {"argument_phrase": " ", "full_argument_label": " ", "sentence": "I <span class=\\\"predicate\\\">understand</span> <span class=\\\"argument\\\" class=\\\"dobj\\\">all of those comparisons</span> , however , the reality is if we lose Dean ( which we will if we do n&#39;t pay 65 k + 10 k ) , we will end up hiring a replacement at 75 - 80 k ."}
-        'sampling_method': 0 # TBD
+        'sentences_and_args_as_json': str(declarative),
+        'sampling_method': 'it-happened' # TBD
     }
+    #print(line_dict)
+    to_write.append(line_dict)
+    #print(to_write)
+    if i == 10:
+        break
 
+print(to_write)
 
 
 # Format for csv
 # hit_file_format_version, corpus_id, sentence_id, predicate_token_id, roleset, predicate_lemma, predicate_progressive, argnum, sentences_and_args_as_json, sampling_method
 
-with open(out_path, "w") as f1:
+with open("../uds_hit_10_example_input.csv", "w") as f1:
     writer = csv.DictWriter(f1, fieldnames=['hit_file_format_version', 'corpus_id', 'sentence_id', 'predicate_token_id', 'roleset', 'predicate_lemma', 'predicate_progressive', 'argnum', 'sentences_and_args_as_json', 'sampling_method'])
     writer.writeheader()
     for line in to_write:
