@@ -1,0 +1,47 @@
+hit_file_format_version,corpus_id,sentence_id,predicate_token_id,roleset,predicate_lemma,predicate_progressive,argnum,sentences_and_args_as_json,sampling_method
+45-example-pilot,VQA,524314000,"(2, 5)",role,to be on the street,['being on the street'],524314000,The man is on the street,it-happened
+45-example-pilot,VQA,262260000,"(2, 7)",role,to appear as black silhouettes,['appearing as black silhouettes'],262260000,The birds are only appearing as black silhouettes,it-happened
+45-example-pilot,VQA,131208000,"(1, 7)",role,to be on the bed,['being on the bed'],131208000,There are so many clothes on the bed,it-happened
+45-example-pilot,VQA,524486002,"(2, 3)",role,to cook,"['cooking', 'to run', 'running']",524486002,The man is cooking so many hot dogs,it-happened
+45-example-pilot,VQA,36002,"(2, 5)",role,to hold an umbrella,['holding an umbrella'],36002,The girl is holding an umbrella,it-happened
+45-example-pilot,VQA,39288002,"(1, 3)",role,to not like,['not liking'],39288002,Someone does not like the fruit at the front,it-happened
+45-example-pilot,VQA,524520002,"(3, 4)",role,to be on,['being on'],524520002,The top light is on,it-happened
+45-example-pilot,VQA,524547000,"(2, 4)",role,to be in mid-air,['being in mid-air'],524547000,The man is in mid-air,it-happened
+45-example-pilot,VQA,61001,"(2, 5)",role,to be on the elephant,['being on the elephant'],61001,The people are on the elephants,it-happened
+45-example-pilot,VQA,524661005,"(4, 5)",role,to be brown,['being brown'],524661005,Some of the leaves are brown,it-happened
+45-example-pilot,VQA,157125001,"(2, 6)",role,to be on one's cell phone,"[""being on one's cell phone""]",157125001,These people are on their cell phones,it-happened
+45-example-pilot,VQA,262705000,"(1, 2)",role,to be dark,['being dark'],262705000,It is dark,it-happened
+45-example-pilot,VQA,262705005,"(2, 3)",role,to be blurry,['being blurry'],262705005,This photograph is blurry,it-happened
+45-example-pilot,VQA,262705007,"(2, 3)",role,to be happy,['being happy'],262705007,The child is happy,it-happened
+45-example-pilot,VQA,524925003,"(1, 2)",role,to stripe,['striping'],524925003,There are stripes on the runway,it-happened
+45-example-pilot,VQA,673000,"(4, 6)",role,to be upside down,['being upside down'],673000,All of the surfboards are upside down,it-happened
+45-example-pilot,VQA,393922005,"(2, 3)",role,to say,['saying'],393922005,The sign says SLOW,it-happened
+45-example-pilot,VQA,480717002,"(2, 3)",role,to be,['being'],480717002,The police are there,it-happened
+45-example-pilot,VQA,525012000,"(2, 3)",role,to smile,['smiling'],525012000,The man is smiling,it-happened
+45-example-pilot,VQA,525015000,"(1, 2)",role,to use,['using'],525015000,He is using ski poles,it-happened
+45-example-pilot,VQA,393985001,"(2, 4)",role,to carry umbrellas,['carrying umbrellas'],393985001,These people are carrying umbrellas,it-happened
+45-example-pilot,VQA,525100000,"(1, 3)",role,to not wear,['not wearing'],525100000,He is not wearing shoes,it-happened
+45-example-pilot,VQA,262967000,"(2, 6)",role,to be connected to the pole,['being connected to the pole'],262967000,The bike is connected to the pole,it-happened
+45-example-pilot,VQA,262967008,"(2, 3)",role,to be impractical,['being impractical'],262967008,Her outfit is impractical for this activity,it-happened
+45-example-pilot,VQA,131909035,"(2, 7)",role,to make of stainless steel,['making of stainless steel'],131909035,The tables must be made of stainless steel in this environment,it-happened
+45-example-pilot,VQA,263002005,"(1, 11)",role,to be an umbrella on top of this truck in the foreground,['being an umbrella on top of this truck in the foreground'],263002005,There is an umbrella on top of this truck in the foreground,it-happened
+45-example-pilot,VQA,436481001,"(2, 3)",role,to be white,"['being white', 'to run', 'running']",436481001,The ground is white,it-happened
+45-example-pilot,VQA,525180001,"(2, 4)",role,to wear an apron,['wearing an apron'],525180001,The men are wearing aprons,it-happened
+45-example-pilot,VQA,497558001,"(2, 3)",role,to open,['opening'],497558001,The door is open,it-happened
+45-example-pilot,VQA,525223000,"(1, 5)",role,to be able to see through,['being able to see through'],525223000,We are able to see through the chair back,it-happened
+45-example-pilot,VQA,941004,"(2, 3)",role,to disappear,['disappearing'],941004,Palm pilots have disappeared,it-happened
+45-example-pilot,VQA,955000,"(1, 3)",role,to be on display,['being on display'],955000,They are on display,it-happened
+45-example-pilot,VQA,525300001,"(1, 3)",role,to wear head protection,['wearing head protection'],525300001,They wear head protection,it-happened
+45-example-pilot,VQA,394286005,"(3, 9)",role,to seem,['seeming'],394286005,The woman's feet seem to be off of the ground,it-happened
+45-example-pilot,VQA,270636009,"(3, 4)",role,to be upraised,['being upraised'],270636009,The person's arm is upraised,it-happened
+45-example-pilot,VQA,525380000,"(1, 2)",role,to come,['coming'],525380000,Smoke is coming from the nose wheels,it-happened
+45-example-pilot,VQA,410302003,"(2, 6)",role,to sit on a cushion,['sitting on a cushion'],410302003,The woman is sitting on a cushion,it-happened
+45-example-pilot,VQA,525450003,"(2, 3)",role,to sit,"['sitting', 'to run', 'running', 'to talk', 'talking']",525450003,Both people can sit on this chair,it-happened
+45-example-pilot,VQA,1204000,"(2, 7)",role,to have a helmet on one's head,"[""having a helmet on one's head""]",1204000,The man has a helmet on his head,it-happened
+45-example-pilot,VQA,528147000,"(2, 4)",role,to appear dark,['appearing dark'],528147000,The picture appears so dark,it-happened
+45-example-pilot,VQA,1216004,"(2, 5)",role,to use an umbrella,['using an umbrella'],1216004,The person is using an umbrella,it-happened
+45-example-pilot,VQA,1232001,"(5, 9)",role,to drop down a ladder,['dropping down a ladder'],1232001,The plane in the air is dropping down a ladder,it-happened
+45-example-pilot,VQA,525533002,"(2, 8)",role,to sit,"['sitting', 'to run', 'running', 'to eat', 'eating']",525533002,The man must sit in this kind of chair,it-happened
+45-example-pilot,VQA,109156000,"(3, 4)",role,to be down,['being down'],109156000,The animals' heads are down,it-happened
+45-example-pilot,VQA,279373004,"(2, 5)",role,to stop,['stopping'],279373004,This person stopped at this place,it-happened
+45-example-pilot,VQA,525640002,"(1, 4)",role,to be a sticker on,['being a sticker on'],525640002,There is a sticker on this banana,it-happened
