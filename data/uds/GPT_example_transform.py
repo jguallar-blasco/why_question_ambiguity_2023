@@ -21,7 +21,6 @@ to_write = []
 
 openai.api_key = ""
 
-
 for i, question_id in enumerate(data): 
 
     cur_data = data[question_id]
@@ -144,9 +143,14 @@ for i, question_id in enumerate(data):
 
     print("------------------------------------------------")
 
-    t = '<span class=\\\'argument\\\' class=\\\'nsubj\\\'>'+subject+'</span><span class=\\\'predicate\\\'>' + predicate + '</span>'
+    t = {r'<span class=\\\\\\argument\\\\\\class=\\\\\\nsubj\\\>'+subject+r'</span><span class=\\\'predicate\\\'>' + predicate + r'</span>'}
     
-    print(t)
+    print('<span class=\\\\\\\'argument\\\\\\\'class=\\\\\\\'nsubj\\\\\\>')
+
+    dic = {}
+    dic["sentence"] = '<span class=\\\\\\\'argument\\\\\\\'class=\\\\\\\'nsubj\\\\\\>'
+    dic["argument_phrase"] = subject
+    dic["full_argument_label"] = "nsubj"
 
     line_dict = {
         'hit_file_format_version': '2.0.0', 
@@ -156,27 +160,27 @@ for i, question_id in enumerate(data):
         'roleset': '', # Nothing
         'predicate_lemma': lemma, # Lemma
         'predicate_progressive': pp[0], # Progressive
-        'argnum': 'nsubj', # TBD
-        'sentences_and_args_as_json': {"argument_phrase":subject, "full_argument_label": "nsubj", "sentence": t},
+        'argnum': subject, # TBD
+        'sentences_and_args_as_json': dic,
         'sampling_method': 'it-happened' # TBD
     }
     #print(line_dict)
     to_write.append(line_dict)
     #print(to_write)
-    if i == 9:
+    if i == 0:
         break
 
-print(to_write)
 
 
 # Format for csv
 # hit_file_format_version, corpus_id, sentence_id, predicate_token_id, roleset, predicate_lemma, predicate_progressive, argnum, sentences_and_args_as_json, sampling_method
 
 with open("../10_input_uds.csv", "w") as f1:
-    writer = csv.DictWriter(f1, fieldnames=['hit_file_format_version', 'corpus_id', 'sentence_id', 'predicate_token_id', 'roleset', 'predicate_lemma', 'predicate_progressive', 'argnum', 'sentences_and_args_as_json', 'sampling_method'])
+    writer = csv.DictWriter(f1, fieldnames=['hit_file_format_version', 'predicate_lemma', 'predicate_progressive', 'argnum', 'sentences_and_args_as_json', 'sampling_method'])
     writer.writeheader()
     for line in to_write:
-        writer.writerow(line)
+        print(line)
+        f1.write(str(line['hit_file_format_version']) + ',' + line['predicate_lemma'] + ',' + line['predicate_progressive'] + ',' + line['argnum'] + ',{"argument_phrase": "subject", "full_argument_label":"nsubj", "sentence":'+r'<span class=\\\'argument\\\'class=\\\'nsubj\\\>' + line['argnum'] + r'</span><span class=\\\'predicate\\\'>' + predicate + r'</span>.'+'}')
 
 
 
