@@ -143,14 +143,11 @@ for i, question_id in enumerate(data):
 
     print("------------------------------------------------")
 
-    t = {r'<span class=\\\\\\argument\\\\\\class=\\\\\\nsubj\\\>'+subject+r'</span><span class=\\\'predicate\\\'>' + predicate + r'</span>'}
+    dic = {"argument_phrase":subject,"full_argument_label":"nsubj","sentence":'<span class=\\\\\\"argument\\\\\\"class=\\\\\\"nsubj\\\\\\">'+subject+'</span><span class=\\\\\\"predicate\\\\\\">' + predicate + '</span>'}
     
     print('<span class=\\\\\\\'argument\\\\\\\'class=\\\\\\\'nsubj\\\\\\>')
 
-    dic = {}
-    dic["sentence"] = '<span class=\\\\\\\'argument\\\\\\\'class=\\\\\\\'nsubj\\\\\\>'
-    dic["argument_phrase"] = subject
-    dic["full_argument_label"] = "nsubj"
+    
 
     line_dict = {
         'hit_file_format_version': '2.0.0', 
@@ -167,7 +164,7 @@ for i, question_id in enumerate(data):
     #print(line_dict)
     to_write.append(line_dict)
     #print(to_write)
-    if i == 0:
+    if i == 9:
         break
 
 
@@ -176,11 +173,12 @@ for i, question_id in enumerate(data):
 # hit_file_format_version, corpus_id, sentence_id, predicate_token_id, roleset, predicate_lemma, predicate_progressive, argnum, sentences_and_args_as_json, sampling_method
 
 with open("../10_input_uds.csv", "w") as f1:
-    writer = csv.DictWriter(f1, fieldnames=['hit_file_format_version', 'predicate_lemma', 'predicate_progressive', 'argnum', 'sentences_and_args_as_json', 'sampling_method'])
+    fieldnames = ['hit_file_format_version', 'corpus_id', 'sentence_id', 'predicate_token_id', 'roleset', 'predicate_lemma', 'predicate_progressive', 'argnum', 'sentences_and_args_as_json', 'sampling_method']
+    writer = csv.DictWriter(f1, fieldnames=fieldnames)
     writer.writeheader()
+    #writer.writeheader()
     for line in to_write:
-        print(line)
-        f1.write(str(line['hit_file_format_version']) + ',' + line['predicate_lemma'] + ',' + line['predicate_progressive'] + ',' + line['argnum'] + ',"{"argument_phrase": "subject", "full_argument_label":"nsubj", "sentence":'+r'<span class=\\\'argument\\\'class=\\\'nsubj\\\>' + line['argnum'] + r'</span><span class=\\\'predicate\\\'>' + predicate + r'</span>.'+'}"')
+        writer.writerow(line)
 
 
 
