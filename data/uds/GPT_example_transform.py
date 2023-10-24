@@ -19,7 +19,7 @@ f = open('../examples.json', 'r')
 data = json.load(f)
 to_write = []
 
-openai.api_key = "EwN5Wep21TpKVyqT3BlbkFJVn9bQovohIT7IFI6P5zb"
+openai.api_key = "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"
 
 
 for i, question_id in enumerate(data): 
@@ -153,13 +153,13 @@ for i, question_id in enumerate(data):
         'predicate_lemma': lemma, # Lemma
         'predicate_progressive': pp[0], # Progressive
         'argnum': 'nsubj', # TBD
-        'sentences_and_args_as_json': {"argument_phrase":subject, "full_argument_label": "nsubj", "sentence": "<"+declarative+">"},
+        'sentences_and_args_as_json': {"argument_phrase":subject, "full_argument_label": "nsubj", "sentence": "<span class= \\\"argument\\\" class=\\\"nsubj\\\">"+subject+"</span><span class=\\\"predicate\\\">"+predicate+"</span>."},
         'sampling_method': 'it-happened' # TBD
     }
     #print(line_dict)
     to_write.append(line_dict)
     #print(to_write)
-    if i == 3:
+    if i == 9:
         break
 
 print(to_write)
