@@ -19,7 +19,7 @@ f = open('../examples.json', 'r')
 data = json.load(f)
 to_write = []
 
-openai.api_key = "sk-mHVwCEwN5Wep21TpKVyqT3BlbkFJVn9bQovohIT7b"
+openai.api_key = "EwN5Wep21TpKVyqT3BlbkFJVn9bQovohIT7IFI6P5zb"
 
 
 for i, question_id in enumerate(data): 
@@ -151,15 +151,15 @@ for i, question_id in enumerate(data):
         'predicate_token_id': predicate_loc, # Position of predicate in sentence
         'roleset': '', # Nothing
         'predicate_lemma': lemma, # Lemma
-        'predicate_progressive': pp, # Progressive
+        'predicate_progressive': pp[0], # Progressive
         'argnum': 'nsubj', # TBD
-        'sentences_and_args_as_json': str(declarative),
+        'sentences_and_args_as_json': {"argument_phrase":subject, "full_argument_label": "nsubj", "sentence": "<"+declarative+">"},
         'sampling_method': 'it-happened' # TBD
     }
     #print(line_dict)
     to_write.append(line_dict)
     #print(to_write)
-    if i == 45:
+    if i == 3:
         break
 
 print(to_write)
@@ -168,7 +168,7 @@ print(to_write)
 # Format for csv
 # hit_file_format_version, corpus_id, sentence_id, predicate_token_id, roleset, predicate_lemma, predicate_progressive, argnum, sentences_and_args_as_json, sampling_method
 
-with open("../45_input_uds.csv", "w") as f1:
+with open("../10_input_uds.csv", "w") as f1:
     writer = csv.DictWriter(f1, fieldnames=['hit_file_format_version', 'corpus_id', 'sentence_id', 'predicate_token_id', 'roleset', 'predicate_lemma', 'predicate_progressive', 'argnum', 'sentences_and_args_as_json', 'sampling_method'])
     writer.writeheader()
     for line in to_write:

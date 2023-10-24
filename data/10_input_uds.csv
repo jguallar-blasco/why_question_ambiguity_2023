@@ -1,0 +1,5 @@
+hit_file_format_version,corpus_id,sentence_id,predicate_token_id,roleset,predicate_lemma,predicate_progressive,argnum,sentences_and_args_as_json,sampling_method
+2.0.0,VQA,524314000,"(2, 5)",,to be on the street,being on the street,nsubj,"{'argument_phrase': 'The man', 'full_argument_label': 'nsubj', 'sentence': '<The man is on the street>'}",it-happened
+2.0.0,VQA,262260000,"(2, 7)",,to appear,appearing,nsubj,"{'argument_phrase': 'The birds', 'full_argument_label': 'nsubj', 'sentence': '<The birds are only appearing as black silhouettes>'}",it-happened
+2.0.0,VQA,131208000,"(1, 7)",,to be on the bed,being on the bed,nsubj,"{'argument_phrase': 'clothes', 'full_argument_label': 'nsubj', 'sentence': '<There are so many clothes on the bed>'}",it-happened
+2.0.0,VQA,524486002,"(2, 3)",,to cook,cooking,nsubj,"{'argument_phrase': 'The man', 'full_argument_label': 'nsubj', 'sentence': '<The man is cooking so many hot dogs>'}",it-happened
