@@ -149,10 +149,10 @@ for i, question_id in enumerate(data):
         'corpus_id': 'VQA', # TBD 
         'sentence_id': question_id, # Sentence ID
         'predicate_token_id': predicate_loc, # Position of predicate in sentence
-        'roleset': 'role', # Nothing
+        'roleset': str(question_id), # Nothing
         'predicate_lemma': lemma, # Lemma
         'predicate_progressive': pp, # Progressive
-        'argnum': question_id, # TBD
+        'argnum': 'nsubj', # TBD
         'sentences_and_args_as_json': str(declarative),
         'sampling_method': 'it-happened' # TBD
     }
