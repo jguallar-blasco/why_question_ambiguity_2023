@@ -19,7 +19,7 @@ f = open('../examples.json', 'r')
 data = json.load(f)
 to_write = []
 
-openai.api_key = ""
+openai.api_key = "sk-mHVwCEwN5Wep21TpKVyqT3BlbkFJVn9bQovohIT7b"
 
 
 for i, question_id in enumerate(data): 
@@ -149,7 +149,7 @@ for i, question_id in enumerate(data):
         'corpus_id': 'VQA', # TBD 
         'sentence_id': question_id, # Sentence ID
         'predicate_token_id': predicate_loc, # Position of predicate in sentence
-        'roleset': str(question_id), # Nothing
+        'roleset': '', # Nothing
         'predicate_lemma': lemma, # Lemma
         'predicate_progressive': pp, # Progressive
         'argnum': 'nsubj', # TBD
