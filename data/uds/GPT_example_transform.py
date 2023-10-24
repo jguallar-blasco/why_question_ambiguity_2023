@@ -19,7 +19,7 @@ f = open('../examples.json', 'r')
 data = json.load(f)
 to_write = []
 
-openai.api_key = "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"
+openai.api_key = ""
 
 
 for i, question_id in enumerate(data): 
@@ -144,6 +144,10 @@ for i, question_id in enumerate(data):
 
     print("------------------------------------------------")
 
+    t = '<span class=\\\'argument\\\' class=\\\'nsubj\\\'>'+subject+'</span><span class=\\\'predicate\\\'>' + predicate + '</span>'
+    
+    print(t)
+
     line_dict = {
         'hit_file_format_version': '2.0.0', 
         'corpus_id': 'VQA', # TBD 
@@ -153,7 +157,7 @@ for i, question_id in enumerate(data):
         'predicate_lemma': lemma, # Lemma
         'predicate_progressive': pp[0], # Progressive
         'argnum': 'nsubj', # TBD
-        'sentences_and_args_as_json': {"argument_phrase":subject, "full_argument_label": "nsubj", "sentence": "<span class= \\\"argument\\\" class=\\\"nsubj\\\">"+subject+"</span><span class=\\\"predicate\\\">"+predicate+"</span>."},
+        'sentences_and_args_as_json': {"argument_phrase":subject, "full_argument_label": "nsubj", "sentence": t},
         'sampling_method': 'it-happened' # TBD
     }
     #print(line_dict)
