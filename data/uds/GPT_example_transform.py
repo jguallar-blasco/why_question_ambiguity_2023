@@ -19,7 +19,7 @@ f = open('../examples.json', 'r')
 data = json.load(f)
 to_write = []
 
-openai.api_key = "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"
+openai.api_key = ""
 
 
 for i, question_id in enumerate(data): 
@@ -145,7 +145,7 @@ for i, question_id in enumerate(data):
     print("------------------------------------------------")
 
     line_dict = {
-        'hit_file_format_version': '45-example-pilot', 
+        'hit_file_format_version': '2.0.0', 
         'corpus_id': 'VQA', # TBD 
         'sentence_id': question_id, # Sentence ID
         'predicate_token_id': predicate_loc, # Position of predicate in sentence
