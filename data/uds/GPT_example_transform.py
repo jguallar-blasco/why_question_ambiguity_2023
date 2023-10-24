@@ -19,7 +19,7 @@ f = open('../examples.json', 'r')
 data = json.load(f)
 to_write = []
 
-openai.api_key = ""
+openai.api_key = "kQANa205GKLlUwPHG9S0T3BlbkFJBTiFsyVNQe3jcdsU6RyY"
 
 for i, question_id in enumerate(data): 
 
@@ -180,7 +180,7 @@ with open("../10_input_uds.csv", "w") as f1:
     writer.writeheader()
     for line in to_write:
         print(line)
-        f1.write(str(line['hit_file_format_version']) + ',' + line['predicate_lemma'] + ',' + line['predicate_progressive'] + ',' + line['argnum'] + ',{"argument_phrase": "subject", "full_argument_label":"nsubj", "sentence":'+r'<span class=\\\'argument\\\'class=\\\'nsubj\\\>' + line['argnum'] + r'</span><span class=\\\'predicate\\\'>' + predicate + r'</span>.'+'}')
+        f1.write(str(line['hit_file_format_version']) + ',' + line['predicate_lemma'] + ',' + line['predicate_progressive'] + ',' + line['argnum'] + ',"{"argument_phrase": "subject", "full_argument_label":"nsubj", "sentence":'+r'<span class=\\\'argument\\\'class=\\\'nsubj\\\>' + line['argnum'] + r'</span><span class=\\\'predicate\\\'>' + predicate + r'</span>.'+'}"')
 
 
 
