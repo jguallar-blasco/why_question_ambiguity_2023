@@ -19,7 +19,7 @@ f = open('../examples.json', 'r')
 data = json.load(f)
 to_write = []
 
-openai.api_key = "kQANa205GKLlUwPHG9S0T3BlbkFJBTiFsyVNQe3jcdsU6RyY"
+openai.api_key = ""
 
 for i, question_id in enumerate(data): 
 
@@ -164,7 +164,7 @@ for i, question_id in enumerate(data):
     #print(line_dict)
     to_write.append(line_dict)
     #print(to_write)
-    if i == 9:
+    if i == 44:
         break
 
 

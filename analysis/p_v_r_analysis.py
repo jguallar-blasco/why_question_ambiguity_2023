@@ -16,6 +16,8 @@ print(sys.path)
 
 import numpy as np
 
+sorted_data = {}
+
 def process_row(row):
     columns_to_json = ['Answer.answer_groups', "Answer.answer_questions", "Input.answerGroups", "Input.answerQuestions"]
     for col in columns_to_json:
@@ -411,6 +413,16 @@ def group_agreement(rows, enforce_num_anns = False, num_anns=2, interact=False, 
             #print('heya')
             #continue
 
+        dic_ = rows_by_hit_id[hit_id]
+        #print(dic_)
+        image_id = dic_[0]['Input.imgUrl']
+        question_id_ = image_id.split('/')
+        question_id_ = question_id_[-1][0:-5]
+        question_id_ = question_id_.split('_')
+        question_id = question_id_[-1] 
+
+        sorted_data[question_id] = []      
+
         #total_unskipped += 1
 
         # Put answer_groups into dictionary based on hit id
@@ -423,6 +435,18 @@ def group_agreement(rows, enforce_num_anns = False, num_anns=2, interact=False, 
             id_sorted_scores[hit_id]['Answer.answer_groups'] = []
             for ann in ex_rows: 
                 id_sorted_scores[hit_id]['Answer.answer_groups'].append((ann[user_key], ann['Answer.answer_groups']))
+
+                print('HERE' + str(ann['Answer.answer_groups']))
+                a = len(ann['Answer.answer_groups'][0])
+                b = len(ann['Answer.answer_groups'][1])
+                c = len(ann['Answer.answer_groups'][2])
+                if (a >= b) and (a >= c): 
+                    sorted_data[question_id].append(2) # Both
+                elif (b >= a) and (b >= c): 
+                    sorted_data[question_id].append(1) # Purpose
+                else: 
+                    sorted_data[question_id].append(3) # Reason
+
             # Can input other data such as Input.questionStr, Answer.is_skip, WorkerId, Answer.answer_questions here
 
     group_agree, group_disagree = [], []
@@ -441,7 +465,12 @@ def group_agreement(rows, enforce_num_anns = False, num_anns=2, interact=False, 
     mean_string_to_ref_metrics = defaultdict(list)
     group_f1 = 0
     for i, hit_id in enumerate(id_sorted_scores.keys()):
+
+
+
         for ann1_idx, (ann1_name, ann1_groups) in enumerate(id_sorted_scores[hit_id]['Answer.answer_groups']):
+         
+
             for ann2_idx, (ann2_name, ann2_groups) in enumerate(id_sorted_scores[hit_id]['Answer.answer_groups']):
                 if ann1_name == ann2_name:
                     continue
@@ -619,3 +648,5 @@ if __name__ == "__main__":
     print(f"inter-annotator string metrics: {mean_metrics}")
     ref_mean_metrics = {k: np.mean(v) for k,v in ref_string_metrics.items()}
     print(f"annotator to reference string metrics: {ref_mean_metrics}")
+
+    print(sorted_data)
