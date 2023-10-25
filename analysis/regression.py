@@ -2,8 +2,77 @@ import numpy as np
 from sklearn.linear_model import LinearRegression
 import json 
 
-with open('uds_sorted_data.json', 'r') as openfile:
-    uds_data = json.load(openfile)
+
+p_v_r_scores_by_question_id = {}
+
+# Take in the merged p vs r hit file
+with open('merged.csv', newline='') as g:
+    dict_reader = DictReader(f)
+    list_of_dict = list(dic_reader)
+
+    for row in list_of_dict:
+
+        dic_ = rows_by_hit_id[hit_id]
+        #print(dic_)
+        image_id = dic_[0]['Input.imgUrl']
+        question_id_ = image_id.split('/')
+        question_id_ = question_id_[-1][0:-5]
+        question_id_ = question_id_.split('_')
+        question_id = question_id_[-1] 
+
+        p_v_r_scores_by_question_id[question_id] = []      
+
+               
+               
+               
+               
+               
+               
+               
+                a = len(ann['Answer.answer_groups'][0])
+                b = len(ann['Answer.answer_groups'][1])
+                c = len(ann['Answer.answer_groups'][2])
+                if (a >= b) and (a >= c): 
+                    sorted_data[question_id].append(2) # Both
+                elif (b >= a) and (b >= c): 
+                    sorted_data[question_id].append(1) # Purpose
+                else: 
+                    sorted_data[question_id].append(3) # Reason
+
+
+uds_score_by_question_id = []
+
+# Take in the merged UDS hit file
+with open('3_examples_uds-Batch_2414_results.csv', newline='') as f:
+    dict_reader = DictReader(f)
+    list_of_dict = list(dict_reader)
+
+    count = 0
+
+    for row in list_of_dict:
+        
+        #print(row)
+        question_id = row['sentence_id']
+        example_id = row['Input.roleset']
+        scores = {
+            'awareness': row['Answer.awareness'],
+            'change_of_location': row['Answer.change_of_location'],
+            'change_of_possesion': row['Answer.change_of_possession'],
+            'change_of_state': row['Answer.change_of_state'],
+            'dynamic': row['Answer.dynamic'],
+            'existed_after': row['Answer.existed_after'],
+            'existed_before': row['Answer.existed_before'],
+            'existed_during': row['Answer.existed_during'],
+            'instigation': row['Answer.instigation'],
+            'partitive': row['Answer.partitive'],
+            'sentient': row['Answer.sentient'],
+            'volition': row['Answer.volition'],
+            'was_for_benefit': row['Answer.was_for_benefit'],
+            'was_used': row['Answer.was_used']
+        }
+
+        sorted_data[count] = scores
+        count += 1
 
 # UDS properties
 awareness = []

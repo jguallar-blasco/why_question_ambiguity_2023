@@ -1,2 +1,0 @@
-hit_file_format_version,predicate_lemma,predicate_progressive,argnum,sentences_and_args_as_json,sampling_method
-2.0.0,to be on the street,being on the street,The man,"{"argument_phrase": "subject", "full_argument_label":"nsubj", "sentence":<span class=\\\'argument\\\'class=\\\'nsubj\\\>The man</span><span class=\\\'predicate\\\'>is on the street</span>."}"
