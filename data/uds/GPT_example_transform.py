@@ -19,17 +19,21 @@ f = open('../100_vqa_examples.json', 'r')
 data = json.load(f)
 to_write = []
 
-openai.api_key = "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"
+openai.api_key = "V5sovqfQDXimAgC3IFZ2T3BlbkFJDC1QKnlH32NUW3vBKE5G"
 
 for i, question_id in enumerate(data): 
 
     url_base = "https://ugrad.cs.jhu.edu/~jgualla1/"
 
-    append_num = 12 - len(str(data[question_id])[:-3])
+    append_num = 12 - len(str(question_id)[:-3])
     zero_append = append_num * '0'
-    image_url = f"{url_base}{'COCO_train2014_'}{zero_append}{str(data[question_id])[:-3]}{'.jpg'}"    
-
+    print(question_id)
     cur_data = data[question_id]
+    print(cur_data)
+    image_url = f"{url_base}{'COCO_train2014_'}{zero_append}{question_id[:-3]}{'.jpg'}" 
+    print(image_url)   
+
+   
     cur_why_question = cur_data["question"]
     print(f"Why question: {cur_why_question}")
 
