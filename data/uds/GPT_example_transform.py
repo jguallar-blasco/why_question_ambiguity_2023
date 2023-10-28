@@ -15,13 +15,19 @@ hit_file_format_version = 1
 
 # Process VQA why-questions
 data = []
-f = open('../examples.json', 'r')
+f = open('../100_vqa_examples.json', 'r')
 data = json.load(f)
 to_write = []
 
-openai.api_key = ""
+openai.api_key = "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"
 
 for i, question_id in enumerate(data): 
+
+    url_base = "https://ugrad.cs.jhu.edu/~jgualla1/"
+
+    append_num = 12 - len(str(data[question_id])[:-3])
+    zero_append = append_num * '0'
+    image_url = f"{url_base}{'COCO_train2014_'}{zero_append}{str(data[question_id])[:-3]}{'.jpg'}"    
 
     cur_data = data[question_id]
     cur_why_question = cur_data["question"]
@@ -152,7 +158,7 @@ for i, question_id in enumerate(data):
     line_dict = {
         'hit_file_format_version': '2.0.0', 
         'corpus_id': 'VQA', # TBD 
-        'sentence_id': question_id, # Sentence ID
+        'video_id': image_url, # Sentence ID
         'predicate_token_id': predicate_loc, # Position of predicate in sentence
         'roleset': '', # Nothing
         'predicate_lemma': lemma, # Lemma
@@ -164,7 +170,7 @@ for i, question_id in enumerate(data):
     #print(line_dict)
     to_write.append(line_dict)
     #print(to_write)
-    if i == 44:
+    if i == 2:
         break
 
 
@@ -172,8 +178,8 @@ for i, question_id in enumerate(data):
 # Format for csv
 # hit_file_format_version, corpus_id, sentence_id, predicate_token_id, roleset, predicate_lemma, predicate_progressive, argnum, sentences_and_args_as_json, sampling_method
 
-with open("../10_input_uds.csv", "w") as f1:
-    fieldnames = ['hit_file_format_version', 'corpus_id', 'sentence_id', 'predicate_token_id', 'roleset', 'predicate_lemma', 'predicate_progressive', 'argnum', 'sentences_and_args_as_json', 'sampling_method']
+with open("../3_input_uds_with_images.csv", "w") as f1:
+    fieldnames = ['hit_file_format_version', 'corpus_id', 'video_id', 'predicate_token_id', 'roleset', 'predicate_lemma', 'predicate_progressive', 'argnum', 'sentences_and_args_as_json', 'sampling_method']
     writer = csv.DictWriter(f1, fieldnames=fieldnames)
     writer.writeheader()
     #writer.writeheader()

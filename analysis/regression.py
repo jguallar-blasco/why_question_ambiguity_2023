@@ -1,50 +1,70 @@
 import numpy as np
-from sklearn.linear_model import LinearRegression
+import csv
+from sklearn import linear_model
 import json 
+from matplotlib import pyplot as plt
+import seaborn as sns
+import ast
+
+
+def report(score):
+    if score <= 1.5: 
+        print('Purpose\n')
+        return 
+    if score <= 2.0:
+        print('Purpose/Both\n')
+        return 
+    if score <= 2.5:
+        print('Reason/Both\n')
+        return 
+    else: 
+        print('Reason')
 
 
 p_v_r_scores_by_question_id = {}
 
 # Take in the merged p vs r hit file
 with open('merged.csv', newline='') as g:
-    dict_reader = DictReader(f)
-    list_of_dict = list(dic_reader)
+    dict_reader = csv.DictReader(g)
+    list_of_dict = list(dict_reader)
 
     for row in list_of_dict:
 
-        dic_ = rows_by_hit_id[hit_id]
-        #print(dic_)
-        image_id = dic_[0]['Input.imgUrl']
+        #print(row)
+        image_id = row['Input.imgUrl']
         question_id_ = image_id.split('/')
         question_id_ = question_id_[-1][0:-5]
         question_id_ = question_id_.split('_')
         question_id = question_id_[-1] 
 
-        p_v_r_scores_by_question_id[question_id] = []      
+        #print(int(question_id))
 
-               
-               
-               
-               
-               
-               
-               
-                a = len(ann['Answer.answer_groups'][0])
-                b = len(ann['Answer.answer_groups'][1])
-                c = len(ann['Answer.answer_groups'][2])
-                if (a >= b) and (a >= c): 
-                    sorted_data[question_id].append(2) # Both
-                elif (b >= a) and (b >= c): 
-                    sorted_data[question_id].append(1) # Purpose
-                else: 
-                    sorted_data[question_id].append(3) # Reason
+        if question_id not in p_v_r_scores_by_question_id:
+            p_v_r_scores_by_question_id[question_id] = []      
+ 
+        #print(row['Answer.answer_groups'])
+        l = ast.literal_eval(row['Answer.answer_groups'])
+        a = len(l[0])
+        #print(row['Answer.answer_groups'][0])
+        #print(a)
+        b = len(l[1])
+        #print(b)
+        c = len(l[2])
+        #print(c)
+        if (a >= b) and (a >= c): 
+            p_v_r_scores_by_question_id[question_id].append(2) # Both
+        elif (b >= a) and (b >= c): 
+            p_v_r_scores_by_question_id[question_id].append(1) # Purpose
+        else: 
+            p_v_r_scores_by_question_id[question_id].append(3) # Reason
 
 
-uds_score_by_question_id = []
-
+#print(p_v_r_scores_by_question_id)
+uds_scores_by_question_id = {}
+skip_uds = []
 # Take in the merged UDS hit file
-with open('3_examples_uds-Batch_2414_results.csv', newline='') as f:
-    dict_reader = DictReader(f)
+with open('../data/uds/hit_output/Jimena_45_output_uds.csv', newline='') as f:
+    dict_reader = csv.DictReader(f)
     list_of_dict = list(dict_reader)
 
     count = 0
@@ -52,8 +72,13 @@ with open('3_examples_uds-Batch_2414_results.csv', newline='') as f:
     for row in list_of_dict:
         
         #print(row)
-        question_id = row['sentence_id']
-        example_id = row['Input.roleset']
+        question_id = row['Input.sentence_id']
+        question_id = question_id[:-3]
+        if row['Answer.awareness'] == '' or row['Answer.instigation'] == '' or row['Answer.was_for_benefit'] == '' or row['Answer.was_used'] == '' or row['Answer.sentient'] == '':
+            skip_uds.append(question_id)
+
+        
+
         scores = {
             'awareness': row['Answer.awareness'],
             'change_of_location': row['Answer.change_of_location'],
@@ -71,10 +96,15 @@ with open('3_examples_uds-Batch_2414_results.csv', newline='') as f:
             'was_used': row['Answer.was_used']
         }
 
-        sorted_data[count] = scores
-        count += 1
+        uds_scores_by_question_id[question_id] = scores
 
-# UDS properties
+print(uds_scores_by_question_id)
+print(skip_uds)
+
+# p v r data for linear regression model 
+p_v_r = []
+
+# UDS data for linear regression model
 awareness = []
 change_of_location = []
 change_of_state = []
@@ -90,34 +120,94 @@ partitive = []
 sentient = []
 dynamic = []
 
-for example in uds_data:
-    print(uds_data[example])
-    awareness.append(int(uds_data[example]['awareness']))
-    change_of_location.append(int(uds_data[example]['change_of_location']))
-    change_of_state.append(int(uds_data[example]['change_of_state']))
-    change_of_posession.append(int(uds_data[example]['change_of_possesion']))
-    existed_before.append(int(uds_data[example]['existed_before']))
-    existed_during.append(int(uds_data[example]['existed_during']))
-    existed_after.append(int(uds_data[example]['existed_after']))
-    instigation.append(int(uds_data[example]['instigation']))
-    was_used.append(int(uds_data[example]['was_used']))
-    volition.append(int(uds_data[example]['volition']))
-    was_for_benefit.append(int(uds_data[example]['was_for_benefit']))
-    partitive.append(int(uds_data[example]['partitive']))
-    sentient.append(int(uds_data[example]['sentient']))
-    dynamic.append(int(uds_data[example]['dynamic']))
+uds_array = []
+for_plot = []
+for uds_ in uds_scores_by_question_id:
 
-X = np.array([awareness, change_of_location, change_of_state, change_of_posession, existed_before, existed_during, existed_after, instigation, was_used, volition, was_for_benefit, partitive, sentient, dynamic])
-print(X)
-# Development examples
-# 1) The girl was holding the umbrella
-# 2) The man was raising his arm
-# #) The lines were painted
+    #print(uds_)
+    if uds_ in skip_uds:
+        continue
 
-y = np.dot(X, np.array([1.0,0.0,1.0])) + 3
+    cur_array = []
+    cur_for_plot = ()
+    cur_array.append(int(uds_scores_by_question_id[uds_]['awareness']))
+    cur_array.append(int(uds_scores_by_question_id[uds_]['change_of_location']))
+    cur_array.append(int(uds_scores_by_question_id[uds_]['change_of_state']))
+    
+    cur_array.append(int(uds_scores_by_question_id[uds_]['existed_before']))
+    cur_array.append(int(uds_scores_by_question_id[uds_]['existed_during']))
+    cur_array.append(int(uds_scores_by_question_id[uds_]['existed_after']))
+    cur_array.append(int(uds_scores_by_question_id[uds_]['instigation']))
+    
+    cur_array.append(int(uds_scores_by_question_id[uds_]['volition']))
+    cur_array.append(int(uds_scores_by_question_id[uds_]['sentient']))
+    cur_array.append(int(uds_scores_by_question_id[uds_]['dynamic']))
+    cur_array.append(int(uds_scores_by_question_id[uds_]['was_for_benefit']))
+    cur_array.append(int(uds_scores_by_question_id[uds_]['partitive']))
+    cur_array.append(int(uds_scores_by_question_id[uds_]['change_of_possesion']))
+    cur_array.append(int(uds_scores_by_question_id[uds_]['was_used']))
 
-reg = LinearRegression().fit(X, y)
+    uds_array.append(cur_array)
+
+    padded_ = str(uds_)
+    pad = 12 - len(padded_)
+    padded_ = (pad * '0') + padded_ 
+    #print(padded_)
+    p_v_r.append((np.mean(p_v_r_scores_by_question_id[padded_])))
+
+
+
+X = np.array(uds_array)
+y = np.array(p_v_r)
+#print(X)
+#print(y)
+
+print('RUN REGRESSION')
+reg = linear_model.LinearRegression()
+reg.fit(X, y)
+
 print(reg.score(X, y))
 print(reg.coef_)
+tested_properties = ['awareness', 'change_of_location', 'change_of_state', 'existed_before', 'existed_during', 'existed_after', 'instigation', 'volition', 'was_for_benefit', 'partitive', 'sentient', 'dynamic', 'change_of_possesion', 'was_used']
+for score, tested_properties in zip(reg.coef_, tested_properties):
+    print(tested_properties + ": " + str(score))
+
+#print(reg.intercept_)
+
+print('Why is the man in midair?')
+score = reg.predict(np.array([[5, 5, 3, 5, 5, 5, 5, 3, 5, 5, 4, 3, 3, 3]]))
+report(score)
+
+print('Why are these people on their cell phones?')
+score = reg.predict(np.array([[5, 3, 3, 5, 5, 5, 5, 5, 5, 4, 5, 4, 3, 3]]))
+report(score)
+
+print('Why are these people carrying umbrellas?')
+score = reg.predict(np.array([[5, 4, 3, 5, 5, 5, 5, 5, 5, 4, 5, 4, 3, 3]]))
+report(score)
+
+print('Why are they on display')
+score = reg.predict(np.array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 3, 4]]))
+report(score)
+
+print('Why do they wear head protection?')
+score = reg.predict(np.array([[5, 3, 3, 5, 5, 5, 4, 4, 5, 4, 5, 5, 3, 3]]))
+report(score)
+
+print('Why do the woman\'s feet seem to be off of the ground?')
+score = reg.predict(np.array([[5, 4, 3, 5, 5, 5, 5, 5, 5, 4, 5, 5, 3, 3]]))
+report(score)
+
+# Why is the person's arm upraised?
+#print(reg.predict(np.array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])))
+# Why is the woman sit on a cushion?
+#print(reg.predict(np.array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])))
+# Why does the man have a helmet on his head?
+#print(reg.predict(np.array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])))
+# Why are the animal's heads down?
+
+# awareness, change_of_location, change_of_state,  
+# existed_before, existed_during, existed_after, instigation 
+# volition, was_for_benefit, partitive, sentient, dynamic
 
 
