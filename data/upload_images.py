@@ -13,7 +13,7 @@ def get_image_fname(num):
     name = f"COCO_train2014_{zeros}{num}.jpg"
     return name
 
-image_root = pathlib.Path("/brtx/603-nvme2/estengel/annotator_uncertainty/vqa/train2014/") 
+image_root = pathlib.Path("/brtx/603-nvme2/jgualla1/why_question_ambiguity/vqa/train2014/") 
 
 to_copy_path = pathlib.Path("to_copy")
 to_copy_path.mkdir(exist_ok=True)
