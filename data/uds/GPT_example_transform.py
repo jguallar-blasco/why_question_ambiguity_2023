@@ -105,9 +105,14 @@ for i, question_id in enumerate(data):
 
     # Locate predicate tokens
     predicate_split = predicate.split(' ').copy()
-    #predicate_loc_s = declarative_tokens.index(predicate_split[0])
-    #predicate_loc_e = declarative_tokens.index(predicate_split[-1])
-    #predicate_loc = (predicate_loc_s, predicate_loc_e)
+    print(declarative_tokens)
+    print(predicate_split)
+    predicate_loc_s = declarative_tokens.index(predicate_split[0])
+    try:
+        predicate_loc_e = declarative_tokens.index(predicate_split[-1] + '.')
+    except: 
+        predicate_loc_e = declarative_tokens.index(predicate_split[-1])
+    predicate_loc = (predicate_loc_s, predicate_loc_e)
 
     lemma_prompt = "The lemma of \"is walking\" is \"to walk\". The lemma of \"is brown\" is \"to be brown\". Give only the lemma of: \""
     
@@ -161,7 +166,7 @@ for i, question_id in enumerate(data):
         'hit_file_format_version': '2.0.0', 
         'corpus_id': 'VQA', # TBD 
         'video_id': image_url, # Sentence ID
-        'predicate_token_id': '(0,0)', # Position of predicate in sentence
+        'predicate_token_id': str(predicate_loc), # Position of predicate in sentence
         'roleset': '', # Nothing
         'predicate_lemma': lemma, # Lemma
         'predicate_progressive': pp[0], # Progressive
@@ -172,7 +177,7 @@ for i, question_id in enumerate(data):
     #print(line_dict)
     to_write.append(line_dict)
     #print(to_write)
-    if i == 30:
+    if i == 5:
         break
 
 
@@ -180,7 +185,7 @@ for i, question_id in enumerate(data):
 # Format for csv
 # hit_file_format_version, corpus_id, sentence_id, predicate_token_id, roleset, predicate_lemma, predicate_progressive, argnum, sentences_and_args_as_json, sampling_method
 
-with open("../30_input_uds_with_images.csv", "w") as f1:
+with open("../5_input_uds_with_images.csv", "w") as f1:
     fieldnames = ['hit_file_format_version', 'corpus_id', 'video_id', 'predicate_token_id', 'roleset', 'predicate_lemma', 'predicate_progressive', 'argnum', 'sentences_and_args_as_json', 'sampling_method']
     writer = csv.DictWriter(f1, fieldnames=fieldnames)
     writer.writeheader()
