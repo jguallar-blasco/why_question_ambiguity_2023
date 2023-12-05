@@ -41,7 +41,7 @@ for i, question_id in enumerate(data):
     response = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=[
-            {"role": "system", "content": "The declarative form of \"Why are there so many birds in the sky\" is \"There are so many birds in the sky\". Give only the declarative forms of the question: " + cur_why_question}
+            {"role": "system", "content": "The declarative form of \"Why are there so many birds in the sky\" is \"There are so many birds in the sky\". Give only the declarative forms of the question and nothing else: " + cur_why_question}
         ]
     )
     #print(completion['choices'][0]['message']['content'])
@@ -108,10 +108,14 @@ for i, question_id in enumerate(data):
     print(declarative_tokens)
     print(predicate_split)
     predicate_loc_s = declarative_tokens.index(predicate_split[0])
+    predicate_loc_e = len(predicate_split) - 1
     try:
         predicate_loc_e = declarative_tokens.index(predicate_split[-1] + '.')
     except: 
-        predicate_loc_e = declarative_tokens.index(predicate_split[-1])
+        try:
+            predicate_loc_e = declarative_tokens.index(predicate_split[-1])
+        except:
+            predicate_loc_e = declarative_tokens.index(predicate_split[-1] + '\n')
     predicate_loc = (predicate_loc_s, predicate_loc_e)
 
     lemma_prompt = "The lemma of \"is walking\" is \"to walk\". The lemma of \"is brown\" is \"to be brown\". Give only the lemma of: \""
@@ -152,7 +156,7 @@ for i, question_id in enumerate(data):
     pp = response.choices[0].message.content
     pp = pp.replace("\"", "")
     pp = pp.replace(".", "")
-    print(f"Present progressive: {response.choices[0].message.content}")
+    print(f"Present progressive: {pp}")
 
     print("------------------------------------------------")
 
@@ -169,7 +173,7 @@ for i, question_id in enumerate(data):
         'predicate_token_id': str(predicate_loc), # Position of predicate in sentence
         'roleset': '', # Nothing
         'predicate_lemma': lemma, # Lemma
-        'predicate_progressive': pp[0], # Progressive
+        'predicate_progressive': pp, # Progressive
         'argnum': subject, # TBD
         'sentences_and_args_as_json': dic,
         'sampling_method': 'it-happened' # TBD
