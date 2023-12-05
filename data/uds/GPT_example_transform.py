@@ -181,7 +181,7 @@ for i, question_id in enumerate(data):
     #print(line_dict)
     to_write.append(line_dict)
     #print(to_write)
-    if i == 5:
+    if i == 20:
         break
 
 
@@ -189,7 +189,7 @@ for i, question_id in enumerate(data):
 # Format for csv
 # hit_file_format_version, corpus_id, sentence_id, predicate_token_id, roleset, predicate_lemma, predicate_progressive, argnum, sentences_and_args_as_json, sampling_method
 
-with open("../5_input_uds_with_images.csv", "w") as f1:
+with open("../20_input_uds_with_images.csv", "w") as f1:
     fieldnames = ['hit_file_format_version', 'corpus_id', 'video_id', 'predicate_token_id', 'roleset', 'predicate_lemma', 'predicate_progressive', 'argnum', 'sentences_and_args_as_json', 'sampling_method']
     writer = csv.DictWriter(f1, fieldnames=fieldnames)
     writer.writeheader()
