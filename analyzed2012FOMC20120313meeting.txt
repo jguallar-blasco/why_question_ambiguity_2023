@@ -1,0 +1,1072 @@
+Passage number 1.
+ Meeting of the Federal Open Market Committee on March 13, 2012 A meeting of the Federal Open Market Committee was held in the offices of the Board of Governors of the Federal Reserve System in Washington, D.C., on Tuesday, March 13, 2012, at 8:30 a.m.  Those present were the following: Ben Bernanke, Chairman William C. Dudley, Vice Chairman Elizabeth Duke Jeffrey M. Lacker Dennis P. Lockhart Sandra Pianalto Sarah Bloom Raskin Daniel K. Tarullo John C. Williams Janet L. Yellen James Bullard, Christine Cumming, Charles L. Evans, Esther L. George, and Eric Rosengren, Alternate Members of the Federal Open Market Committee Richard W. Fisher, Narayana Kocherlakota, and Charles I. Plosser, Presidents of the Federal Reserve Banks of Dallas, Minneapolis, and Philadelphia, respectively William B. English, Secretary and Economist Deborah J. Danker, Deputy Secretary Matthew M. Luecke, Assistant Secretary David W. Skidmore, Assistant Secretary Michelle A. Smith, Assistant Secretary Scott G. Alvarez, General Counsel Thomas C. Baxter, Deputy General Counsel Steven B. Kamin, Economist David W. Wilcox, Economist David Altig, Thomas A. Connors, Michael P. Leahy, David Reifschneider, Glenn D. Rudebusch, William Wascher, and John A. Weinberg, Associate Economists Brian Sack, Manager, System Open Market Account Michael S. Gibson, Director, Division of Banking Supervision and Regulation, Board of Governors Nellie Liang, Director, Office of Financial Stability Policy and Research, Board of Governors   Jon W. Faust and Andrew T. Levin, Special Advisors to the Board, Office of Board Members, Board of Governors James A. Clouse, Deputy Director, Division of Monetary Affairs, Board of Governors Linda Robertson, Assistant to the Board, Office of Board Members, Board of Governors Seth B. Carpenter, Senior Associate Director, Division of Monetary Affairs, Board of Governors Thomas Laubach, Senior Adviser, Division of Research and Statistics, Board of Governors; Ellen E. Meade, Stephen A. Meyer, and Joyce K. Zickler, Senior Advisers, Division of Monetary Affairs, Board of Governors Eric M. Engen, Michael T. Kiley, and Michael G. Palumbo, Associate Directors, Division of Research and Statistics, Board of Governors Edward Nelson, Section Chief, Division of Monetary Affairs, Board of Governors Harvey Rosenblum and Daniel G. Sullivan, Executive Vice Presidents, Federal Reserve Banks of Dallas and Chicago, respectively Craig S. Hakkio, Geoffrey Tootell, and Kei-Mu Yi, Senior Vice Presidents, Federal Reserve Banks of Kansas City, Boston, and Minneapolis, respectively Michael Dotsey, Joseph G. Haubrich, Lorie K. Logan, and David C. Wheelock, Vice Presidents, Federal Reserve Banks of Philadelphia, Cleveland, New York, and St. Louis, respectively Marc Giannoni, Senior Economist, Federal Reserve Bank of New York  Transcript of the Federal Open Market Committee Meeting on March 13, 2012 CHAIRMAN BERNANKE.  Good morning, and let me turn to Brian Sack for the presentation.
+Does the passage contain contention or disagreement? Response from the model: No, there is no contention or disagreement in this passage. It is simply a list of people present at a meeting.
+
+
+Passage number 2.
+ MR. LACKER.  Thank you.  Brian, in your discussion of exhibit 1, you said that survey participants understand that our forward guidance is not an absolute commitment.  Complete absolute commitment suggests a polar case of an entirely noncontingent exit date and one that represents a commitment; at the other extreme is something that’s merely a forecast.  And it seems as though there would be something in between.  So do they think it’s something of a commitment.
+Does the passage contain contention or disagreement? Response from the model: No. There is no contention or disagreement in this passage. Mr. Lacker is simply seeking clarification and asking for further information.
+
+
+Passage number 3.
+ MR. SACK. My best guess is that market participants regard it as somewhat of a commitment, if you mean by having made the statement that there’s a slightly higher threshold to deviating from it.  There’s clear recognition that if economic conditions move sufficiently, the Committee will not be bound by that language. But I’m not sure it’s regarded as purely a forecast.  It may be seen, as I said, as raising the threshold for deviating, at least a touch.
+Does the passage contain contention or disagreement? Response from the model: No. There is no contention or disagreement in the passage. The speaker is providing their interpretation of how market participants view a statement and expressing some uncertainty about their own understanding.
+
+
+Passage number 4.
+ MR. LACKER.  I think we’ve tried to communicate clearly that it’s a forecast, merely a forecast.  So we’re not getting through to them somehow.  They view this as likely to inhibit our future action.
+Does the passage contain contention or disagreement? Response from the model: No, there is no contention or disagreement in this passage. Mr. Lacker is expressing his opinion that they have tried to communicate that the forecast is not meant to inhibit future action, but it seems that it has not been understood by the other party.
+
+
+Passage number 5.
+ MR. SACK.  Well, that’s my best interpretation of the reading.  It’s hard, exactly, to determine just how much higher that threshold is.  And they clearly see risk around the policy path.  You can see that because the futures curve bends up to well above the current target range well before late 2014, and the implied volatility of that shown in chart 4 is obviously well above zero, so they clearly see meaningful risk that the funds rate could increase before late 2014.
+Does the passage contain contention or disagreement? Response from the model: No. There is no contention or disagreement in this passage. The speaker is providing their interpretation and analysis of the reading, stating that it is difficult to determine the exact threshold and that there is a perceived risk in the policy path.
+
+
+Passage number 6.
+ MR. LACKER.  As do we.  CHAIRMAN BERNANKE.  Vice Chairman.
+Does the passage contain contention or disagreement? Response from the model: No, there is no contention or disagreement in this passage. The speaker, Mr. Lacker, agrees with the statement made by the Vice Chairman.
+
+
+Passage number 7.
+ VICE CHAIRMAN DUDLEY. I interpret it as not a commitment, but you need to have evidence to change your mind.  So the data have to be definitive enough to change your view.
+Does the passage contain contention or disagreement? Response from the model: No, there is no contention or disagreement in the passage. The speaker is explaining their interpretation of something without any opposing viewpoints or conflicting statements presented. They mention the need for evidence to change one's mind, which implies the importance of having definitive data. However, this statement does not involve a dispute or disagreement with anyone else.
+
+
+****************DISAGREEMENT DETECTED*******************Passage number 8.
+ MR. LACKER.  And that’s a different characterization than we’d characterize it if we hadn’t made the forward guidance.
+Does the passage contain contention or disagreement? Response from the model: Yes.
+Explanation: There is a difference in characterization between the speaker (Mr. Lacker) and another party that is not specified. The use of "different" implies a disagreement or contention between the two parties.
+
+
+Passage number 9.
+ VICE CHAIRMAN DUDLEY.  Well, it says that the Committee has a prior, and to change the prior, they need evidence that suggests that that prior is incorrect.  That’s all. CHAIRMAN BERNANKE.  Let me just observe that we’ll be getting into this in some depth later on today.  President Fisher.
+Does the passage contain contention or disagreement? Response from the model: No. The passage is simply stating the process for changing a prior and mentioning that the topic will be discussed further later on. There is no contention or disagreement between the speakers in this passage.
+
+
+Passage number 10.
+ MR. FISHER.  First, I want to thank Brian for his work.  You’ve been under enormous pressure for a long time, and every one of your reports is outstanding.  I know this is way premature, and we talked about what market expectations appear to be, given the presentation you made of further actions we might take.  My question has to do with—again, very prematurely—what market expectations are for how we might go about draining when we want to drain.  And I’ve heard, at least in terms of the presentations made by the New York Desk staff, that the focus would be on reverse repos and the Term Deposit Facility.  I have a question about that, but do you have a sense of what markets are looking for.  Most investors don’t just look at one scenario; they look way down the road if they’re good, particularly the sophisticated folks that analyze us.  What do you sense they expect us to do once we get to this position that we’ve articulated.  Assuming, and it may be too big an assumption, that we decide we might want to start draining rather than just keep adding on—we get to that point in the economy—what would you say is their expectation.
+Does the passage contain contention or disagreement? Response from the model: No, there is no contention or disagreement in this passage. The speaker is expressing appreciation for Brian's work and is asking for his perspective on market expectations regarding potential actions for draining the market.
+
+
+Passage number 11.
+  MR. SACK.
+Does the passage contain contention or disagreement? Response from the model: It is not possible to determine whether there is contention or disagreement in the passage without the passage being provided.
+
+
+****************DISAGREEMENT DETECTED*******************Passage number 12.
+  I think market expectations on this question have been shaped mainly by the June 2011 exit principles that were in the FOMC minutes— MR. FISHER.  Still out there in the ether.
+Does the passage contain contention or disagreement? Response from the model: Yes. The passage mentions market expectations being shaped by the June 2011 exit principles, which implies that there might be different opinions or interpretations about the influence of those principles on market expectations.
+
+
+Passage number 13.
+ MR. SACK. —which stated that temporary draining tools may be used, essentially, right before beginning to increase the target federal funds rate.  So I think market participants anticipate that tools will be used, but they’ll be used in that sequence stated in those exit principles.  Now, that leaves a lot of questions that aren’t clear—for example, how the tools will be used, just how much draining will be done, and so on.  So at this point, it’s hard to judge; I think they anticipate that tools will be used in some size, but that the System will still have a lot of reserves, even at the time that the target funds rate is lifted.
+Does the passage contain contention or disagreement? Response from the model: No, there is no contention or disagreement in the passage. The speaker is simply describing the anticipation of market participants regarding the use of temporary draining tools before increasing the target federal funds rate. They also mention that there are still some unclear aspects, such as how the tools will be used and the amount of draining that will be done.
+
+
+Passage number 14.
+ MR. FISHER.  Mr. Chairman, at some point I’d like us to have a fulsome discussion of this.  I don’t want to be cheeky, but I think of Professor Harold Hill in The Music Man; it’s the “Think System.”  No need to practice playing the instrument—if you just think through the tune, you will play the tune.  And of course, if you remember that movie, it ends up well.  The River City Boys’ Band marches into the room and plays Minuet in G.  It’s not perfectly tuned, but it works.  We’ve never done this before.  We have a substantially sized balance sheet.  And I hope we can have—the timing is not right now—a very fulsome discussion of this because executing this is going to be quite an exercise. I do have one suggestion, as we go through time, in terms of looking at the effect of the outcomes here on our balance sheet and our income statement.  Most of the discussions and the articulations I’ve seen are on the baseline scenario.  It might be helpful now to provide for a view on the balance sheet and income statement according to the alternative scenarios we have that have been laid out by the staff.  I don’t believe that’s been done—at least I have not seen it. I  think that would be very helpful, just with respect to what the sensitivities are going forward. And then eventually, think through aloud how this might actually happen—working with you all, because you have all of the information or most of the information.  Again, I hope that we all can march into that room and at least play a decent tune, and it works out beautifully, and we end up with Marian, because she was the star. But I am concerned that we can do a great deal of academic work here.  I don’t know how we’re going to test the system.  I know you’ve been tweaking a little bit to try to see how it responds.  I want to express my concern that, having not done this before, we’re going to have to think through very carefully, using the expertise of the Desk, which, again, I would argue is unparalleled.  Thank you, Mr. Chairman. CHAIRMAN BERNANKE.  Was your question about the balance sheet in reference to income and capital losses.
+Does the passage contain contention or disagreement? Response from the model: No. This passage does not contain any contention or disagreement. MR. Fisher is expressing his concern and suggesting that they have a thorough discussion and consideration of alternative scenarios.
+
+
+****************DISAGREEMENT DETECTED*******************Passage number 15.
+ MR. FISHER.  There are two points.  One is in terms of how we execute a draining strategy when we are ready, and we’re not there.  The second point is understanding better, under alternative scenarios, what the impact is on our balance sheet and income statement of those scenarios obtaining, because right now, I believe, we base everything on the baseline scenario. CHAIRMAN BERNANKE.  No, that’s not correct.  We’ve done lots of alternative scenarios with much higher interest rates.
+Does the passage contain contention or disagreement? Response from the model: Yes, there is a disagreement in the passage. The speaker initially mentions that they currently base everything on the baseline scenario, while another person interrupts to correct them and state that they have already explored alternative scenarios with higher interest rates. This indicates a difference in perspectives or understanding.
+
+
+Passage number 16.
+ MR. FISHER.  Have we shared it with the group. CHAIRMAN BERNANKE. Yes, I think so.
+Does the passage contain contention or disagreement? Response from the model: No, there is no contention or disagreement in the passage. The speaker simply confirms that the information has already been shared with the group.
+
+
+Passage number 17.
+ MR. SACK.  Yes, it was in an FOMC memo.  We actually update those projections every round for our own internal purposes.
+Does the passage contain contention or disagreement? Response from the model: No. The passage does not indicate any contention or disagreement. It simply states that the projections are updated regularly for internal purposes.
+
+
+Passage number 18.
+ MR. FISHER.  If you could share those, I would be grateful.
+Does the passage contain contention or disagreement? Response from the model: No, there is no contention or disagreement in the passage. Mr. Fisher is simply expressing gratitude for the possibility of sharing something.
+
+
+****************DISAGREEMENT DETECTED*******************Passage number 19.
+MR. SACK.  Could I make a few comments about the reserve draining part of your question. I think it is important to realize that we face a considerable amount of uncertainty about how markets will behave as we drain and what the right strategy should be.  And that uncertainty comes because we’ve never observed how markets act with our ability to pay interest on reserves, except for when we’ve been pinned against the zero bound.  So we don’t know the strength of that magnet for other short-term interest rates, and we’ve never used these tools in large size before.  And not only that—I would add to the list that there are many regulatory reform efforts under way that could substantially affect the structure and functioning of money markets.  So I agree that we face many areas of uncertainty, and I think in some sense, those uncertainties are going to require us to learn along the way and to figure this out.  That’s not to say that we shouldn’t do as much advance planning as possible, but some of this is going to be inherently unpredictable in terms of how markets react, and we’ll have to make adjustments.
+Does the passage contain contention or disagreement? Response from the model: Yes. The passage indicates that there is uncertainty and disagreement about how markets will behave as reserves are drained and what the right strategy should be. The speaker acknowledges that they do not know the strength of the magnet for other short-term interest rates and that they have never used these tools in large size before. There are also many regulatory reform efforts that could affect the structure and functioning of money markets. Therefore, the speaker agrees that there are many areas of uncertainty and that some aspects of the situation will be unpredictable, requiring adjustments along the way.
+
+
+Passage number 20.
+ MR. FISHER.  And if I recall correctly, we were starting to test a little bit the reverse repos, fleshing out our muscle, developing that capability.  I was just making the simple point that you obviously realize, but we’re going to have to do a little bit more testing because right now, it’s mostly theoretical, and yet we’re going to have to exercise it at some point. CHAIRMAN BERNANKE.  Let me observe a couple of things.  First, we have three distinct approaches to exiting.  We have the various tools for draining reserves, including the time deposits and the reverse repos.  We have the interest rate on excess reserves, which, in theory, should work all by itself.  And then, third, of course, we have asset sales, which will always work.  So we know we’ve got a set of different tools that are complementary, and we can use them in different combinations. The other observation is, while we haven’t done this in the United States—and, obviously, there are institutional differences and so on—these are very widely used around the world.  The Bank of Japan, the ECB, and others, of course, use tools like this quite successfully.  So, again, there may be institutional factors we have to take into account, but I don’t want to overstate the uncertainty about whether we can drain, even if there is some bumpiness at some point.
+Does the passage contain contention or disagreement? Response from the model: No. There is no contention or disagreement in this passage. The speaker is simply providing information and observations about different approaches to exiting and the possible use of tools. There is no indication of any conflicting opinions or arguments.
+
+
+Passage number 21.
+ MR. FISHER.  That was one of the reasons I was curious as to what the market seems to be expecting us to do, too, because we have to deal with that factor as well. CHAIRMAN BERNANKE.  Sure.
+Does the passage contain contention or disagreement? Response from the model: No, there is no contention or disagreement in the passage. Mr. Fisher is expressing his curiosity about the market's expectations and acknowledging that they have to consider those expectations as well.
+
+
+Passage number 22.
+ MR. FISHER.  And perhaps provide—maybe “guidance” is too strong a word—at least some orientation for fleshing out those expectations. CHAIRMAN BERNANKE.  Yes. The signaling problem is very difficult.
+Does the passage contain contention or disagreement? Response from the model: No. The passage does not contain any contention or disagreement. It discusses a difficult problem without providing any conflicting viewpoints.
+
+
+Passage number 23.
+ I note that when we put out last summer the principles of exit, which we intended just to reassure— MR. FISHER.  Provide a framework. CHAIRMAN BERNANKE. —the general view is that we were basically ready to exit at that point.  And so we have to be very careful about how we communicate.  President Bullard.
+Does the passage contain contention or disagreement? Response from the model: No. The passage simply discusses the need for careful communication in relation to the principles of exit that were put out last summer.
+
+
+Passage number 24.
+ MR. BULLARD.  Thank you, Mr. Chairman.  Brian, as usual, a crisp and excellent presentation here.  I have a couple of questions on exhibit 1, panel 3, “Macroeconomic Conditions That Would Prompt First Rate Hike.”  I’m looking at this lower-left corner here, which says that the market, I guess, thinks that we would raise rates if headline inflation was 1 percent and unemployment was 6½ percent.  I’m not sure how to interpret that.
+Does the passage contain contention or disagreement? Response from the model: No. The passage does not contain any contention or disagreement. Mr. Bullard is simply expressing his confusion and seeking clarification on how to interpret a specific part of the exhibit.
+
+
+Passage number 25.
+ MR. SACK.  I think you interpreted it correctly.  As I said in my remarks, the slope of this line could be seen as reflecting the type of tradeoff you would have in a Taylor rule.  Andactually, in terms of magnitude, the slope is not that different from what you would get if you apply the Taylor (1999) rule to this. So I think that just reflects the tradeoff that the FOMC would wait until the unemployment rate got relatively low if inflation were running at that low level.
+Does the passage contain contention or disagreement? Response from the model: No. The passage does not contain any contention or disagreement. Mr. Sack agrees with the interpretation and discusses the slope of a line in relation to a Taylor rule and the FOMC's decision-making process.
+
+
+Passage number 26.
+ MR. BULLARD.  All right. It just strikes me as a bit of a mismatch between, maybe, market expectations and what I think the Committee would actually do in that circumstance, because we have talked a lot about disinflation pressures or deflationary pressures.  When we’ve gotten close to 1 percent in the past, that’s made everybody nervous, including me.  And so I don’t know if it’s a mismatch or not.
+Does the passage contain contention or disagreement? Response from the model: No. There is no contention or disagreement in the passage. Mr. Bullard is expressing his personal thoughts and uncertainties, but there is no direct disagreement with other parties mentioned.
+
+
+Passage number 27.
+ MR. SACK.  Well, to state the obvious, this is a very oversimplified version of the reaction function, which was noted in the written comments.  So, clearly, market participants see a number of other factors affecting the timing, not just these two variables.
+Does the passage contain contention or disagreement? Response from the model: No. This passage does not contain any contention or disagreement. It is a statement presenting an observation about the reaction function and acknowledging that other factors can also influence timing, as mentioned in the written comments.
+
+
+Passage number 28.
+ MR. BULLARD.  Okay.  On exhibit 1, panel 6, “Breakeven Inflation Rates,” five-year rates have gone up.  You cited energy prices in part.  I think that over a five-year time horizon, like us, they would see through energy price movements that are perceived to be transitory.  So I’m not sure you can cite energy prices over a five-year time horizon as driving those inflation expectations.
+Does the passage contain contention or disagreement? Response from the model: No. The passage does not show any contention or disagreement. Mr. Bullard is simply expressing his doubt about citing energy prices as the driving factor behind inflation expectations over a five-year time horizon.
+
+
+Passage number 29.
+ MR. SACK. Well, if you just mechanically measure the effects on headline CPI from the rise in futures prices, and don’t assume a full reversal of those energy prices, then you get some effect.
+Does the passage contain contention or disagreement? Response from the model: No. There is no contention or disagreement in this passage. The statement is presented as a matter of fact, describing a scenario based on specific measurements and assumptions.
+
+
+Passage number 30.
+ MR. BULLARD.  So you’d say, to the extent that energy price increases are very persistent or permanent, that would feed through.
+Does the passage contain contention or disagreement? Response from the model: No
+
+
+Passage number 31.
+ MR. SACK.  Right—and have some persistence.  Correct.  CHAIRMAN BERNANKE.  What’s happened to the forward prices for one to five years.
+Does the passage contain contention or disagreement? Response from the model: No. There is no contention or disagreement in this passage. The speaker is simply stating a fact and offering advice.
+
+
+Passage number 32.
+ MR. SACK.  Of breakevens. CHAIRMAN BERNANKE.  Of the breakevens.
+Does the passage contain contention or disagreement? Response from the model: No. There is no contention or disagreement in the passage. It simply mentions "breakevens" without any opposing viewpoints or conflicting ideas presented.
+
+
+Passage number 33.
+ MR. SACK. Clearly, the biggest effects are at the very short end of the breakeven curve, the first year or two, which is consistent with that story.
+Does the passage contain contention or disagreement? Response from the model: No. There is no contention or disagreement in the passage. The statement is stating a fact that the biggest effects are observed at the very short end of the breakeven curve in the first year or two, which is consistent with the mentioned story.
+
+
+Passage number 34.
+ MR. BULLARD.  Okay.  And then my third quick question here—exhibit 3, panel 15, “Shorter-Term Interest Rates.”  We’ve got the three-month Treasury bill rate coming off zero, which is the first time that’s happened in a while.  What’s the potential for that to go higher.  Or I guess the question would be, what’s the future of that.
+Does the passage contain contention or disagreement? Response from the model: No. The passage is simply posing a question and seeking information about the potential future of the three-month Treasury bill rate. There is no contention or disagreement present.
+
+
+Passage number 35.
+ MR. SACK.  Well, it’s hard to say. I wouldn’t anticipate that it will continue to drift up substantially from here. And especially if it is, in part, a supply-related story, we would expect those supply effects not to continue to work in this direction.  Both the sales from our portfolio and the bulge in the issuance of bills will come to an end by the middle of the year.
+Does the passage contain contention or disagreement? Response from the model: No. The passage does not contain any contention or disagreement. It simply presents the speaker's opinion and expectation about the future direction of a certain phenomenon.
+
+
+Passage number 36.
+ VICE CHAIRMAN DUDLEY.  Brian, isn’t there a slightly seasonal effect as you go into the tax season.
+Does the passage contain contention or disagreement? Response from the model: No. The passage does not contain any contention or disagreement. It is a question prompting a response from Brian about a potential seasonal effect during the tax season.
+
+
+Passage number 37.
+ MR. SACK.  Yes.
+Does the passage contain contention or disagreement? Response from the model: Explanation: The word "Yes" does not provide enough information to determine if there is contention or disagreement in the passage.
+
+
+Passage number 38.
+  The increase in bill supply is—I didn’t say that—a seasonal effect, so it should— MR. BULLARD.  Did that happen last year as well.
+Does the passage contain contention or disagreement? Response from the model: No. There is a lack of contention or disagreement in the passage. The speaker simply asked a question to clarify whether the same event occurred in the previous year.
+
+
+Passage number 39.
+ VICE CHAIRMAN DUDLEY.  It typically happens as you’re going into the tax season.
+Does the passage contain contention or disagreement? Response from the model: No.
+
+
+Passage number 40.
+ MR. SACK.  Yes, it’s just a bit more aggressive and earlier this year than the market estimated.
+Does the passage contain contention or disagreement? Response from the model: No, there is no contention or disagreement in the passage. The speaker is simply stating that something is more aggressive and earlier than what the market estimated.
+
+
+Passage number 41.
+ MR. BULLARD.  Okay.  Thank you.CHAIRMAN BERNANKE.  President Williams.
+Does the passage contain contention or disagreement? Response from the model: No. In this passage, Mr. Bullard simply seems to be expressing gratitude towards President Williams. There is no indication of contention or disagreement.
+
+
+Passage number 42.
+ MR. WILLIAMS.  Yes, I have a question on exhibit 1, panel 5—on the term premium on the 10-year Treasury.  Brian, I think you said that currently, your staff estimate is that the LSAPs are pushing down the term premium on the 10-year Treasury by 60 basis points.  So my question, then, is, given our baseline scenario for what our balance sheet is going to look like over the next several years, with exit at, say, late 2014 for the funds rate, how do you see the path for this effect of the LSAPs over the next couple of years.  Or specifically, what do you think the effect of the LSAPs will be on the 10-year Treasury yield, say, at the end of 2014.
+Does the passage contain contention or disagreement? Response from the model: No
+
+
+Passage number 43.
+ MR. SACK. The staff model will have a trajectory of these effects, and without further balance sheet actions, they would gradually diminish from this point.  I don’t know exactly how much is unwound by the end of 2014, but I would guess about half or so.
+Does the passage contain contention or disagreement? Response from the model: No. This passage does not indicate any contention or disagreement. It is a statement made by Mr. Sack regarding the projected trajectory of the effects of the staff model. There is no indication of opposing viewpoints or conflicting opinions.
+
+
+Passage number 44.
+ MR. ENGLISH.  Your question was about the end of 2014.
+Does the passage contain contention or disagreement? Response from the model: No. This passage does not show any contention or disagreement. It simply states a fact about a question asked.
+
+
+****************DISAGREEMENT DETECTED*******************Passage number 45.
+ MR. WILLIAMS.  Yes.
+Does the passage contain contention or disagreement? Response from the model: Yes, there is disagreement in the passage. However, without additional context or information about the content of the passage, it is not possible to determine the exact nature of the disagreement or who is involved.
+
+
+Passage number 46.
+ MR. ENGLISH.  The staff estimates have, at the end of 2014, an effect under the Tealbook assumptions of about 25 basis points, down from about 60.
+Does the passage contain contention or disagreement? Response from the model: No. 
+
+Explanation: The passage does not contain any indication of contention or disagreement. It simply presents information about the staff estimates.
+
+
+Passage number 47.
+ MR. WILLIAMS.  Okay.  Thank you. CHAIRMAN BERNANKE.  Other questions.  [No response]  Okay.  Seeing no further questions, let’s turn to the economic situation.  Oh, I’m sorry.  Without Debbie, I don’t know what would happen to this place.  Could I have a motion to ratify domestic open market operations. MS. YELLEN.  So moved. CHAIRMAN BERNANKE.  Without objection.  Thank you.  Item 2, “Economic Situation.” Let me turn to Bill Wascher.
+Does the passage contain contention or disagreement? Response from the model: No. There is no contention or disagreement in this passage.
+
+
+Passage number 48.
+ MR. LOCKHART.  We have some, I think, good research about the sensitivity of the U.S. economy to spikes in oil prices.  Jim Hamilton has done good work.  Do you have an equivalent sense of the sensitivity of the European economy to strong spikes coming from geopolitical events.
+Does the passage contain contention or disagreement? Response from the model: No. The passage does not contain any contention or disagreement. It simply presents a statement and asks for further information.
+
+
+Passage number 49.
+ MR. KAMIN. We have indeed done some analysis on that.  And I should say that there are some different crosscurrents in terms of the effects that make it difficult to be very certain about these effects.  On the one hand, the United States’ economy is more oil-dependent than is Europe’s in terms of efficiency of oil use.  It’s also true that the United States has lower specific taxes on oil use, so a given increment to oil prices results in a smaller percentage increase in retail gasoline prices in Europe than in the United States.  On the other hand, the United States has less import dependence than Europe.  Europe imports just about all of its oil, while in the U.S., it’s not a full 100 percent.  So these factors offset each other. I guess the analysis that we’ve done to date suggests that the U.S. economy is probably more vulnerable to an oil price shock than the advanced foreign economies, in general.  And that likely applies to Europe, too.  We’ll probably need to do more analysis on that. CHAIRMAN BERNANKE.  Other questions.  President Bullard.
+Does the passage contain contention or disagreement? Response from the model: No, there is no contention or disagreement in this passage. The speaker is presenting different factors and their effects on the economy, but there is no disagreement or argument being made. The speaker also mentions the need for further analysis, indicating an openness to further study.
+
+
+Passage number 50.
+ MR. BULLARD.  Thank you, Mr. Chairman.  On the forecast summary, the bottom-right panel, “Q4/Q4 Changes in Real GDP and Unemployment since 1990”—this is a statement of Okun’s law. I’m going to do some ocular regression here.  One thing that has struck me about the data is that unemployment obviously goes very high during recessions and drifts down slowly during expansions.  And you can see that in this picture to some degree because the two dots that are far up in the left part of this panel, plus probably the three black dots that are not labeled, are likely all recession years in this picture.  So one hypothesis that you might have is just that a lot of the fit of this regression is coming from a few data points that are really the recession data points.  And if you throw those five points out, you’d probably get a horizontal line that would say that there’s not much of a relationship for the expansion periods.  So I would see recessions as a time when labor market relationships are disturbed a lot, and things break down, and then they just slowly recover during the expansion periods.  But it doesn’t matter too much whether you’re growing at 2 percent or 3 percent or 4 percent.  What do you think of that. Probably not much.
+Does the passage contain contention or disagreement? Response from the model: No. The passage does not show any contention or disagreement. It is a statement by Mr. Bullard followed by his personal analysis and hypothesis. The phrase "What do you think of that" suggests a request for input or opinion, but it does not indicate a disagreement or conflict.
+
+
+Passage number 51.
+ MR. WASCHER.  I think your observation that, obviously, unemployment goes up a lot during recessions and has come down more slowly is certainly true.  Over the last three recessions, we saw the jobless recovery in the early 1990s, the jobless recovery after the 2001 recession, and then again this time as well.  And that contrasts with earlier recessions, where you saw unemployment come down much more quickly.  So there is a question of whether there’s been some sort of regime change in this Okun’s law relationship since, say, the late 1980s or the 1990s.  And that’s something we’re thinking about and working on. At this point, the other thing I’d note is that for each of those recessions, we can point to idiosyncratic factors that may have resulted in that kind of pattern.  For example, in the 2001period, running up to that, there was this big high-tech boom, and it looked as though there were some adjustment costs for firms putting that high-tech equipment in place.  And so the productivity gains that went along with it came later, and that contributed to a big boost in productivity and a slower rise in employment that period.  It’s not as obvious in the early 1990s, but there are stories of something similar, when firms reorganized their management and organizational systems to eliminate some middle management.  And in this period, obviously— regardless of what you think about whether there’s a regime change or not, I think the most recent period, clearly, is an extraordinary event.  And even if there is a regime change, the story we’re telling about firms becoming so frightened about the prospects that they really slashed employment quite sharply during the recession is probably still there. So, again, we’re thinking about these issues.  Those are good observations that you make.  I would say that this is a work in progress, and we’re still thinking about how we should be modeling our Okun’s law relationship. CHAIRMAN BERNANKE. It seems as though it goes the other way, because we’ve seen in recent recessions pretty strong GDP recoveries but surprisingly slow declines in unemployment. Is that fair.  But in this case, we’re getting a weak GDP growth and a sharper decline in unemployment.
+Does the passage contain contention or disagreement? Response from the model: No. The passage does not contain any explicit contention or disagreement. It discusses different observations and possible explanations without presenting conflicting viewpoints or arguments.
+
+
+Passage number 52.
+ MR. WASCHER.  Yes, that’s right.  That’s the extraordinary aspect of this piece that I think is different from the shallow recessions of the 1990 and 2001 piece—that we are seeing some gradual improvement in economic activity, and we’re seeing the reversal of the extreme job cuts that took place in late 2008 and 2009; they’re reversing themselves both in terms of the unemployment rate and in terms of productivity.
+Does the passage contain contention or disagreement? Response from the model: No.
+
+Explanation: The passage does not mention any conflicting viewpoints or opposing arguments, but rather describes a situation of gradual improvement in economic activity and the reversal of job cuts.
+
+
+Passage number 53.
+MR. BULLARD.  But Mr. Chairman, my point is just that if you take out the recession years, you won’t have much of a fit in this regression here.  The fit is coming mostly from those recession years, and because economic growth is slow and unemployment goes way up, in the regression, that contributes a lot.
+Does the passage contain contention or disagreement? Response from the model: No, there is no contention or disagreement in this passage. The speaker, Mr. Bullard, is making a point and providing an explanation without contradicting or challenging any other viewpoint.
+
+
+****************DISAGREEMENT DETECTED*******************Passage number 54.
+ MR. EVANS.  Could I ask what this looked like when the unemployment rate fell from, say, 5¼ down to 4.4 percent during those periods of relatively strong expansion.  Wouldn’t the relationship hold up. It’s not in the data that you’re looking at, but it’s a regularity.
+Does the passage contain contention or disagreement? Response from the model: Yes. There is disagreement in the passage. Mr. Evans is questioning whether the relationship between the unemployment rate and economic expansion holds up, while the speaker is only looking at the available data and not considering the potential regularity.
+
+
+Passage number 55.
+ MR. REIFSCHNEIDER. It tracks reasonably well through it.
+Does the passage contain contention or disagreement? Response from the model: No. The statement is simply describing that the tracking is reasonably good. There is no indication of contention or disagreement.
+
+
+Passage number 56.
+ MR. EVANS. I don’t think it’s just recessions and downturns.
+Does the passage contain contention or disagreement? Response from the model: No. The passage only contains a statement made by Mr. Evans without any contrasting views or disagreement included.
+
+
+Passage number 57.
+ MR. LACKER.  There’s that research paper by Jon Hilsenrath in yesterday’s Wall Street Journal. That scatterplot suggests a more robust relationship.
+Does the passage contain contention or disagreement? Response from the model: No.
+Explanation: The passage is simply stating a fact about a research paper published in the Wall Street Journal. There is no indication of any disagreement or contention.
+
+
+Passage number 58.
+ MR. EVANS. We bring more than just our knowledge of the picture to the question.
+Does the passage contain contention or disagreement? Response from the model: No. This passage does not contain any contention or disagreement. It simply states that "We bring more than just our knowledge of the picture to the question."
+
+
+Passage number 59.
+ MR. REIFSCHNEIDER.  Well, in estimating these things, you can estimate it over the last 30 years, or you can estimate it over a longer period, and as Bill was alluding to and as you were alluding to, you can get hints in the more recent episodes that the cyclical dynamics may have changed some. But in any event, you can go back over, say, the last 30 years and the relationship fits reasonably well—as President Evans was saying—in those periods when it wasn’t a recession but the unemployment rate was going down to 4½ percent.  That said, your observation that a lot of the identification is given by recessions—well, that’s true for 95 percent of all estimates of cyclical dynamics we get. The recessions are where you get a lot of identification, as the unemployment rate moves. CHAIRMAN BERNANKE.  President Plosser.
+Does the passage contain contention or disagreement? Response from the model: No. The passage does not contain any contention or disagreement. The speaker simply presents different perspectives on estimating cyclical dynamics and acknowledges the role of recessions in identifying these dynamics.
+
+
+****************DISAGREEMENT DETECTED*******************Passage number 60.
+  MR. PLOSSER.  Yes, the same theme but going in a little different direction. I may not ask this question quite right, so maybe you’ll interpret it correctly and in a sensible way.  You posed the issue about, well, we’ve gotten stronger employment than we thought but continued weak growth—the issue we’ve been talking about.  So over the last several months—actually, most of the fall—we kept having revisions up in employment data.  They come out with an initial number, and there’s been this string of upward revisions.  When the GDP data come out, we see an upward revision in both income and unit labor costs.  We continue to get the pretty strong employment numbers into the first of the year.  I guess there will be another revision of GDP coming up later this month for the fourth quarter.  I understand the risks that you point out.  What I’m trying to ask is, at what point in your thinking about how the economy is evolving do you begin to shift your view about the forecast into a somewhat more positive framework. Is it going to take until we get final revisions of GDP to convince you that maybe growth was underestimated.  How much longer would you need of 250,000 jobs being created every month. I’m trying to understand where the staff’s tipping point is to begin to take a stronger path on board in your forecast, because right now, you seem to be inching it up, but with some reluctance.  So at what point, and how do you think about taking it on board more.
+Does the passage contain contention or disagreement? Response from the model: Yes, there is contention or disagreement in the passage. The speaker is questioning the Federal Reserve's reluctance to acknowledge the strong employment numbers and revise their forecast in a more positive direction. They are asking at what point the staff will accept the evidence of strong job creation and adjust their forecast accordingly.
+
+
+Passage number 61.
+ MR. WASCHER.  Right.  I think we see the tensions as pretty wide this time, and we are fairly uncertain.  What we haven’t seen that we’d like to see is a little more strength on the spending side, the incoming spending data.  The big GDP revisions we’ll get will be in late July when they do the annual revision, and then we’ll know more about 2011 and whether that ends up getting revised up more or not.  But I think we’ve been reluctant to move up the forecast very much just because we haven’t seen the strength in consumer spending, in particular, and in final demand, in general, that we feel we need to justify a stronger growth forecast going forward.
+Does the passage contain contention or disagreement? Response from the model: No. The passage does not indicate any contention or disagreement. It simply discusses the uncertainty and lack of strength in spending data.
+
+
+Passage number 62.
+MR. PLOSSER.  So in that context, you’re really going to be focusing on the spending side.
+Does the passage contain contention or disagreement? Response from the model: No. There is no contention or disagreement in this passage. The speaker, Mr. Plosser, is simply stating that the focus will be on the spending side.
+
+
+Passage number 63.
+ MR. WASCHER. I think that’s right.  Again, as I noted, we’re really uncertain if our story is right in terms of firms doing some catch-up hiring to make up for the big job cuts earlier. That could still be going on, and I would think we’re weighing that as a possible risk. That itself will generate some income gains and some additional consumption, but we’d like to see more support from the spending data in terms of our baseline forecast.  We have, obviously, put in an upside-risk forecast in the Tealbook as an alternative simulation, which I think could be something that’s going on and that we just haven’t picked up yet.  But from the perspective of our baseline forecast, we’ve basically been reluctant to move up a lot because of the lack of supporting information on the spending side.
+Does the passage contain contention or disagreement? Response from the model: No. The passage does not contain any contention or disagreement. The speaker is discussing their uncertainty and the lack of supporting information on the spending side, but there is no disagreement or argument being presented.
+
+
+Passage number 64.
+ MR. REIFSCHNEIDER. Just to build on what Bill said, when we put the forecast together and we were deciding how much to revise down potential output to try to make the story hang together more, we could have gone further to try to better align what we saw on the employment side with the spending side, but we didn’t, in part because we were implicitly putting weight on the idea that we could get data revisions.  But, say, come this summer when the BEA does its annual benchmark, we could easily find ourselves having higher output in 2011 than we saw.  So we definitely did not dismiss that possibility.  We’re putting some sort of probability on that event.  We would not be shocked to find out that GDP did grow more strongly in 2011 than the published data now show.  If we had dismissed that entirely, we probably would have had to revise down potential GDP even more.  So we were trying, I think, to do that filtering exercise that you’re describing.
+Does the passage contain contention or disagreement? Response from the model: No. The passage states that the authors did not dismiss the possibility of higher output in 2011, suggesting consensus rather than disagreement.
+
+
+Passage number 65.
+ MR. WASCHER.  Just one more thing, Dave. I think we still also see significant headwinds facing the economy.
+Does the passage contain contention or disagreement? Response from the model: No. The passage does not contain contention or disagreement. It simply states the opinion of Mr. Wascher that there are significant headwinds facing the economy.
+
+
+****************DISAGREEMENT DETECTED*******************Passage number 66.
+ MR. REIFSCHNEIDER. Yes.
+Does the passage contain contention or disagreement? Response from the model: Yes, there is contention or disagreement in the passage. This is indicated by the response of "yes" to the question. However, the excerpt does not provide any specifics about what the disagreement is about.
+
+
+Passage number 67.
+ MR. WASCHER. So, again, as I mentioned, the uncertainty about Europe, the problems in the housing market, only slow improvement in credit markets, the big fiscal restraint that looks as though it’s going to come on next year—that suggests to us that a moderate pace of recovery is our best baseline forecast. CHAIRMAN BERNANKE.  Thank you.  President Kocherlakota.
+Does the passage contain contention or disagreement? Response from the model: No. There is no contention or disagreement in this passage. It is a statement of the speaker's opinion and forecast for the future based on various factors.
+
+
+Passage number 68.
+ MR. KOCHERLAKOTA.  Yes, I wanted to follow up on this line of questioning, which I think is quite interesting. In some sense, what you’re trying to do is to figure out how much is supply, how much is demand.  That’s a very loose way of characterizing things.  My question is, to what extent do you think about the performance of your inflation forecast relative to actual inflation when you’re thinking about your revisions for potential output.  As I look at page 34 of the Tealbook A, which tracks the evolution of the staff’s forecast, unemployment doesn’t look that bad.  On real GDP, the economy has underperformed relative to what the staff forecast, and inflation has been higher than what the staff forecast. So, to make my question sharp, to what extent does the behavior of inflation enter into your thinking about what potential output is.
+Does the passage contain contention or disagreement? Response from the model: No. There is no contention or disagreement in the passage. The speaker is asking a question and seeking clarification, but there is no opposing viewpoint or conflicting statement.
+
+
+Passage number 69.
+ MR. WASCHER.  It does enter in.  I think the problem is that taking much signal from inflation is difficult because the Phillips curve that we use is so flat.
+Does the passage contain contention or disagreement? Response from the model: No. There is no contention or disagreement in this passage. The speaker is expressing their opinion and explaining that taking a signal from inflation is difficult due to the flat Phillips curve used for analysis.
+
+
+Passage number 70.
+ MR. KOCHERLAKOTA. It’s very flat, isn’t it.  Yes.
+Does the passage contain contention or disagreement? Response from the model: No. 
+
+Explanation:
+The passage simply states a fact, that the mentioned thing is very flat. It does not express any disagreement or contention.
+
+
+Passage number 71.
+ MR. WASCHER. It’s hard to know.  There are other things that are affecting inflation as well. I think it’s just hard to know how much signal to take from that.  So we do look at it; it is part of our system in terms of estimating potential output.
+Does the passage contain contention or disagreement? Response from the model: No. The passage does not indicate any contention or disagreement. It simply presents the speaker's viewpoint and acknowledges that there are other factors affecting inflation in addition to the one being discussed.
+
+
+Passage number 72.
+  MR. KOCHERLAKOTA.  Bill, how flat is it.  You’ve probably told me this before.  On page 30, you have the box “Framework for Board Staff Inflation Projections.” What’s the beta in that regression.
+Does the passage contain contention or disagreement? Response from the model: No. There is no contention or disagreement in the passage. The speaker is simply asking a question about a specific piece of information from the mentioned page.
+
+
+Passage number 73.
+ MR. WASCHER. The beta in the regression that was actually used to do the simulations is 0.065.
+Does the passage contain contention or disagreement? Response from the model: No. This passage does not mention any disagreement or contention. It simply states a fact about the beta value used in a regression for simulations.
+
+
+Passage number 74.
+ MR. KOCHERLAKOTA.  Okay.
+Does the passage contain contention or disagreement? Response from the model: No. There is no contention or disagreement in this passage.
+
+
+Passage number 75.
+ MR. WASCHER.  But I think that’s a little bit hard to interpret. It depends on the lag structure.  In a model that has longer lags of inflation, it’s something closer to 0.2.
+Does the passage contain contention or disagreement? Response from the model: No. 
+
+Explanation: There is no contention or disagreement in this passage. The speaker is simply expressing their opinion and offering a different interpretation based on the lag structure of the model.
+
+
+Passage number 76.
+ MR. REIFSCHNEIDER.  There’s another point, I think, worth mentioning on page 34, which shows the evolution of the change in our forecast over time.  I think it’s fair to say that if you went back to the forecasts that were made in 2010, the weights we were putting on different models have evolved since then.  And so the model that we are putting the most weight on now is the one that’s described in the box, which I would describe as saying, look, longer-run inflation expectations are very well anchored. If you go back to 2010, we allowed much more scope to the idea that longer-run inflation expectations would get dragged down in the course of this deep recession.  As we went through the course of 2010, we didn’t see that happen.  We go into 2011, and expectations just stayed remarkably flat no matter what. And so we’ve implicitly shifted our weight.  If you look at that picture, I think that’s a major effect on our thinking.  Plus, there were also incoming data at the time and that sort of stuff.  But at that time, we were thinking that we would end up at 1 percent, as opposed to, once we were in 2011 and today, thinking that it’s just remarkable how well anchored expectations are and that we will tend to—I won’t call it levitate up—just gravitate back to 2 percent as the economy comes out of the slump.  We really upped our weight on that view of the world.
+Does the passage contain contention or disagreement? Response from the model: No.
+
+
+Passage number 77.
+  MR. KOCHERLAKOTA.  Thanks. CHAIRMAN BERNANKE.  President Lacker.
+Does the passage contain contention or disagreement? Response from the model: No. The passage does not indicate any contention or disagreement. It simply features someone thanking President Lacker, without any conflicting statements or opinions.
+
+
+Passage number 78.
+ MR. LACKER.  I’d like to follow up on this, if I could, Mr. Chairman.  So despite the evolution you just described, you still are forecasting inflation to return to 1½ pretty soon and stay there a while.  From this box, this analysis on pages 30 and 31, I take it that’s because the size of the gap trumps the stability of expectations still.  Is that correct.
+Does the passage contain contention or disagreement? Response from the model: No. The passage does not contain contention or disagreement. The speaker is seeking clarification and confirming their understanding of the information presented.
+
+
+Passage number 79.
+ MR. WASCHER.  I think that over the 2012–13 period, it’s partly that the gap is still so very large. It’s also the fact that any pass-through from imported energy prices is expected to fade, and so that pushes core inflation back down. If you look at the extension going out farther, it drifts up toward 2 percent as the gap continues to close.
+Does the passage contain contention or disagreement? Response from the model: No, there is no contention or disagreement in this passage. The speaker is simply explaining the reasons why the gap in inflation is expected to close.
+
+
+****************DISAGREEMENT DETECTED*******************Passage number 80.
+ MR. LACKER.  Is expected inflation around 2.
+Does the passage contain contention or disagreement? Response from the model: Yes, there is contention in the passage. The speaker is presenting an assertion about the expected inflation rate, but we do not know if there is agreement or disagreement about this statement.
+
+
+Passage number 81.
+ MR. WASCHER.  Yes.
+Does the passage contain contention or disagreement? Response from the model: Explanation: Without the full context of the passage, it is difficult to determine whether there is contention or disagreement in this statement. The answer could be yes if it is implying agreement with a previous statement or no if it is simply acknowledging that the speaker is present and ready to speak.
+
+
+Passage number 82.
+ MR. REIFSCHNEIDER.  Yes.
+Does the passage contain contention or disagreement? Response from the model: No. There is no apparent contention or disagreement in the passage as it only mentions someone responding with "Yes." In this context, "Yes" indicates agreement or affirmation rather than disagreement.
+
+
+Passage number 83.
+ MR. LACKER.  So I would expect that the fading of those things leads it to go to 2, not to something below 2.  Something is pushing it below 2, right.
+Does the passage contain contention or disagreement? Response from the model: No. There is no contention or disagreement in this particular passage. The speaker is making a statement and seeking clarification, not expressing disagreement or contention.
+
+
+Passage number 84.
+ MR. REIFSCHNEIDER.  Right, it’s because of the high level of the gap.  So that’s holding down compensation and marginal costs and so on and so forth, and that’s keeping inflation subdued.  But as that fades, you go back to 2 percent. In terms of thinking about the forecast, if you thought that there was less slack than we estimate in the forecast, or alternatively, if you thought the unemployment rate was going to come down a lot faster, you would have a different inflation forecast, assuming that you had our model.  If you had a different model, you’d have another, different inflation forecast. CHAIRMAN BERNANKE.  Vice Chairman.
+Does the passage contain contention or disagreement? Response from the model: No. There is no contention or disagreement in this passage. The speaker is simply discussing different factors that could affect inflation forecasts.
+
+
+Passage number 85.
+ VICE CHAIRMAN DUDLEY.  It doesn’t seem like an unreasonable forecast to me because if you look at labor compensation costs, they’re very subdued.  Average hourly earnings is about 2 percent year over year.  The employment cost index is running about 2¼ percent year over year.  Put in any reasonable productivity number—1, 1½ percent—and you’re going to get labor costs rising at 1 percent a year. So it seems completely reasonable that if the oil price pressures were to abate, you could see inflation somewhat below 2 percent for a while.
+Does the passage contain contention or disagreement? Response from the model: No, there is no contention or disagreement in this passage. The speaker presents a reasonable forecast for inflation based on labor compensation costs and suggests that inflation could be below 2 percent if oil price pressures decrease.
+
+
+Passage number 86.
+ MR. PLOSSER.  Just a quick clarification. CHAIRMAN BERNANKE.  President Plosser.
+Does the passage contain contention or disagreement? Response from the model: No. 
+
+Explanation: The passage is a statement or question from Mr. Plosser, which does not indicate any contention or disagreement.
+
+
+****************DISAGREEMENT DETECTED*******************Passage number 87.
+ MR. PLOSSER.  Your assumptions about the behavior of oil prices and commodity prices—you’re forecasting core and not headline, in some sense.  I have two questions.  One is, how do you then construct your headline forecast.  And, two, in the Phillips curve model that you have here, regarding the shocks to oil and commodities that may enter into this as special factors, do you assume they are zero-mean shocks, or do they have a mean that’s different than zero. In principle, if your inflation forecast was 2 percent and that was your target, and you treated the inflation movements as a zero-mean-distribution variable, you may have the wrong mean for the distribution of those shocks.  So I’m wondering how those two things interact and then, ultimately, how you construct your headline PCE forecast.
+Does the passage contain contention or disagreement? Response from the model: Yes, there is some contention or disagreement in this passage. Mr. Plosser is questioning the assumptions and methodology used by the speaker regarding oil and commodity prices, as well as the impact of shocks on inflation forecast. He raises concerns about the construction of the headline forecast and the assumption of zero-mean shocks, suggesting that it may lead to an incorrect mean for the distribution of those shocks. Therefore, there is disagreement and questioning of the speaker's approach.
+
+
+Passage number 88.
+ MR. WASCHER. To start at the latter question, the headline forecast is, basically, we make a projection of consumer food prices and consumer energy prices.
+Does the passage contain contention or disagreement? Response from the model: No. The passage is simply stating the actions or tasks performed by Mr. Wascher, without suggesting any disagreement or contention.
+
+
+Passage number 89.
+ MR. PLOSSER.  And then add it to your forecast.
+Does the passage contain contention or disagreement? Response from the model: No, there is no contention or disagreement in this passage. It is a straightforward statement suggesting an action to be taken.
+
+
+Passage number 90.
+ MR. WASCHER.  And then we add it to the core figures.
+Does the passage contain contention or disagreement? Response from the model: No.
+
+
+Passage number 91.
+ MR. PLOSSER.  Okay.
+Does the passage contain contention or disagreement? Response from the model: No. 
+
+Explanation: The passage does not provide enough information to determine if there is contention or disagreement.
+
+
+Passage number 92.
+ MR. WASCHER. In terms of the pass-through of commodity price shocks or energy price shocks, we use relative price shocks—that is, changes in energy prices relative to core.
+Does the passage contain contention or disagreement? Response from the model: No
+
+There is no contention or disagreement in this passage. The speaker is simply explaining their approach in using relative price shocks for pass-through of commodity price or energy price shocks.
+
+
+Passage number 93.
+ MR. PLOSSER. Great—thank you. CHAIRMAN BERNANKE.  Are we ready to start our go-round.  Why don’t we start with the Vice Chairman.
+Does the passage contain contention or disagreement? Response from the model: No. There is no contention or disagreement in the passage. The speaker is simply suggesting to start a conversation with the Vice Chairman.
+
+
+****************DISAGREEMENT DETECTED*******************Passage number 94.
+ MR. ROSENGREN.  Thank you, Mr. Chairman. The data since the last meeting are consistent with improved financial market conditions and continued progress in labor markets.  On the other hand, the spending data have been very weak.  How should we reconcile these differences.  Focusing on financial and labor market conditions, one might conclude that the recovery is gaining traction and that spending will improve as higher personal income and wealth lead to a virtuous cycle that propels us more quickly than the Tealbook forecast to full employment.  Alternatively, a focus on the weak spending data would imply that the improvement in incoming data is temporary and the recent improvements in labor and financial market data are not sustainable if the economy continues to grow at only a 2 percent rate. It may take several quarters before we know which perspective better reflects the current economy. I am certainly hopeful that we are finally beginning to see a more robust recovery. Financial market conditions are clearly improving.  Some of the recent improvements reflect the removal of significant imminent downside tail risk.  At least for now, Europe seems to have reduced the risk of a Lehman moment that had seriously hampered investors’ willingness to commit to a better outlook.  The S&P 500 has risen roughly 8 percent since the beginning of the year.  Bond spreads and CDS spreads have improved.  Bond issuance has been strong.  The financial market recovery has gathered steam and reflects increased optimism about the likely economic outcomes.  However, my enthusiasm is tempered by the fragility of some of the financial pillars, particularly the outlook for Europe.  Peripheral European countries seem to be consistently missing deficit projections, rising unemployment in many European countries threatens both economic and political stability, and there is significant concern that the improvement in financial fundamentals is primarily due to special central bank actions, not changes in the fundamentals of these economies. Labor market conditions have also improved.  Firms seem more confident that the domestic economy is on the mend, which is reflected in the improved payroll employment numbers over the past three months.  Again, however, there are reasons to be cautious.  While residential investment seems to be improving, construction employment declined in February. Government employment in February declined by only 6,000 jobs, but future government cuts remain quite likely and raise the possibility of looming additional cuts in government employment.  Furthermore, the employment-to-population ratio for those aged 25 to 34 in February was 74.7, still more than 4 percentage points lower than it was four years ago.  Finally, these employment figures can turn around quickly if demand doesn’t follow suit soon.  Just witness the beginning of last year. And the spending data have been disappointing.  Since the start of the recovery, real final sales have been growing at only a 1.7 percent rate, not much different than what I expect for this quarter.  However, there are reasons to be optimistic.  Housing and state and local spending, two sectors that have been unusually weak during this recovery, are showing some tentative signs of life.  The improved employment growth and increased equity prices should, I hope, help support consumption, which, outside of the purchase of autos, has remained quite weak.  Furthermore, if firms start hiring, it may be that we will see more business fixed investment than I currently expect. In summary, financial markets and recent employment numbers make me hopeful, but I would be more convinced once we see more evidence of a robust recovery in spending.  Thank you, Mr. Chairman. CHAIRMAN BERNANKE.  Thank you.  President Fisher.
+Does the passage contain contention or disagreement? Response from the model: Yes. The speaker is presenting two different perspectives on the current state of the economy - one focused on the improved financial and labor market conditions and the other focused on the weak spending data. The speaker is unsure which perspective better reflects the current economy.
+
+
+Passage number 95.
+ MR. KAMIN.  We’ve heard complaints from Mexican officials about that, too.
+Does the passage contain contention or disagreement? Response from the model: No. 
+
+Explanation: The passage does not contain any contention or disagreement. It simply mentions that complaints have been received from Mexican officials.
+
+
+****************DISAGREEMENT DETECTED*******************Passage number 96.
+   MR. FISHER.  Yes.  It’s not just from Mexico, though, if you talk to the shippers, for example, which I find interesting. And then, lastly, I think we should probably drill further down in terms of the real effects outside the financial contagion aspect because it’s still not clear to me how much, in terms of trade of goods and services, is with the PIIGS.  Our numbers show it’s a very small amount.  And of course, you have to take into account Rotterdam as a distribution point.  But mainly U.S. exports to Europe, which are 13 percent or so of our exports or whatever the number may be— roughly five-sixths of that goes to the core countries and not to the peripherals.  So I would like to spend some more time on those data.  I don’t wish to discuss it now, but I think we still have an amorphous concern.  You hear less about it with the CEOs and business operators.  It’s very ill defined.  And I don’t want to hang too much of my hat on the downside risk of Europe.  It’s a risk, but we can’t quite put our fingers on exactly what that risk is.  Thank you, Mr. Chairman. CHAIRMAN BERNANKE.  Thank you.  President Lockhart.
+Does the passage contain contention or disagreement? Response from the model: Yes. The speaker expresses uncertainty and a lack of clarity regarding the potential effects of the European financial crisis on trade and exports.
+
+
+Passage number 97.
+ MR. LOCKHART.  Thank you, Mr. Chairman.  In the Sixth District, grassroots intelligence suggests more upside potential than is evident in the accumulating data, which themselves have been, on balance, positive and encouraging.  In our most recent cycle of contacts, we heard quite upbeat statements on current conditions and expectations.  Most reports on consumer spending were positive, certainly stronger than the January data indicated.  Sales of home appliances, furniture, and autos were described as especially strong.  Reports by firms of rising order books were consistent with improving measured manufacturing activity in the Southeast.  We heard reports of an uptick in corporate interest and business fixed investment projects, and more of this activity seems to be capital expansion aimed at growth opportunities as opposed to replacement. Lending activities by banks, while still soft, are growing, and especially   lending by larger regional banks to larger companies.  Bankers reported that credit quality of applicants is improving, and businesses noted that availability of credit has improved.  While there is growing optimism, we heard expressions of continuing caution, especially from small and mid-sized businesses.  The reports we heard suggest that businesses continue to carefully weigh all decisions that add to the cost base.  So even though performance and outlook may be improving, we heard that this may not translate into new hiring in the near term for many firms. Turning to the national outlook and the comparison of my forecast to that of the Tealbook, Atlanta’s economic growth projection and the Board staff’s are now essentially the same after the modest upward revision in this meeting’s Tealbook.  We differ from the Tealbook outlook as regarding inflation.  We in Atlanta are more confident of measures of inflation rising to the Committee’s target. We see less influence of economic slack as a restraint on the underlying price trend.  My outlook projects headline and core inflation near our 2 percent objective over the near and medium terms.  In support of this view, it’s worth noting that we heard mention of potential bottlenecks in a number of industries from our pre-meeting business contacts.  We heard growing expectations of price increases coming soon if the upside potential to economic activity materializes.  One of my directors said that prices can be characterized as a coiled spring.  The idea is that businesses that have heretofore been suffering margin squeeze will react quickly to raise prices if the recovery accelerates and demand picks up noticeably. That said, most do not feel they have much pricing power in the current environment. As regards the balance of risks to both economic growth and inflation, I am inclined not to provide a single view that nets the upside and downside factors.  Rather, I am thinking in terms of risk around a base-case scenario and then an additional assessment incorporating tail risk. In my base case, the evidence that economic activity appears to be gaining strength and   scope leads me to a view that there is upside potential over and above my current growth outlook.  As suggested earlier, I also see some upside risk in the inflation outlook.  As regards tail risk, I see less possibility of a financial event emanating from Europe, triggering instability here with a knock-on effect on the real economy.  But the potential for an oil price spike and other disruptive effects tied to geopolitical developments in the Middle East represents a significant and intensifying risk to my outlook.  Thank you, Mr. Chairman. CHAIRMAN BERNANKE.  Thank you.  President Evans.
+Does the passage contain contention or disagreement? Response from the model: No, there is no contention or disagreement in this passage. The speaker is providing information and analysis based on their own observations and opinions.
+
+
+Passage number 98.
+ MR. EVANS.  Thank you, Mr. Chairman.  The reports from my nonfinancial business contacts continue to be positive.  Much of their commentary began with the statement, “It’s like I discussed last time.”  The reports were good, but they generally were not yet of the kind we’d expect if we were in the midst of a truly significant acceleration in activity.  The possible exception was those comments from the automakers, though, where the recent increases in sales and production were better than the improvements they had been expecting.  Their sales forecasts for 2012 have been up to about 14.5 million units, and they have visions of reaching, before too long, the trend line in sales, which they now estimate at about 15½ million units.  And the equipment manufacturers also continue to do very well.  Global demand for agricultural, mining, and simply dirt-moving equipment remains strong, although there are signs of nervousness about markets in Latin America and China.  Until this round, whenever I asked business contacts if they saw Europe slowing, they generally responded that they were nervous, but they had not yet experienced any slowing in their demand there.  However, this time, most contacts with a presence in Europe cited some deterioration in those business lines.  But they were not seeing anything dramatic, and everyone was hopeful that the most recent European policy actions would prove effective.   Our Chicago financial market contacts were quite upbeat this round.  Concerns about a financial crisis emanating from Europe have abated.  Conditions have improved in corporate credit markets, especially for high-yield bonds and in the secondary market for leveraged loans.  In general, financial participants reported a greater appetite for risk-taking.  So far, however, the risk-taking seems reasonably well controlled, and markets do not appear to be especially frothy. Turning to the outlook, the continued improvements in labor markets are extremely welcome.  More-upbeat consumer sentiment and a greater degree of optimism in financial markets also help.  However, as the Tealbook describes quite well, the good news does not seem to be translating into robust GDP growth over the next few quarters, and I share the concerns of Vice Chairman Dudley and President Rosengren on that count.  In my opinion, we should avoid complacency and the trap of lower expectations. Growth rates that are simply trend-like, or a little better, are nowhere near satisfactory.  Our policy hole continues to be enormous.  The Tealbook’s rather conservative analysis now puts the output gap at 5 percent 33 months after the trough of the Great Recession.  The outlook is seriously inconsistent with our mandate, in my opinion.  GDP growth at 2 percent in the first half of this year makes no progress in closing the output gap, and the pickup in growth that we are projecting after that is so modest that the gap is still 3 percent at the end of 2014.  The Tealbook analysis works hard to provide a fair and balanced approach to estimating the output gap.  Yes, there is uncertainty, but that doesn’t mean the gap is zero.  Uncertainty also means it could be larger.  The Tealbook’s potential output analysis is supported by the lack of inflation projections above our long-run objective; I share that view of projected inflation.  Putting all of this together, it seems like a pretty heavy burden to convincingly demonstrate that the output gap today is much smaller than 5 percentage points, and that it will be acceptably small by late 2014. Thank you, Mr. Chairman.   CHAIRMAN BERNANKE.  Thank you.  President Bullard.
+Does the passage contain contention or disagreement? Response from the model: No. The passage does not contain any contention or disagreement. It mainly consists of the speaker's observations and analysis of various business reports and market conditions.
+
+
+Passage number 99.
+ MR. PLOSSER.  Thank you, Mr. Chairman.  Economic activity in the Third District continues to improve.  Our state-coincident indicators show increased activity in each of our three states, and our leading indexes convey an accelerating pace for future activity. Benchmark revisions have slightly improved the labor market picture in Pennsylvania and have significantly improved it in Delaware, whereas New Jersey has been more neutral. Further, many of our contacts in the District appear to be noticeably more optimistic.  Manufacturing activity in the Third District as captured by our Business Outlook Survey continued to expand in March following a string of positive values that began in October after the summer retrenchment.  The March data to be released on Thursday—which, by the way, are not final yet—are likely to show a number similar to, or maybe slightly less than, the February data. Indexes for new orders will be close to zero after very strong numbers in February, indicating that activity in March was similar to that in February.  The employment index suggests further expansion of employment activity.  Also, we are heartened that we continue to see strong readings on our future indexes. These indexes remain at levels consistent with historically strong growth in our region.  General activity, shipments, and new orders are all expected to grow over the next six months.  The improved sentiment we hear among manufacturers is also present more generally. I’ve been surprised by the more upbeat expectations of many of our business contacts, including, believe it or not, some builders.  Building permits have recently shown a small uptick in our region, but the industry remains very depressed.  Some of the optimism in this sector is due to increased activity in January, but, as many people have pointed out, that may be somewhat weather related. In anyevent, I’m getting a very different reading from contacts concerning expectations of future activity. Whether that sentiment is just wishful thinking or a general response to real indicators is not entirely clear, but it is worthy of note that it is quite different from what we’ve seen over the past year. The latest data on U.S. labor markets have led me to be more confident concerning my outlook for the economy.  My January forecast in the SEP was for 3 percent GDP growth in 2012 and the unemployment rate declining about ½ percent to 7.8 percent by the end of the year, one-half of the decline that we experienced this past year, while the Tealbook sees virtually no improvement in unemployment at all this year.  Job growth is solid, and I’m more confident that labor markets will continue to exhibit some strength going forward.  Indeed, my unemployment rate forecast may prove to be too pessimistic, but even if growth in the labor force partially offsets stronger growth in employment and the unemployment metric, the employment numbers themselves, both in the household survey and establishment survey, have been strong and broad based in recent months.  Combined with the current growth in unit labor costs that we heard about for the last quarter of last year, and reinforced by steady upward revisions we have seen in both employment figures and measures of personal income, it appears that the necessary foundations for a stronger consumption growth are improving.  The recent strength in automobile purchases, I think, is just one ramification of the improved household economic fundamentals.  Thus, I remain more optimistic than the Tealbook, which seems to me unduly pessimistic.  Even after their what I would call imperceptible upward revisions in the outlook since January, it remains near the bottom of the projections of FOMC participants.  Even so, the staff’s evolving view has led them to bring forward the beginning of monetary tightening by about six months.  Regarding inflation, I am growing more concerned that it will begin to accelerate at some point rather than decline as the Tealbook continues to indicate in its projections.  As I said, unit labor costs have grown, and the staff has reduced its forecast for labor productivity.  Taken together, these two features imply a rising marginal cost and increasing price pressures in the standard New Keynesian paradigm. I am, therefore, increasingly uncomfortable with the idea that accommodative policy will have little or no consequences for the inflation outlook. To summarize, I’ve been more optimistic than the Tealbook about the strength of the economy and a little more worried about price pressures going forward for a while, but that discrepancy may be widening as the staff forecast continues to downplay recent improvements.  We have been misled before with a “false dawn,” and we can’t be entirely certain it won’t happen again if the world slips into recession because of events in Europe or some other unanticipated shock.  And, by the way, with respect to Europe, I do believe that while there remain risks in Europe, the likelihood of the financial meltdown scenario seems to have been substantially reduced.  Broadly, I think the tail risks of a weakening world economy and a blowing up of Europe, in general, are much lower now than they were in our last two meetings.  In general, then, I think that the staff forecast actually poses a risk that we could fall substantially behind the curve in the adjustment of policy.  Thank you, Mr. Chairman. CHAIRMAN BERNANKE.  Thank you.  President Williams.
+Does the passage contain contention or disagreement? Response from the model: No. The passage does not contain any contention or disagreement. It is mainly a summary of the speaker's observations and opinions about the state of the economy.
+
+
+Passage number 100.
+ MR. KOCHERLAKOTA.  She must be worried that interest rates are going up.  [Laughter] MS. DUKE.  Now, this is someone with a very informed forecast of economics.
+Does the passage contain contention or disagreement? Response from the model: No. The passage does not indicate any contention or disagreement. It includes a lighthearted comment and acknowledgment of the speaker's informed forecast.
+
+
+Passage number 101.
+ MR. FISHER.  It’s like the Case-Shiller index—we now have the “Yellen index.” [Laughter] MS. DUKE. I can’t believe I’m talking about this, I can’t believe I’m saying this, and it may embarrass me when these transcripts finally come out.  But I really believe that rising home prices and inventory shortages are an upside risk somewhere in our future, at least until the prices hit the level of replacement cost and builders are enticed to increase supply.  We aren’t there yet, but we could get there sooner than we think.CHAIRMAN BERNANKE.  You know it was the FOMC blackout period, don’t you. [Laughter]  Thank you.  Governor Tarullo.
+Does the passage contain contention or disagreement? Response from the model: No.
+
+
+Passage number 102.
+   MR. EVANS.  Mr. Chairman, after that very careful discussion about the labor market data, I’m reminded that I, in my own comments, put a lot of weight on the staff’s estimate of the output gap.  President Kocherlakota presented some very interesting and provocative observations on different measures of the unemployment rate.  I wonder if the Board staff has any thoughts about those distinctions between the unemployment rate of those unemployed longer than six months and under six months, and what that might portend for your gap analysis.
+Does the passage contain contention or disagreement? Response from the model: No. There is no contention or disagreement in this passage. The speaker is simply seeking the Board staff's thoughts on a specific topic.
+
+
+Passage number 103.
+ MR. WASCHER.  I think one way to think about it is whether short-term unemployment or longer-term unemployment have different effects on inflation.  When we look at the evidence on that, we don’t find much difference in the effects on inflation between longer-term unemployment and short-term unemployment.  President Kocherlakota’s story, if you focused on just under six months, would be consistent with an increase in structural unemployment and the NAIRU. In our own analysis, because we don’t find much difference between the effects on inflation of those different groups, we tend to focus more on the published unemployment gap as our measure of slack than on, say, the short-term unemployment gap.
+Does the passage contain contention or disagreement? Response from the model: No. There is no contention or disagreement in the passage. The speaker is discussing different ways of thinking about the effects of short-term and longer-term unemployment on inflation, but there is no disagreement expressed.
+
+
+Passage number 104.
+ MR. KOCHERLAKOTA.  I think it would be fair to say, though, that if you look at the historical evidence, it’s hard to find periods where we’ve seen such sharp differences in the behavior of those two series.
+Does the passage contain contention or disagreement? Response from the model: No. The passage does not indicate any contention or disagreement. It presents a statement about the difficulty in finding periods with sharp differences in the behavior of certain series based on historical evidence.
+
+
+Passage number 105.
+ MR. WASCHER.  I agree with that.  The long-term unemployment rate is really high right now, and Governor Tarullo’s point, I think, is well taken—that we could be seeing some sort of labor market damage resulting from that.  We don’t see much evidence of that yet in the data, but I would not rule that out.
+Does the passage contain contention or disagreement? Response from the model: No. In this passage, Mr. Wascher agrees with Governor Tarullo's point about the high long-term unemployment rate possibly causing labor market damage. Although there is a mention of not much evidence yet in the data, there is no explicit contention or disagreement.
+
+
+Passage number 106.
+ MR. EVANS.  So in terms of movement in and out of short-term versus long-term unemployment, do you see unusual behavior there.  Are they truly out of line.
+Does the passage contain contention or disagreement? Response from the model: No. There is no contention or disagreement in the passage. Mr. Evans is simply asking a question and seeking clarification or confirmation of whether there is unusual behavior or if things are out of line.
+
+
+Passage number 107.
+ MR. WASCHER.  Well, I think they’re out of line in the sense that long-term unemployment is still really high.  Layoffs have come down a bunch, and they’re at really low levels at this point, but we’re not seeing the hiring yet that one would need to see to bring down unemployment across the duration.
+Does the passage contain contention or disagreement? Response from the model: No. There is no contention or disagreement in this passage. The speaker is expressing their viewpoint about the current state of unemployment without contradicting any other perspective.
+
+
+****************DISAGREEMENT DETECTED*******************Passage number 108.
+ MR. EVANS.  I guess the question is whether or not entry and exit rates into those pools would necessarily differ.  It could be that they would more quickly adjust in the short term.
+Does the passage contain contention or disagreement? Response from the model: Yes, there is contention or disagreement in the passage. The speaker is suggesting that the entry and exit rates into the pools may or may not differ. They are unsure and presenting a different possibility than what may have been previously stated.
+
+
+Passage number 109.
+ MR. KILEY.  We tracked the data on exit rates that you’re referring to, and one might imagine, if people who were unemployed for a long time were having trouble exiting from unemployment and there were a structural problem, that the exit rate would be depressed. That exit rate is depressed, and it’s depressed for all groups.  That was true in the intense phase of the recession, and it’s still true.  We haven’t seen a recovery for some groups and not for others. CHAIRMAN BERNANKE.  Okay.  President Kocherlakota.
+Does the passage contain contention or disagreement? Response from the model: No. There is no contention or disagreement in this passage. Mr. Kiley and President Kocherlakota are discussing data on exit rates and both appear to agree on the observation that the exit rate is depressed for all groups, indicating a lack of recovery for some groups.
+
+
+Passage number 110.
+ MR. KOCHERLAKOTA.  I’ll just say one word about that.  I think those are very important observations to keep in mind, and it’s useful to bring them forward.  That said, one thing that’s hard to get a handle on from the historical data alone is how responsive exit rates from long-term unemployment are to monetary policy, as opposed to exit rates from short-term unemployment, because right now I think it’s a unique period in terms of how many people we have in the one group versus the other. CHAIRMAN BERNANKE.  President Lacker.
+Does the passage contain contention or disagreement? Response from the model: No. The speaker is agreeing with the previous observations and adding their own perspective on the topic. There is no clear contention or disagreement in this passage.
+
+
+Passage number 111.
+ MR. LACKER.  Mr. Chairman, you spoke about your tipping point for consumption and other components of spending as being growth rates rising notably above trend.  So I wondered if you’d comment on the prospect of growth continuing at about trend and a gradual but eventual decline in the unemployment rate. I have in mind here this broader difference of views around   this table—those who view the trend line that lies pretty close to where we were in 2006 and 2007 and extrapolate out from this as the norm we’re returning to, and those who think that we suffered a one-time downward level shock of some sort and that we ought to only expect growth at trend rates from here. CHAIRMAN BERNANKE.  That’s a good point. Implicit in my statement, which was an ad hoc statement, was the notion that if in fact economic growth stays at 2 percent, we will not see much improvement in unemployment going forward other than that attributable to the end of extraordinary unemployment insurance benefits.  If that turns out to be empirically wrong—that is, if we continue to have slow growth and declining unemployment—then obviously, there’s something wrong with my model and we’ll have to look at that. All right.  We have gotten now to item 3, “Current Monetary Policy.” We’re actually doing fine.  Thank you very much, everyone, for efficient use of time. I just would like to note at this juncture, though, that we do have, effectively, two monetary policy go-rounds today.  We have the first, which is focused narrowly on today’s action and today’s statement, and then we’ll have a broader discussion of communications and these issues going forward.  So let me ask you, in the interest of time and efficiency, if you can in the first round, to focus primarily on today’s statement and today’s decision.  Let me turn it over to Bill for an introduction.
+Does the passage contain contention or disagreement? Response from the model: No. The passage does not contain any contention or disagreement. It is discussing different views or perspectives about the future of economic growth and unemployment rates, but there is no explicit disagreement or argument between the speakers.
+
+
+Passage number 112.
+ MR. LOCKHART.  Thank you, Mr. Chairman.  My staff philologist charted the difference between “moderate” and “modest” over the last several meetings.  We had three meetings of “moderate,” then we went to “modest,” and now we’re back to “moderate.”  What’s the difference in your mind.
+Does the passage contain contention or disagreement? Response from the model: No, there is no contention or disagreement in this passage. The speaker is simply stating their observation and asking for clarification on the difference between two words.
+
+
+****************DISAGREEMENT DETECTED*******************Passage number 113.
+ MR. ENGLISH.  I think we made the adjustment because the staff had marked up the outlook for GDP growth—not a lot, but enough that it felt as though it was pretty close to growthof potential—and so it seemed moderate, not a little subpar, which is what we were meaning by “modest.” CHAIRMAN BERNANKE.  President Fisher.
+Does the passage contain contention or disagreement? Response from the model: Yes, there is disagreement in this passage. Mr. English's statement suggests that the adjustment was made due to the staff's expectation of GDP growth being close to potential growth and therefore considered moderate. However, President Fisher's response is not provided, so it is unclear if he agrees or disagrees with Mr. English's explanation.
+
+
+****************DISAGREEMENT DETECTED*******************Passage number 114.
+ MR. FISHER.  Bill, I noted one other thing that I don’t think you highlighted.  Maybe I didn’t hear it, but the last paragraphs of A and B talk about promoting “a stronger economic recovery in a context of price stability.”  A change in the last paragraph of C is its “objectives of maximum employment and price stability.” Why the difference.
+Does the passage contain contention or disagreement? Response from the model: Yes. There is contention or disagreement in the passage. Mr. Fisher points out a difference in language between the last paragraphs of A and B, and the last paragraph of C. He questions why there is a difference in the wording concerning the objectives of maximum employment and price stability.
+
+
+****************DISAGREEMENT DETECTED*******************Passage number 115.
+ MR. ENGLISH.  We thought in C, if your point was to begin removing policy accommodation, then you’d want that last sentence to be a little bit more balanced between your objectives of maximum employment and price stability.  The language at the end of paragraph 4 last time and in alternative B this time suggests that the adjustment would be to promote a stronger economic recovery.  So it would suggest that there maybe was a little concern about the pace of the economic recovery as opposed to inflation.
+Does the passage contain contention or disagreement? Response from the model: Yes. There is disagreement in the passage. The speaker, Mr. English, suggests that the language at the end of paragraph 4 and in alternative B suggests concern about the pace of the economic recovery as opposed to inflation. This differs from the previous point made, which stated that the adjustment would be to promote a stronger economic recovery.
+
+
+Passage number 116.
+ MR. FISHER.  But we’ve been using that language for a while.
+Does the passage contain contention or disagreement? Response from the model: No. There is no contention or disagreement in the passage. It simply states a fact about the use of a specific language without any conflicting opinions or arguments.
+
+
+****************DISAGREEMENT DETECTED*******************Passage number 117.
+ MR. ENGLISH. Yes.
+Does the passage contain contention or disagreement? Response from the model: Yes, there is contention or disagreement in the passage. This can be inferred from the fact that Mr. English says "Yes," which implies a disagreement or contradiction with something that was previously stated or asked.
+
+
+Passage number 118.
+ MR. FISHER.  Thank you. CHAIRMAN BERNANKE.  President Kocherlakota.
+Does the passage contain contention or disagreement? Response from the model: No.
+
+
+Passage number 119.
+ MR. KOCHERLAKOTA. I had exactly the same question as President Fisher.
+Does the passage contain contention or disagreement? Response from the model: No. 
+
+There is no contention or disagreement in the passage. The speaker, Mr. Kocherlakota, states that he had the same question as President Fisher, indicating agreement or alignment in their thinking.
+
+
+Passage number 120.
+ MR. FISHER.  That’s good. Great minds. CHAIRMAN BERNANKE. Other questions.  [No response] If not, why don’t we begin our go-round with President Williams.
+Does the passage contain contention or disagreement? Response from the model: No. There is no contention or disagreement in this passage.
+
+
+****************DISAGREEMENT DETECTED*******************Passage number 121.
+ MR. WILLIAMS.  Thank you, Mr. Chairman.  I support alternative B.  I would, however, like to offer a suggestion for a small modification to the language in the statement   regarding the expected timing of liftoff, and I’ll return to that momentarily. We talked a lot here about simple policy rules, and the Tealbook talked about simple rules in coming up with its own interest rate forecast.  And prescriptions from simple rules can be a useful guide to formulating monetary policy.  I particularly like the outcome-based and the Taylor 1999 rules as good examples of simple rules. But I do think it’s important in the current situation that such simple rules, taken on their own, ignore two important issues:  the LSAPs and the zero lower bound.  LSAPs provide significant monetary stimulus, which can substitute for some conventional monetary accommodation.  So the LSAP program may suggest a higher funds rate path than a simple funds rate rule would recommend otherwise. I say “may” here because I agree with the fine memo by Ed Nelson and John Roberts that an LSAP adjustment is not as straightforward as, and is likely smaller than, the simple correction usually made. Indeed, I would like to see further work along these lines, and it may provide greater clarity in how to best adjust a simple rule for the effects of LSAPs.  Second, and I think much more important, these simple policy rules ignore the zero lower bound.  Research by Gauti Eggertsson and Mike Woodford, Dave Reifschneider and myself, and many others have looked at monetary policy rules and how they should be modified in the context of the zero lower bound.  And the results show consistently that it’s optimal to deviate from the usual simple policy rule and keep the funds rate lower than otherwise for a longer period of time.  Such deviations capture some of the gains of the optimal commitment policy or the nominal GDP targeting policy described in the other memo. This is largely why, relative to the simple rules in the Tealbook, I’m comfortable with a late 2014 liftoff in our current policy guidance.  That said, the hurdle for making changes to the liftoff date from meeting to meeting should not be high.  So I’m taking a different position than Bill outlined in his presentation.  We have conveyed to the public that the projected policy liftoff   date will change when conditions change.  In keeping with that principle, I would prefer small adjustments that appropriately signal changes in the outlook.  For example, from the conversation that we had today, and in the Tealbook, there’s slightly less slack in our projections than before, and many, I think, have slightly higher inflation projections than they had before. So I suggest that the statement should note our intention to maintain a low funds rate at least “until” late 2014 rather than “through” 2014.  Now, this is a very modest change, but one of the ideas here is that we should not have a high hurdle, in general, and I don’t think it would be useful to get into a situation where we modify the language only on very big steps.  Thank you. CHAIRMAN BERNANKE.  President Lacker.
+Does the passage contain contention or disagreement? Response from the model: Yes, there is disagreement in this passage. Mr. Williams says he supports alternative B but then suggests a modification to the language regarding the expected timing of liftoff. Additionally, he takes a different position than Bill outlined in his presentation.
+
+
+Passage number 122.
+ MR. LACKER.  Thank you, Mr. Chairman.  As I indicated in our earlier go-round, a lot of us have said, and you summarized very well, that the outlook for real growth has improved a notch since our last meeting.  My reading of the real data, similar to the staff, is that our forward momentum has picked up a notch, and we face less by way of downside risks than before.  Core inflation seems quite close to 2 percent now, and that’s my expectation going forward—that it’s going to hover around 2 percent in the near term. I, like the Tealbook, brought forward my estimate of the time period at which it’s most likely that our first rate increase will occur.  As I said at the last meeting, it was in the latter half of 2013.  Now I think middle of 2013 would characterize where I am on that dimension. In thinking about the statement, I want to buttress the recommendation of President Williams.  I think it’s useful to compare forward guidance language, and how we think about setting that at every meeting, with interest rate setting.  In particular, it’s useful to really think about this well-documented characteristic that our policy-setting displayed away from the zero bound, which is interest rate smoothing.  This is the idea that our interest rate changes tend to be in a sequence in the same direction, they tend to be persistent, and they’re seldom reversed.  So we strive to avoid raising rates and then at the next meeting cutting them, or cutting rates and then at the next meeting raising them.  Now, this has an obvious advantage to us in that if we behave that way over time, then any given interest rate change conveys much more information relevant to the yield curve.  The yield curve moves more, because a given interest rate change conveys much more information about future settings of the short-term rate. In contrast, you could picture us at every meeting ignoring the current setting for the funds rate and, with a blank sheet of paper, deciding on our optimal rate—deciding anew, as if we had no history before us of what we’ve said.  And we’d likely get fed funds rate changes that were more frequent and variable, but they would carry much less information about future funds rate changes.  So this property of interest rates is something we’ve done for a long time—it’s been well documented.  Now, the point I want to make is that this represents a form of commitment in the sense that we set interest rates taking into account what we did before. If we’ve cut interest rates, we’re not going to reverse them at the next meeting.  We’re going to wait a few meetings to see a trend and then reverse them if we’re going to do that. Now, I started thinking about this because I was considering my decision at this meeting.  And I was thinking, all right, in the usual interest rate setting, if you dissent against a cut in the funds rate, the next meeting you might not want to dissent in favor of raising rates again to undo the cut that the Committee voted at the previous meeting. And a good rationale for that would be to maintain the commitment of the Committee to smoothing interest rates so that in the future, when we do cut interest rates, they have the effect that’s consistent with this.  So that suggests something about this meeting, but first, let’s think about forward guidance.  We’ve been really clear that it’s not a commitment. I think the Chairman has been really clear that it’s not a commitment.  Now, I heard something slightly different from the Vice Chairman, and I’m interested in understanding whether your views are compatible with what the Chairman has said about this not representing a commitment, but instead representing a forecast.  But if we go smoothing forward guidance, if we go holding up changes in forward guidance, not bringing forward the date because we just increased it at the last meeting, over time there’s going to be, meeting to meeting, a little gap opening up between what we really think and what’s in the statement, and that’s going to make it look like a commitment. It’s going to potentially confuse the public.  It’s going to give an inertia to the forward guidance language that makes it more commitment-like and less like truly our forecast at that meeting. I don’t think this is a curiosity.  I think that this is relevant to policy-setting. If we keep it frozen at one date, compared with the extent to which forecasts fluctuate on a six- or eight-week basis, it’s going to look like a promise that we change only every now and then, and that’ll be a mistake. I say this, and as you know, I argued against actually including this forward guidance at the last meeting, and this is one of the pitfalls that I think we’re going to have to wrestle with, having gone down this path.  And putting it in the SEP, of course, would have made it a forward guidance communication we change only every two meetings rather than one meeting—and so, to some extent, would obviate some of this issue. As for how I vote at this meeting, I don’t see a value for smoothing forward guidance.  So to my mind, the logical way for me to vote is whether I think economic conditions are going to warrant exceptionally low interest rates through the date in the statement, and I don’t agree with that.  So I’m going to dissent on that.  I have a couple of editing suggestions for the statement.  I’ll just read them.
+Does the passage contain contention or disagreement? Response from the model: No. The passage does not contain any contention or disagreement. The speaker is voicing their own opinions and thoughts, but there is no conflicting viewpoint being presented.
+
+
+Passage number 123.
+ MR. FISHER.  No one is going to listen.
+Does the passage contain contention or disagreement? Response from the model: No. The passage does not contain any contention or disagreement. The statement "No one is going to listen" is simply a statement made by Mr. Fisher.
+
+
+Passage number 124.
+  [Laughter]   MR. LACKER.
+Does the passage contain contention or disagreement? Response from the model: No. 
+
+Explanation: The passage only includes the word "[Laughter]," which is not indicative of any contention or disagreement. It is likely to represent an interruption or moment of humor during a conversation.
+
+
+Passage number 125.
+ The first editing suggestion would be “mid-2013,” but barring that, the other three suggestions I have— VICE CHAIRMAN DUDLEY.  “Mid-2013”.
+Does the passage contain contention or disagreement? Response from the model: No, there is no contention or disagreement in this passage. The speaker is simply suggesting three different options for editing, with the first preference being "mid-2013."
+
+
+Passage number 126.
+ MR. LACKER. “Mid-2013”—that would be the first suggestion.
+Does the passage contain contention or disagreement? Response from the model: No. 
+
+Explanation: The passage only states a statement made by Mr. Lacker without any indication of disagreement or contention.
+
+
+Passage number 127.
+ VICE CHAIRMAN DUDLEY.  Good luck.
+Does the passage contain contention or disagreement? Response from the model: No. 
+
+Explanation: The statement "Good luck" is a simple well-wishing phrase with no indication of disagreement or contention.
+
+
+****************DISAGREEMENT DETECTED*******************Passage number 128.
+  [Laughter] MR. LACKER.  So that’s my dissent.  I don’t know your views on these suggestions, but I might have some more success. At the last meeting, we officially adopted an inflation objective of 2 percent, and yet in our statement, we use this complicated circumlocution—what is it.—“the rate that it judges most consistent with its dual mandate.”  It’s like 10 words.  We could just say “2 percent,” right. We’re talking about, “ . . . the Committee anticipates that subsequently inflation will run at or below . . . ” This is the last sentence in paragraph 2.  Why don’t we just say “2 percent”. Or we could phase out this language by putting, after the word “below,” “2 percent,” a comma, and then the circumlocution—and then at the next meeting, delete the circumlocution.  And then there’s a similar issue in the first sentence in paragraph 3.  The statement says “help ensure that inflation, over time, is at the rate most consistent with its dual mandate.”  We could just say “is at 2 percent.”  That would be clear.  This way, people wouldn’t have to go on the Internet to find out what rate we’re talking about there. So that’s one set of changes.  A second editing suggestion I’d like to make is that we drop the word “dual.”  This occurs three places in this statement. It occurs nowhere in our statement of our longer-run goals and monetary policy strategy.  There, we’re careful to mention all three of our statutory mandates.  “Statutory mandate” would be a clearer phrase, a more accurate phrase, one more consistent with the text of the Federal Reserve Act.  So I’d suggest that maybe even if we don’t reduce them all, maybe we could phase them out one at a time, one a meeting. And then the word “significant” in front of “downside risks,” I think, got a little bit of discussion last time, and we seem on the edge of whether we have it in or out.  It might be useful to take the temperature of the Committee on whether those downside risks are still significant in global financial markets.  That’s in the third sentence in paragraph 2.  Thank you very much, Mr. Chairman. CHAIRMAN BERNANKE.  Thank you.
+Does the passage contain contention or disagreement? Response from the model: Yes. The speaker, Mr. Lacker, is expressing his dissent and making suggestions for changes in language used in the statement. He disagrees with the circumlocution used to describe the inflation objective and suggests using the term "2 percent" instead. He also suggests dropping the word "dual" and replacing it with "statutory mandate" to be more accurate. Additionally, he proposes taking the temperature of the Committee on the significance of downside risks.
+
+
+Passage number 129.
+ MR. TARULLO.  Mr. Chairman, can I ask a question. CHAIRMAN BERNANKE.  Yes.
+Does the passage contain contention or disagreement? Response from the model: No.
+
+
+Passage number 130.
+ MR. TARULLO.  Jeff, I don’t quite understand your rationale on the forward guidance, for the following reason. I understand completely why you’re reluctant to engage in forward guidance and your concern that on the spectrum between expectation and projection versus promise, people will read it too far toward the promise side. But if you stipulate that we’ve done what we’ve done, as I was listening to your rationale for not dissenting from last time’s interest rate moves, for example—because you wanted the impact of action to be greater when it was taken by the Committee, you didn’t want so much fluctuation, you wanted more communication—I don’t quite understand why the same rationale doesn’t apply here, that is, why you would distinguish on these grounds between a classic federal funds rate move and putting in guidance with a particular date. It seems to me that the nature of the “commitment” is pretty close.
+Does the passage contain contention or disagreement? Response from the model: No
+
+
+****************DISAGREEMENT DETECTED*******************Passage number 131.
+ MR. LACKER.  Well, I view the forward guidance as a forecast.  I don’t think it’s advisable for us to be making a commitment, and I view our collective understanding of what we agreed to as, it’s a forecast and not at all a commitment.  Whether we can communicate that fully   or not is another question.  So I take that as a premise. In the interest rate case, a cut in an interest rate is an implied promise to not reverse rapidly the interest rate cut.  And do I want the Committee to be a Committee that fulfills its promises.  Yes, and so I might vote for that, and that might outweigh my desire to express a preference for a change in interest rates at the next meeting. It’s because an interest rate cut at a given meeting, unlike the forward guidance in January, represents something of a commitment.  So it’s bolstering the Committee’s ability to make commitments.
+Does the passage contain contention or disagreement? Response from the model: Yes. There is contention in the passage. Mr. Lacker is expressing disagreement with the idea of forward guidance being seen as a commitment. He believes it is just a forecast and not advisable to be viewed as a commitment. However, he does agree with the idea that a cut in interest rates represents a commitment and supports the Committee fulfilling its promises.
+
+
+****************DISAGREEMENT DETECTED*******************Passage number 132.
+ MR. TARULLO.  I’m sorry. I won’t belabor this, but that’s what I don’t quite understand. I guess you’re imputing a commitment to the cut in interest rate that is not incorporated into the text of the FOMC statement in any way, shape, or form, right.
+Does the passage contain contention or disagreement? Response from the model: Yes. There is contention in the passage. Mr. Tarullo expresses confusion and disagreement with the idea that there is a commitment to cut interest rates, which is not explicitly stated in the FOMC statement. He challenges the speaker's assertion by pointing out that there is no mention of it in the text.
+
+
+Passage number 133.
+ MR. LACKER.  Right.  We’ve just done it.  Markets expect it, I think it’s fair to say. It’s built into market expectations.
+Does the passage contain contention or disagreement? Response from the model: No. There is no contention or disagreement in the passage. The statement is simply stating that the markets expect something, and it is widely believed to be true.
+
+
+Passage number 134.
+ MR. TARULLO.
+Does the passage contain contention or disagreement? Response from the model: Unable to determine without the complete passage.
+
+
+Passage number 135.
+  Presumably, if things change dramatically from one meeting to another, people— MR. LACKER.  Oh, sure.  There’s exceptions—right.  There would be a higher hurdle, but if you just look at the record, we rarely reverse course.
+Does the passage contain contention or disagreement? Response from the model: No. The passage does not contain any contention or disagreement. It simply states a general principle and then provides an exception, followed by an agreement that reversals are rare.
+
+
+Passage number 136.
+ MR. TARULLO.  Isn’t that for the instrumental reason of maximizing the communications effect of changes when they are made by the Committee.
+Does the passage contain contention or disagreement? Response from the model: No. There is no contention or disagreement in this passage. The speaker is posing a question to someone, and no disagreement is expressed or implied.
+
+
+****************DISAGREEMENT DETECTED*******************Passage number 137.
+ MR. LACKER.  Yes.
+Does the passage contain contention or disagreement? Response from the model: Yes, there is contention or disagreement in the passage. This can be inferred from the response of "Yes" by Mr. Lacker in the passage, indicating disagreement with something previously mentioned or suggested.
+
+
+Passage number 138.
+ MR. TARULLO.  Okay.
+Does the passage contain contention or disagreement? Response from the model: No. 
+
+Explanation: The passage does not contain any statement or indication of disagreement or contention.
+
+
+Passage number 139.
+ MR. LACKER.  To some extent.
+Does the passage contain contention or disagreement? Response from the model: Unknown. The provided passage does not provide enough information to determine whether there is contention or disagreement.
+
+
+Passage number 140.
+ MR. TARULLO.  Thank you. CHAIRMAN BERNANKE.  Okay.  President Rosengren.
+Does the passage contain contention or disagreement? Response from the model: No.
+
+Explanation: The passage does not present any conflicting ideas or opinions. It is a simple statement indicating that someone named President Rosengren is involved in the conversation.
+
+
+Passage number 141.
+  MR. ROSENGREN.  Thank you, Mr. Chairman.  I support alternative B. While there has been some improvement in recent data, the growth rate of the economy remains disappointing.  At 8.3 percent unemployment, we remain well above the 7 percent unemployment that I view as consistent with starting to remove accommodation. Total and core PCE price indexes are projected to remain below 2 percent in 2013 in the Tealbook, a forecast quite consistent with my own.  I currently anticipate some improvement in labor markets and some pickup in spending over the year.  Should that not occur, further accommodation would be appropriate.  If employment growth and spending falter, with unemployment high and inflation low, I would see no reason to sterilize additional purchases of securities.  For now, we should watch the data closely to determine whether our forecast of improvement in the economic situation materializes. I would not make any change to the language.  We should try to shift the language from a calendar date to economic outcomes, which we will discuss in the next go-round.  I would note that in January, we concluded that we were going to be discussing that. I think we’re revisiting it later in the next go-round, and I would defer any change in the language until we’ve had a full discussion of that. CHAIRMAN BERNANKE.  Thank you.  President Plosser.
+Does the passage contain contention or disagreement? Response from the model: No. This passage does not contain any disagreement or contention.
+
+
+Passage number 142.
+ MR. LOCKHART.  Thank you, Mr. Chairman.  I support alternative B. The current stance of policy, including the forward guidance that refers to late 2014, remains generally appropriate.  Put differently, I don’t think enough has changed to justify altering policy at thismeeting. I also support the language of the statement as presented.  I think it remains serviceable for this meeting. Others have not resisted the temptation to talk generally about communications, so I won’t, either.  [Laughter] As I said in the economy round, absent severe tail risks, I see the risks to the outlooks for economic growth and inflation as being weighted slightly to the upside.  So my sense at this juncture is that the risks, so to speak, around the path to policy are tilted to an earlier rather than later tightening.  And in the minds of the public and market participants, the path of policy is most associated now with the date that the Committee is providing for liftoff in the statement.  Anticipating the upcoming discussion on policy communication, I, like others, am concerned that the date device will become increasingly problematic were the Committee to adopt the practice of moving it back and forth or to and fro with the evolution of the economic outlook.  Both the Tealbook and my updated forecast for this meeting have the start date of tightening considerably earlier in 2014.  So if I were to be consistent with my forecast, I would lean to support an earlier date just one meeting after adopting “late 2014.” By focusing the public on a date, I’m concerned we are conveying much more certainty in forecast precision than is warranted.  So I very much, like others, look forward to the upcoming discussion of communications options.  Thank you, Mr. Chairman. CHAIRMAN BERNANKE.  Thank you.  President Evans.
+Does the passage contain contention or disagreement? Response from the model: No. This passage does not contain any contention or disagreement. Mr. Lockhart expresses his support for alternative B and explains his reasoning for not changing policy at the current meeting. He also expresses concerns about the communication strategy and the use of a specific date for liftoff in the statement. However, there is no disagreement or contention in his statements.
+
+
+****************DISAGREEMENT DETECTED*******************Passage number 143.
+ MR. BULLARD.  Thank you, Mr. Chairman.  I would just respond to President Evans and say I don’t see any models that tell me that running higher inflation is going to help us.  I don’t see any simulations that say, let’s go to 4 percent inflation and that’s the optimal policy.  Have I got the wrong model.  I don’t see any.  There are none.  Here, I’m looking at them right here. They’ve all got below 2 percent.
+Does the passage contain contention or disagreement? Response from the model: Yes, there is disagreement in the passage. Mr. Bullard disagrees with President Evans' view that running higher inflation would be beneficial. He argues that there are no models or simulations that support this idea and therefore disagrees with the notion that it is the optimal policy.
+
+
+Passage number 144.
+ MR. EVANS.  No, they’ve got 2½ percent.
+Does the passage contain contention or disagreement? Response from the model: No, there is no contention or disagreement in this passage. The statement is a straightforward assertion.
+
+
+Passage number 145.
+ MR. BULLARD.  You say there are no models.  There are a lot of models here.
+Does the passage contain contention or disagreement? Response from the model: No.  This passage does not contain any contention or disagreement. Mr. Bullard is simply making a statement and there is no opposing viewpoint presented.
+
+
+****************DISAGREEMENT DETECTED*******************Passage number 146.
+ MR. EVANS.  They have them in Erceg et al.
+Does the passage contain contention or disagreement? Response from the model: Yes. The passage does not provide any context or additional information about Erceg et al, so it is unclear what "they" are referring to. This lack of clarity can lead to confusion or disagreement about the statement being made.
+
+
+****************DISAGREEMENT DETECTED*******************Passage number 147.
+ MR. BULLARD.  Why isn’t there a simulation that says, okay, 3 percent inflation or better.  I don’t see one. These are empirical models. Okay.  I counsel patience at this meeting.  I think we should adopt a wait-and-see stance. I do think the “late 2014” language causes problems for this Committee because of the unwillingness to change the date with changes in the forecast.  This tends to create inconsistency between market expectations and the statement over time.  This is unhealthy for the Committee’s credibility. I suggest removing the “late 2014” date and replacing it with the last sentence of paragraph 3 in alternative C.  So we just take alternative B, but we move in the language from alternative C or similar language.  This would remove the need to be moving the date around at each meeting, but otherwise would not change the policy content.  I think this would improve the credibility of the Committee. I also agree with President Lacker’s suggestions for the statement, which I think better reflect the Committee intent and the current situation.  So, as a reminder, he said, just say “2 percent” instead of a bunch of words.  Get rid of the “dual” and just say “mandate.”  And I’d be open to what people think about “significant.”  The tensions in Europe have been reduced, but I’d be interested to hear what others have to say about whether we should take “significant” out or not.  I think if we leave it in there, you’re saying that nothing has improved.  That’s always a delicate thing for the Committee here to accurately reflect changes in the situation without saying the tail risks have gone away completely.  I’d be open to how others want to do that, but I would lean toward taking “significant” out as a way to signal that the Committee understands that the situation in Europe has changed somewhat.  Thank you, Mr. Chairman. CHAIRMAN BERNANKE.  Thank you.  President Fisher.
+Does the passage contain contention or disagreement? Response from the model: Yes, there is disagreement in the passage. Mr. Bullard suggests removing the "late 2014" date and replacing it with language from alternative C, while also agreeing with President Lacker's suggestions for changing the statement. This suggests that he disagrees with the current language and believes there are improvements that can be made.
+
+
+Passage number 148.
+ MR. LACKER.  Mr. Chairman. CHAIRMAN BERNANKE.  President Lacker.
+Does the passage contain contention or disagreement? Response from the model: No, there is no contention or disagreement in the passage. It simply states that Mr. Lacker is addressing the chairman.
+
+
+Passage number 149.
+ MR. LACKER. Governor Duke, the approach you suggest of waiting to change the forward guidance language until we’re more confident that we’re going to engage in a sequence of moves, or all of the next moves are going to be in the same direction, would you view that as likely to imply that, at times, we have guidance in the statement that’s at variance with our expectation. Wouldn’t that imply that sometimes our expectation would be second quarter, but not enough evidence has accumulated to move off of “late 2014”. Is that consistent with the approach you’re advocating. MS. DUKE.  I’m not entirely sure.CHAIRMAN BERNANKE. The federal funds rate doesn’t move in a random-walk way; it moves, obviously, in a directional way—right.—which is the point you were making.
+Does the passage contain contention or disagreement? Response from the model: No.
+
+
+Passage number 150.
+ MR. LACKER.  Right. But we impart persistence to it. CHAIRMAN BERNANKE.  Well, I think one concern might be, not in terms of what we intend, but in terms of what is interpreted.  Suppose we were to move the late 2014 date to a month earlier, which is a trivial change in itself, but it would be the first time since 2006, 2007, whatever it was, that we had a tightening move.
+Does the passage contain contention or disagreement? Response from the model: No. There is no contention or disagreement in this passage. The speaker is discussing a hypothetical scenario and expressing a concern about potential misinterpretation, but there is no explicit disagreement or contention present.
+
+
+Passage number 151.
+ MR. LACKER.  Right. CHAIRMAN BERNANKE.
+Does the passage contain contention or disagreement? Response from the model: No. The passage does not indicate any contention or disagreement. It simply states that Mr. Lacker agrees with Chairman Bernanke.
+
+
+Passage number 152.
+  So would that not risk suggesting to the public— MR. LACKER.  This is what’s wrong with using forward guidance. CHAIRMAN BERNANKE.  Maybe so, but that’s where we are.  I’m sorry—are you okay. MS. DUKE.  Thank you. CHAIRMAN BERNANKE.  Governor Tarullo.
+Does the passage contain contention or disagreement? Response from the model: No, there is no contention or disagreement in this passage. It consists of a series of statements and responses without any conflicting opinions.
+
+
+Passage number 153.
+ MR. TARULLO.  Thank you, Mr. Chairman.  For the reasons well and succinctly stated by Sandy, I favor alternative B.  I would just add that I would be reluctant to make any changes, certainly in the policy parts of this statement, precisely because I think we need to think a few meetings at a time now.  Where do we actually think we’re going with respect to both communications and, potentially, policy. If things stall and additional action is more on the table again, I think we’d want to have thought through where and how we believed we’d be going with additional policy measures, and we haven’t done so.  On the other hand, if things continue to strengthen and there’s no thought of further accommodation, but instead more people begin to talk about tightening, again, we haven’t talked through how that would actually proceed over the course of a couple of meetings.  So I favor a holding pattern right now, and as such, as I said, I would not favor any changes in the policy language.  That’s why, even though John’s change may be a good one at some point, I wouldn’t do it now.  I’m not even in favor of, at the beginning of paragraph 3, changing to “the rate most consistent,” but I already lost that battle, so I won’t belabor it. With respect to the first two paragraphs, I wouldn’t change much here except maybe for the “strains in global financial markets” that some people have mentioned.  I do think they continue to pose significant downside risks.  That is, the magnitude of the potential downside risk is still pretty great, although the likelihood, the probability, of those risks has, at least in the near term, abated somewhat.  And I wonder whether a slight, but only a slight, compromise might be to say, “Strains in global financial markets have eased, though they continue to pose significant downside risks to the economic outlook.”  Thank you, Mr. Chairman. CHAIRMAN BERNANKE.  Thank you.  Governor Raskin. MS. RASKIN.  Thank you, Mr. Chairman.  As I described in the economic outlook go-round, the forecast seems to me to be swimming in an ocean of uncertainty about how the economy is functioning in the wake of the financial crisis.  I’m hovering between seeing good signs from the labor market, which might signal that a more galloping recovery is around the corner, and seeing income and spending growth, which appears much too modest to support a robust recovery.  This position makes me believe that if we maintain our highly accommodative stance too long in the face of a robust recovery, we face a risk of significantly overshooting our inflation objectives.  If, instead, the increasingly strong employment data lead us to pull back on accommodation, we face the risk of tightening in a weak economy, which could drive inflation well below our objective and further delay what is already a long-delayed return to maximum   employment.  How do we balance these risks. As Governor Yellen mentioned, I think there’s an asymmetric nature to the upside and downside risks.  We know what to do if inflation threatens to move persistently above target.  Our contractionary tools are, if not necessarily time tested, certainly readily available and would be deployed if we see that we are overshooting our inflation objective in a manner that is more than brief and more than mild.  On the other hand, if we had to re-stimulate because we had prematurely tightened, we would have a much more challenging course to follow.  We’ve learned that our policy options are more limited and attenuated when it comes to stimulating the economy when interest rates are at the zero bound. Thus, at the present time, I err on the side of continued accommodation and support alternative B.  It would take much more unequivocal evidence of a durable and sustained recovery, or of rising inflation pressures, to begin a tightening course of action.  On the downside, if 2012 follows the pattern of recent years—hopeful signs early in the year followed by tepid growth later—further accommodative steps may be required.  Thank you. CHAIRMAN BERNANKE.  Thank you.  Vice Chairman.
+Does the passage contain contention or disagreement? Response from the model: No. The passage does not contain any contention or disagreement. Both speakers express their opinions on the matter but do not contradict each other.
+
+
+Passage number 154.
+ VICE CHAIRMAN DUDLEY. Strike the word “significant.” CHAIRMAN BERNANKE. It was two things.  One was about the “strains in global financial markets.” We tried, in the language here—“while having eased somewhat”—to capture the point that Governor Tarullo made about the sense that currently they’re not quite as bad, and maybe the probabilities are less, but the risk that they pose is still large if it occurs.  So I would make two proposals.  One would be to get rid of the “having eased somewhat” and get rid of the word “significant”; then you would just be making that adjustment to the sentence.  And the other might be the thing that Governor Tarullo suggested: “Strains in global financial markets have eased, though they continue to pose significant downside risks.” I’m really fine with any of those things, and I wonder if anyone has any particular preferences.  President Lockhart.
+Does the passage contain contention or disagreement? Response from the model: No, there is no contention or disagreement in this passage. The speaker is suggesting two options for revising the sentence and expresses a willingness to accept either one. They also ask for input from others, indicating a collaborative and consensus-seeking approach.
+
+
+Passage number 155.
+ MR. LOCKHART. I realize I can get caught up technically in whether we’re, strictly speaking, talking about strains in global financial markets that exist today, but I just want to share the concern I was trying to convey in the economy round, and it wasn’t about Europe.  It was about the Israeli–Iranian potential for a conflict, which then would produce strains in financial markets that we could not very easily, in anticipation, predict.  And I think we’re making a mistake if we suggest that that problem isn’t part of the potential picture and if we downplay it as something that’s not going to have an effect on either financial markets or the real economy.  So I’d like to keep the word “significant” in—not, strictly speaking, because it’s about financial markets today, but because that risk looms out there. CHAIRMAN BERNANKE.  Vice Chairman.
+Does the passage contain contention or disagreement? Response from the model: No. There is no contention or disagreement in this passage. The speaker is expressing their concern about the potential for a conflict between Israel and Iran and the potential strains it could have on financial markets. They are suggesting that this risk should be considered as significant even if it is not currently impacting the markets.
+
+
+Passage number 156.
+  VICE CHAIRMAN DUDLEY.  Yes. Another alternative would be to say, “Strains in global financial markets still pose significant downside risks to the economic outlook.”  So it would be implicit that things have improved a little bit. CHAIRMAN BERNANKE.  How is it changed from the previous language.
+Does the passage contain contention or disagreement? Response from the model: The passage introduces an alternative statement that suggests a slight improvement in the global financial markets, indicating a change from the previous language that may have portrayed a more negative outlook.
+
+
+Passage number 157.
+ VICE CHAIRMAN DUDLEY. Rather than say “continue to pose,” I’d just say “still pose significant downside risks.” CHAIRMAN BERNANKE.  I think that the sense of that is very similar.
+Does the passage contain contention or disagreement? Response from the model: No, there is no contention or disagreement in the passage. The speaker is suggesting a slight rephrasing of a statement, indicating that the meaning would remain largely the same.
+
+
+****************DISAGREEMENT DETECTED*******************Passage number 158.
+ VICE CHAIRMAN DUDLEY. It’s similar, but it’s basically acknowledging that things have gotten a little bit better. CHAIRMAN BERNANKE.  I see.  Well, let’s try some others.  Governor Duke. MS. DUKE.  I like Governor Tarullo’s suggestion, and I’m thinking about the “strains in . . . markets, while having eased somewhat” as being a little bit of a change in the probability of them happening.  But the risk if they do happen is still very significant.  So I like keeping “significant” and changing the “strains.” CHAIRMAN BERNANKE. I’m perfectly fine to go to Governor Tarullo’s suggestion, but I’m not sure why the existing language doesn’t do exactly what you said. MS. DUKE.  Either one would be fine, but I like keeping “significant,” and I like “eased somewhat.
+Does the passage contain contention or disagreement? Response from the model: Yes, there is disagreement in this passage. Both Governor Duke and Governor Tarullo have different suggestions and opinions on the language used. Governor Duke prefers to keep "significant" and change "strains," while Governor Tarullo suggests a different wording.
+
+
+Passage number 159.
+” MR. TARULLO. It was the “somewhat,” Mr. Chairman.  In addition to an aversion to using participles unnecessarily, it was the deletion of “somewhat” that was meant to move a little bit in the direction of those who thought the probabilities had changed. CHAIRMAN BERNANKE.  I see.  All right.  President Fisher.
+Does the passage contain contention or disagreement? Response from the model: No, there is no contention or disagreement in the passage. The speaker is simply clarifying their use of the word "somewhat" without contradicting or opposing anyone else's viewpoint.
+
+
+Passage number 160.
+   MR. FISHER.  Having advocated for removing the word “significant,” I think Governor Tarullo has given us a good answer, and I would advocate for that. CHAIRMAN BERNANKE.  Okay.  Is it okay if we do that. MS. DUKE.  Yes. CHAIRMAN BERNANKE.  All right.  So, “Strains in global financial markets have eased, though they continue to pose significant downside risks.”  The other issue that was raised, although I’m not sure I got specific language, was about the housing sector.
+Does the passage contain contention or disagreement? Response from the model: No. There is no contention or disagreement in the passage. The participants agree on removing the word "significant" and express support for a specific language concerning the housing sector.
+
+
+Passage number 161.
+ MR. FISHER.  I have a suggested change, Mr. Chairman.  It may be too much because it adds more verbiage.  But what I had suggested was, “Indicators of conditions in the housing sector have improved somewhat”—since we took it out elsewhere—“but amid uncertainty as to when prices will stabilize.” To say that “the housing sector remains depressed” is too harsh given what we heard at this table, in my opinion.
+Does the passage contain contention or disagreement? Response from the model: No. The passage does not contain any contention or disagreement. It simply presents a suggested change to the wording without any opposing viewpoints or arguments.
+
+
+****************DISAGREEMENT DETECTED*******************Passage number 162.
+  But, on the other hand, if you guys are going to— VICE CHAIRMAN DUDLEY. Prices are still declining; activity is very depressed.  How could you say the housing sector is in good shape.
+Does the passage contain contention or disagreement? Response from the model: Yes. The phrase "How could you say the housing sector is in good shape" suggests disagreement or contradiction with the previous statement that prices are declining and activity is depressed.
+
+
+Passage number 163.
+ MR. FISHER.  But conditions have improved.  Look at housing starts.  Look at all of the data.
+Does the passage contain contention or disagreement? Response from the model: No. The passage does not contain any contention or disagreement. It simply presents a statement about improved conditions and encourages looking at data for support.
+
+
+Passage number 164.
+ VICE CHAIRMAN DUDLEY.  Maybe.
+Does the passage contain contention or disagreement? Response from the model: There is not enough information in the given question to determine whether there is contention or disagreement in the passage.
+
+
+Passage number 165.
+ MR. FISHER.  Not maybe.  The data indicate that for three months.
+Does the passage contain contention or disagreement? Response from the model: No. 
+
+Explanation: The passage does not contain any conflicting opinions or opposing viewpoints. It simply states a fact about the data indicating a certain outcome for three months.
+
+
+Passage number 166.
+ VICE CHAIRMAN DUDLEY.  Weather.  Weather, Richard. CHAIRMAN BERNANKE.  Is there some way to put a preliminary thing—“Although some indicators have been better on balance . . . ”.
+Does the passage contain contention or disagreement? Response from the model: No. There is no contention or disagreement in the passage. The phrase "Although some indicators have been better on balance..." suggests that there may be some positive indicators regarding the weather, but it does not indicate any specific disagreement or contention.
+
+
+Passage number 167.
+ VICE CHAIRMAN DUDLEY. I just think it’s pretty weak. MS. DUKE. I’m the most optimistic about the potential for it to turn around, but I still don’t think it has. CHAIRMAN BERNANKE.  Oh, okay.
+Does the passage contain contention or disagreement? Response from the model: No. The passage does not show contention or disagreement. The speaker's statement "I just think it's pretty weak" and Ms. Duke's response "I'm the most optimistic about the potential for it to turn around, but I still don't think it has" express individual opinions, but they do not contradict or argue with each other.
+
+
+Passage number 168.
+ MR. FISHER.  No, you’re not as optimistic as I am. MS. DUKE.
+Does the passage contain contention or disagreement? Response from the model: No. 
+
+There is no contention or disagreement in this passage. Mr. Fisher simply states that Ms. Duke is not as optimistic as he is, without any sign of argument or disagreement.
+
+
+Passage number 169.
+  I think when it turns around, it could turn around sharply, but I don’t— MR. FISHER.  I won’t fight this, Mr. Chairman, but I think maybe at the next meeting, we might indicate if— CHAIRMAN BERNANKE.  Okay.  Noted.  But I think the staff view, at least, is that we haven’t yet seen real changes in the data.
+Does the passage contain contention or disagreement? Response from the model: No. This passage does not contain any contention or disagreement. The speakers are expressing their thoughts and opinions, but there is no direct disagreement between them.
+
+
+Passage number 170.
+ MR. WASCHER.  I think that’s right.
+Does the passage contain contention or disagreement? Response from the model: No. The statement "MR. WASCHER. I think that's right" shows agreement or confirmation, not disagreement or contention.
+
+
+Passage number 171.
+  We think that the December and January starts are elevated by the weather, and we expect that to— MR. FISHER.  Well, let’s wait and see if the weather weathers out.
+Does the passage contain contention or disagreement? Response from the model: No.
+
+
+Passage number 172.
+ VICE CHAIRMAN DUDLEY. My point, Mr. Chairman, is a very simple one.  Even if it improved a bit, it would still be depressed. CHAIRMAN BERNANKE.  Yes.  Well, I know, but we’re looking at differential changes in labor markets, for example.
+Does the passage contain contention or disagreement? Response from the model: No. 
+
+There is no contention or disagreement in this passage. The speaker might be expressing a different perspective or expanding on the topic, but there is no direct conflict or disagreement with the previous statement.
+
+
+Passage number 173.
+ MR. FISHER.  Never mind. CHAIRMAN BERNANKE.  President Lacker.
+Does the passage contain contention or disagreement? Response from the model: No. There is no contention or disagreement in the passage. It is a simple statement of someone dismissing or disregarding something.
+
+
+Passage number 174.
+ MR. LACKER.  This is on a separate point. CHAIRMAN BERNANKE.  Okay.  What’s your separate point.
+Does the passage contain contention or disagreement? Response from the model: No, there is no contention or disagreement in the passage. The speaker simply asks for a separate point to be discussed.
+
+
+****************DISAGREEMENT DETECTED*******************Passage number 175.
+ MR. LACKER.  It’s back to this “2 percent.”  We put “2 percent” in the consensus statement; we didn’t put NAIRU in the consensus statement. CHAIRMAN BERNANKE.  Yes, we did—5.2 to 6 percent is in the statement.
+Does the passage contain contention or disagreement? Response from the model: Yes, there is contention or disagreement in the passage. The speaker, Mr. Lacker, states that they did not include NAIRU (Non-Accelerating Inflation Rate of Unemployment) in the consensus statement, while someone else contradicts him by saying that they did include a range of 5.2 to 6 percent in the statement, which refers to the NAIRU.
+
+
+Passage number 176.
+  MR. LACKER.  We did not equate that with maximum employment.  And that’s a number that—convergence takes years. CHAIRMAN BERNANKE. It’s maximum employment.
+Does the passage contain contention or disagreement? Response from the model: No. There is no disagreement or contention in the passage. The speaker is simply stating a fact and explaining that achieving maximum employment takes time.
+
+
+****************DISAGREEMENT DETECTED*******************Passage number 177.
+ MR. LACKER.  And that’s different from our mandate.  We don’t equate it to our mandate in the statement.  We’re very careful to distinguish between maximum employment and the reports we have in the SEP of what unemployment converges to in the long run. CHAIRMAN BERNANKE.  I’m not sure that everyone agrees with you on that.
+Does the passage contain contention or disagreement? Response from the model: Yes. There is disagreement in the passage. Mr. Lacker states that he's not sure that everyone agrees with the other person's perspective on the topic being discussed.
+
+
+Passage number 178.
+ MR. LACKER.  I guess it should be for a separate discussion.
+Does the passage contain contention or disagreement? Response from the model: No. This passage does not indicate any contention or disagreement. The speaker is simply suggesting that the topic being discussed should be saved for another discussion.
+
+
+Passage number 179.
+ MR. KOCHERLAKOTA.  Mr. Chairman. CHAIRMAN BERNANKE.  President Kocherlakota.
+Does the passage contain contention or disagreement? Response from the model: No, there is no contention or disagreement in the passage. The statement "President Kocherlakota" is simply informing the reader that the individual mentioned is a president.
+
+
+Passage number 180.
+ MR. KOCHERLAKOTA.  Mr. Chairman, I have sympathy for what President Lacker is saying.  But I would also say that I think he’s raising very deep issues that probably are best deferred. CHAIRMAN BERNANKE.  That would be my response, as usual.  [Laughter]  President Lacker, the subject of your concern could not be addressed in finite time.  President Fisher.
+Does the passage contain contention or disagreement? Response from the model: No. There is no contention or disagreement in this passage. Both individuals are expressing understanding and agreement with each other's statements.
+
+
+Passage number 181.
+ MR. FISHER.  I think we dispensed with this, but I would have started the sentence by saying, “Consistent with its dual statutory mandate.”  We talked about “foster maximum employment and price stability.” The sentence we’re talking about here is only about inflation.  Jeff is right.  We have circumlocution at the end, only dealing with inflation.  So, “subsequently inflation will run at or below”—because we’re talking about inflation—“the stated long-term target of 2 percent.” CHAIRMAN BERNANKE.  Look at the second sentence of paragraph 2: “Anticipates that the unemployment rate will decline gradually towards” circumlocution.
+Does the passage contain contention or disagreement? Response from the model: No, there is no contention or disagreement in the passage. The speaker is agreeing with Jeff's statement about circumlocution and providing further explanation for why the sentence should be modified.
+
+
+Passage number 182.
+  [Laughter]   MR. FISHER.  Remember me talking about Charles Dickens’s office of circumlocution in Little Dorrit. But I think Jeff has made a sensible recommendation in the sentence about inflation, and I just wanted to support it. CHAIRMAN BERNANKE.  I take his point.  I take this as part of our broad communication challenge.  Are there other comments.  [No response] Okay. Let’s go ahead and get this done. MS. DANKER.  Okay.  Let me make sure I’ve got this sentence correct. The way it’s been edited, it reads, “Strains in global financial markets have eased”— CHAIRMAN BERNANKE.  Comma. MS. DANKER. —comma, “though they continue to pose significant downside risks to the economic outlook.” CHAIRMAN BERNANKE.  Correct. MS. DANKER.  Okay.  With that sentence inserted in alternative B, instead of what’s there now, as well as the directive, let me call the roll. Chairman Bernanke Yes Vice Chairman Dudley Yes Governor Duke Yes President Lacker No President Lockhart Yes President Pianalto Yes Governor Raskin Yes Governor Tarullo Yes President Williams Yes Governor Yellen Yes CHAIRMAN BERNANKE.  Thank you very much.  We’re going to continue with another item, which will be the discussion of our communication strategy more generally.  It’s 1:30.  Why don’t we take 30 minutes to get our lunches, and we’ll reconvene at 2:00.  Thank you.[Lunch recess] CHAIRMAN BERNANKE.  Now let’s recommence our meeting formally at this point. Our last principal item is item 4, “Discussion of Issues Related to Policy Communications.” 4 As you know, at the zero lower bound, we basically have two sets of tools.  The first are tools related to our balance sheet, and I’d like you to know that the staff is working on both reviewing and analyzing our previous LSAPs and the potential for future use, if the Committee should decide to go in that direction.  The staff is also looking at the maturity extension program—how it worked and, again, whether there would be any potential for further use of such a tool, if the Committee decided it were appropriate. I think I will mention that, as far as I know, nobody in the System is working on sterilized QE.
+Does the passage contain contention or disagreement? Response from the model: No. There is no contention or disagreement in this passage. The speakers are mostly agreeing with each other and supporting each other's recommendations.
+
+
+Passage number 183.
+  MR. BULLARD.  Thank you, Mr. Chairman.  Let me begin by apologizing for my impolitic comments to President Evans in the previous round.  I’d like to request, Mr. Chairman, that I not follow President Evans in the future.  Let me also say, I’d request that President Evans not follow me.  [Laughter] No, I do apologize. That was wrong of me, and I don’t want to have the camaraderie around here break down.
+Does the passage contain contention or disagreement? Response from the model: No.
+
+
+Passage number 184.
+ MR. EVANS.  Thank you, Jim.
+Does the passage contain contention or disagreement? Response from the model: No. 
+
+There is no indication of contention or disagreement in this passage. Mr. Evans is expressing gratitude towards Jim.
+
+
+****************DISAGREEMENT DETECTED*******************Passage number 185.
+ MR. ROSENGREN.  Thank you, Mr. Chairman.  As we think about additional steps in our communication strategy, we need to keep in mind what we’re trying to achieve.  The goal is to improve the transparency of decisionmaking so that the public understands the likely path of monetary policy, and why that path has been chosen, without reducing the quality of the deliberative process.  One way of doing this would be to provide a consensus forecast and a consensus path for monetary policy based on that forecast.  However, reaching such a consensus does not seem practical given the size of the Committee and the diversity in our views of how best to forecast the economy and of the appropriate monetary policy given that forecast.  In fact, given the uncertainties in understanding the economy and the effect of monetary policy, I think the diversity of views expressed around the table is a strength of our system.  Trying to force consensus around a forecast might hurt, rather than help, the deliberative process. While a consensus forecast may not be practical or desirable, explicitly linking individual policy paths and economic outlooks would allow the public to better interpret individual forecasts.  In addition, if the identity of the participant is provided, the public will know which projections correspond to voters and which to nonvoters, a distinction that is important for forecasting the likely policy actions of the Committee.  Thus, I am in favor of releasing the full matrix of projections to the public and identifying the individual associated with each of the projections.   With such information, the likely path of policy and the degree of consensus concerning the forecast and policy will be revealed to the public.  Views on the forecast or appropriate policy that differ from the central tendency would be more transparently revealed, helping the public to assess the degree of uncertainty and disagreement around the monetary policy path.  Another benefit of identifying the participant’s forecast and monetary policy path would be to hold each of us accountable for our projections.  Over time, I would expect economists to evaluate the quality of our individual forecasts and our implicit reaction functions. In terms of paragraph 3, we should move away from calendar dates but be specific about economic outcomes that we expect would result in a significant change in policy.  My preference would be a statement like 3.4, where we provide specific triggers for exiting the zero bound but also make clear that additional accommodation would be appropriate if we do not make sufficient progress toward both elements of our mandate.  Complemented by such guidance, the SEP will provide sufficient information on when people expect to hit the trigger such that we would no longer need a specific date in the statement.  My second choice would be paragraph 3.2, but I would again omit the date.  I would not be supportive of paragraph 3.3, which does not provide specific guidance to the public.  If we cannot reach a consensus around economic triggers, we should continue to use forward guidance with calendar dates because it has proven to be a surprisingly useful way to provide greater clarity on our likely path that has had a meaningful impact on medium- and long-term interest rates.  While I am not opposed to disclosing alternative scenarios, that seems like an action that can be considered over time. We’ve been making a variety of changes to our communication strategy, and we may want to consider the marginal benefit of additional disclosures.  I am reminded when I refinance my mortgage that excessive disclosures may be less useful than targeted disclosures. It may be   worthwhile for the communications subcommittee to consider at what point we reach diminishing returns from additional disclosures.  Thank you. CHAIRMAN BERNANKE.  Thank you.  President Lockhart.
+Does the passage contain contention or disagreement? Response from the model: Yes, there is disagreement in this passage. The author expresses support for releasing the full matrix of projections to the public and identifying the individual associated with each projection. However, they also express skepticism about reaching a consensus forecast and argue that forcing consensus may hurt the deliberative process. This indicates a contention between the need for transparency and the potential negative impact of consensus.
+
+
+Passage number 186.
+ MR. LOCKHART.  Thank you, Mr. Chairman.  I think it’s obvious already that there are a lot of moving parts here, and the questions and the subquestions reflect that.  So to be selective today, I’d like to make four points in overview, and then I’ll elaborate further on some of them and comment on the specifics of the language that was put in the appendix.  The four points are, first, I think we have a lack of clear consensus regarding the role of the SEP; second, I believe, as has already been stated by one or more, that it’s desirable to get away from date guidance; third, there are complications introduced by elevating the role of the SEP, which I think we already have in policy communications, given that the current practice is that we publish them only four times a year and we have eight meetings a year; and, fourth, it’s desirable that the specifics of any economic conditionality be durable.  So let me make a few more points—not exhaustive— partly in elaboration of those and some other points. As I said, I think there’s a lack of consensus regarding the role of the SEP practice, and maybe it would be good for the group to step back and have a discussion on this before implementing any further changes.  My own view is that the SEP provides background color and texture that supplement the postmeeting statement and the minutes.  The SEP provides a broad sense of how the FOMC participants as a group are connecting the dots between desired economic outcomes and policy.  If we’re trying to convey in general terms how future Committees might react to economic conditions, one could argue that using the SEP is a more inclusive way of doing that. But at the same time, I would argue that the SEP should not substitute for actionable, consensus-based votes of the Committee. I am a little reluctant to godown the road of providing information in the SEP at an individual level.  I don’t think it’s healthy to encourage the public or Fed watchers to indulge in what I call FOMC Kremlinology. I do think an idea worth considering, if we want to add a bit more information to get closer to the constitution of the current Committee, would be to show who are permanent members and who are revolving members, but not necessarily just focus on the current Committee.  After all, in any given calendar year, the value of distinguishing between voters and nonvoters degrades as you get closer to year-end. Now, on the specific question related to the statement, as I expressed in the policy round, I see forward guidance in terms of a calendar date as likely to be a problem going forward, and at a minimum, I would suggest downplaying the date of liftoff by stating the economic conditionality first and putting focus on the conditionality language if we hold to that language.  I do accept that using the statement to provide more information on the Committee’s reaction function and policy conditionality could be helpful and could deliver some incremental stimulus, and I would strongly prefer that any language that is added to accomplish this observe the principle of policy decisions being outlook based or forecast based. I’d also favor words that add some flexibility to deal with the notional reliance on a single indicator for mandate consistency—for example, the unemployment rate. So, following from those points, I actually prefer alternative 3.1 in the appendix.  I think it qualifies the quantitative thresholds with the word “nearing” that suggests a forecast-based discipline.  The phrase “medium-term inflation outlook” does this as well.  A focus on the unemployment rate could be problematic, as I’ve already suggested, in that changing labor force participation could keep the unemployment rate elevated even while there is robust employment growth.  So the phrase “including the pace of improvement in labor market conditions” helps with this problem.  I like 3.1 because it’s simple and concise.  To me, 3.2 adds complexity, although I would say the use of a reference to inflation expectations is helpful.  It is, in my mind, covered by the expression “medium-term inflation outlook” in 3.1.  Alternative 3.3 strikes me as a restatement of the balanced-approach policy principle, and 3.4 lengthens the statement and adds more complexity than I think is advisable. Regarding the quantitative thresholds themselves, the levels should be chosen with the intent that they be durable and therefore constrain to some degree next year’s and the following year’s voting Committee.  So I think the numerical thresholds have to be decided with the full deliberation involving all participants using techniques like straw votes to determine whether a consensus actually exists, and then that can be voted on by the Committee.  Today, we’re not really deliberating on the specifics, but I do want to mention that, as regards the unemployment threshold in alternative 3.1, I would err on the side of something higher than 7 percent, given all of the imprecision around questions like the level at which the unemployment rate would begin to generate inflation pressures and the speed at which pressures might develop.  Also, perhaps alternatively, I would change “close to or somewhat below” to simply “close to.” Finally, on the question of a consensus forecast, I think President Rosengren suggested the same thing.  It strikes me as a painful process and not, in the end, all that productive.  I think the SEP can and should be used to provide the public with a sense of all the views at the table that inform the deliberations of the formal voting Committee, and the forecast information in the SEP, if fully fleshed out, can suffice to give this sense of what the consensus is. Thank you, Mr. Chairman. CHAIRMAN BERNANKE.  Thank you.  President Williams.
+Does the passage contain contention or disagreement? Response from the model: No
+
+
+Passage number 187.
+ MR. EVANS.  I’m expecting something good here.
+Does the passage contain contention or disagreement? Response from the model: No. There is no contention or disagreement in the passage. The speaker, Mr. Evans, expresses anticipation or excitement about an upcoming event or situation.
+
+
+Passage number 188.
+  [Laughter] MR. KOCHERLAKOTA.  If we think that having a consensus forecast, as opposed to the heterogeneous mess that is the SEP, might save 2,000 jobs—you can imagine that providing more clarity about policy would be able to do that. If you look at recent estimates of the stimulus, the optimistic view is that jobs cost about $100,000 per job.  So saving 2,000 jobs is $200 million.  I think we should be able to spend the time to get that right, and 2,000 jobs across the country is not that much. Now, with that said, I also think it’s pretty feasible, so let me talk about why I say that. If you were to say to me, let’s write a consensus statement about monetary policy with 17 people in the room, and let’s start from scratch, you wouldn’t get anywhere, right. How do we get around that problem. We achieve that consensus on our written statement by focusing our discussion on a rather limited array of choices, and I think the same would work with devising a consensus outlook.  So what do we focus on.  There have been suggestions about using a median from the SEP.  I think there is some validity to that.  We could have some kind of survey process that would start with that as some information gathering, but my basic idea is more to link forecasts to the statements.  At each FOMC meeting, the staff prepares three alternative statements. For each statement, you could simply append a near-term forecast for the relevant variables that’s reasonably associated with those statements—basically a mathematical version of paragraph 1 of alternatives A, B and C.  Alternative A would typically be a weak outlook, B a middle outlook, and C a strong one.  When you voted for a statement, you’d be voting for the associated forecast, just as voting for an alternative is the same as voting for the associated monetary policy directive.  There are some logistical issues here about how to do this, how to get the information to the staff to allow them to do a good job on this—and Vice Chairman Dudley talked about this as well—but I think there are ways around this.  Basically, if you do an SEP maybe 10 days before the meeting, you can start to get the right kind of information to the staff.  You can combine that with the Tealbook A kinds of forecasts out of FRB/US.  I do not think this is an impossibility by any means. Essentially, a forecast for the relevant variables has a relatively small number of dimensions compared with the words we have to issue at each meeting. So I think I’ve covered all the questions.  I think we should work toward a consensus forecast, and that would greatly improve our communications.  Thank you, Mr. Chairman. CHAIRMAN BERNANKE.  Thank you.  President Fisher, is that a two-handed intervention.
+Does the passage contain contention or disagreement? Response from the model: No. The passage does not contain any contention or disagreement. The speaker is suggesting that having a consensus forecast would be beneficial and discussing how it could be achieved.
+
+
+Passage number 189.
+ MR. FISHER.  No, sir.  I apologize.  I have to leave at 4:00 p.m. CHAIRMAN BERNANKE.  Vice Chairman.
+Does the passage contain contention or disagreement? Response from the model: No. The passage does not show any contention or disagreement.
+
+
+Passage number 190.
+ VICE CHAIRMAN DUDLEY. I just have a clarifying question. We have these three choices, which I think are interesting, but the question I have is, are you agreeing with the forecast associated with the three choices or the reaction function associated with those three choices.
+Does the passage contain contention or disagreement? Response from the model: No. This passage is simply asking for clarification on whether the person being addressed is agreeing with the forecast or the reaction function associated with the three choices. There is no indication of contention or disagreement.
+
+
+Passage number 191.
+ MR. KOCHERLAKOTA. I’m only proposing the forecast.  That was the only thing I was going to describe—not a reaction function.
+Does the passage contain contention or disagreement? Response from the model: No. 
+
+There is no contention or disagreement in this passage. The speaker is stating that they are only proposing a forecast and not describing a reaction function.
+
+
+Passage number 192.
+ VICE CHAIRMAN DUDLEY.  Okay. CHAIRMAN BERNANKE.  Thank you.  President Fisher.
+Does the passage contain contention or disagreement? Response from the model: No, there is no contention or disagreement in the passage. This is a brief and polite exchange of words where someone is expressing gratitude towards President Fisher.
+
+
+Passage number 193.
+ MR. FISHER.  Thank you, Mr. Chairman.  I was thinking of your comment about, you were asked if you were in charge of foreign policy; my old thing—monetary policy.
+Does the passage contain contention or disagreement? Response from the model: No. 
+
+Explanation: The passage does not indicate any contention or disagreement. It simply consists of a person expressing gratitude and reflecting on a previous comment made by the chairman.
+
+
+Passage number 194.
+ MR. KOCHERLAKOTA. Foreign policy is even scarier, actually.
+Does the passage contain contention or disagreement? Response from the model: No. 
+
+Explanation: The passage does not contain any statements or arguments that would indicate contention or disagreement. It simply states the opinion that foreign policy is scary.
+
+
+Passage number 195.
+ MR. LACKER.  Thank you, Mr. Chairman.  I said a bit about communication this morning, so I’ll try to be brief. First, there’s a good reason this is hard.  At Committee meetings where you’re just deciding on the funds rate, you just decide.  When you’re looking forward and you’re talking about the future, you’re talking about a bunch of states of the world, and waiting until you just have one to deal with is always going to be easier—waiting until you know what next June is going to look like.  So it’s just bound to be hard. We should understand collectively what we mean before we publish it.  That’s pretty simple, but it’s easy to lose sight of, and I think we did that in January and, to some extent, last August.  I think we left the room with different interpretations of whether we were making a commitment or not, and we need to sort that out.  A lesson I’ve learned just from today’s discussion is that it would be useful to think through contingencies—have the staff help us think through, all right, what if this happens. What if the data come in this way over the next couple of quarters.  How does this language evolve then. Is it going to be graceful to turn it in this direction or that direction.  We’ve been focused on trying to make the language easier.  Your point was a good one, Mr. Chairman.  Yes, for us to adopt President Williams’s suggestion is a turn in the other direction; we haven’t really thought through what a turn is going to look like.  I don’t think it’s reasonable or practical—this is a corollary—to do more than we can agree on, to say more than we can agree on.  And we did this with the exit strategy—we got a workable consensus—and then with the consensus statement.  We worked really hard, we left out stuff we couldn’t agree on, and we included everything we could agree on—a lowest-common-denominator approach.  I think a lot of the alternatives I see here, in specificity, go beyond, theoretically, what would be part of a reasonable consensus here. I want to say a word about commitment. I’ve heard President Kocherlakota make some seemingly nihilistic statements about the inability of the Committee to commit future Committees.  And I don’t think a black-and-white view of that is correct. I think we are committed.  We have been committed.  We have renewed the commitment made by Chairman Volcker to keep inflation low and stable.  We’ve renewed that every time we’ve responded to mini inflation scares, and thankfully, we don’t get many anymore. It was our experience in the 1980s and 1990s to respond to those in ways that were detrimental to our objectives in the very short run, to the extent that they required tightening rates in order to fulfill that commitment.  So I think President Kocherlakota is right—you have to ask the question; if we’re going to commit ourselves, don’t there have to be incentives.  And I think the incentives are well in line there for us to live up to that implicit commitment, but complicated, contingent, reaction-function kinds of commitments are going to be harder for us to live up to.  It’s going to take longer to falsify or verify whether we’re complying with it, so I think that’s going to be hard. About the FOMC versus the SEP—this is related to commitment. It’s one thing for the Committee to vote on a rate change today.  But to vote on policy three years from now—for this Committee—it’s in rotation, the membership is going to change in three years.  That suggests something more like the approach you used, Mr. Chairman, for the exit strategy and the consensus statement, which were meant to bind future voting members of the Committee to some extent.  You developed a broad consensus among all participants.  They were meant to last long enough to live through various rotations of memberships—maybe not bind in a legal sense, but to be a lasting agreement in the Committee. So when I think about communication, I’m not sure there’s much more we can do.  When I think about what we can agree on, and then think about what value is going to be added, I’m skeptical that we can save—I don’t know, did President Kocherlakota say 200,000 jobs.
+Does the passage contain contention or disagreement? Response from the model: No, there is not contention or disagreement in this passage. The speaker is discussing the challenges and complexities of communication and decision-making in the context of the Committee meetings. They also discuss the need for clarity and consensus in language and the importance of considering contingencies. The speaker also reflects on the concept of commitment and the challenges of making long-term commitments for future Committees. Overall, there is no clear disagreement or contention in the passage.
+
+
+Passage number 196.
+ MR. KOCHERLAKOTA.  No, 2,000 jobs.
+Does the passage contain contention or disagreement? Response from the model: There is not enough context provided to determine if there is contention or disagreement in the passage.
+
+
+Passage number 197.
+ MR. LACKER.  Two thousand jobs. Is that, like, Fed watchers put out of work— [laughter]—or how does that work. We can talk about this offline.  But think about the third chart in exhibit 1 that our Manager showed us this morning.  And it showed this little slope that primary dealers have in mind that the unemployment rate that’s going to trigger an exit differs depending on the inflation rate.  I think if you asked them the questions about our reaction function, qualitatively market participants would get it generally right—that if growth picks up, we’re going to exit earlier, and if growth is slow, we’re going to exit later. The understanding of the public and financial markets is pretty good, is pretty close to what we can agree with.  I think the distance between what we can manage to agree on here and what the public understands is minimal.  So, look at an example.  A lot of these have the unemployment rate as a threshold or trigger, but there are a lot of policy rules and models where the right thing to do is to respond to economic growth.  As you know, the core of all the models we use is this growth model where the real rate depends on the growth rate, not the level of some resource utilization.  So there’s an argument that you could put GDP growth at 4 percent or something in there equally as plausibly.  And I agree with President Bullard—there’s enough uncertainty about the model we ought to be using, or the policy reaction function that best corresponds to optimal policy, that we’re going to have a hard time getting very much further. A simple qualitative characterization, like 3.3, is, I think, all we ought to aspire to.  But even then, the use of the words “resource slack” is going to divide us.  There are going to be differences of views about whether that’s a reasonable thing.  I   understand that everything is estimated with imprecision, but something about which people can think it’s between 0 and 6 percent might be of limited usefulness for us in this setting. Let me just close by pointing out what we’ve accomplished in the last year—press conferences, the exit strategy statement, the consensus statement.  The exit strategy statement was designed to achieve something.  It was designed to move public understanding in a certain way.  It was designed to say, “Hey, we’ve got a plan,” and I think that was very effective.  The “2013” language—maybe things are worse than we think, or we’re more dovish than you’re going to think.  It was designed to convey one of those two.  It was designed to push down the yield curve, and I think it’s done that.  The Vice Chairman is right about that. If this is a journey, I think we should be looking for a rest area.  [Laughter] I hope it has a nice food court for President Williams and his family—maybe South of the Border or something.  But I think we’ve achieved a lot, and a great legacy has been left from what we’ve done now.  We need to wrestle with what we’ve got.  I don’t think we fully understand what we have.  That’s the lesson from this morning. CHAIRMAN BERNANKE.  Thank you very much.  President Kocherlakota.
+Does the passage contain contention or disagreement? Response from the model: No. The passage does not contain any contention or disagreement. It mainly consists of the speaker expressing their thoughts and agreement with others on certain topics.
+
+
+Passage number 198.
+ MR. KOCHERLAKOTA. I have to defend myself against the charge of being a nihilist.  [Laughter] I used the word “commitment” overly broadly, President Lacker.  I was only referring to the specific issue of commitment—a lot of the policies that would be beneficial in the current environment involve having a relatively higher-than-target rate of inflation along with a low rate of unemployment in the later part of the decade.
+Does the passage contain contention or disagreement? Response from the model: No. There is no contention or disagreement in this passage. The speaker is addressing a misunderstanding and clarifying their previous statement while using humor (laughter) to lighten the situation.
+
+
+****************DISAGREEMENT DETECTED*******************Passage number 199.
+ MR. LACKER.  Right.
+Does the passage contain contention or disagreement? Response from the model: Yes, there is contention or disagreement in the passage. This is indicated by the word "Right" used by Mr. Lacker, which suggests disagreement or contradiction with a previous statement or argument.
+
+
+****************DISAGREEMENT DETECTED*******************Passage number 200.
+ MR. KOCHERLAKOTA.  And that’s the kind of commitment I was questioning as being difficult to carry out.
+Does the passage contain contention or disagreement? Response from the model: Yes. There is contention in the passage. The speaker, Mr. Kocherlakota, is questioning the feasibility of carrying out a certain commitment.
+
+
+****************DISAGREEMENT DETECTED*******************Passage number 201.
+  MR. LACKER. If I could respond, Mr. Chairman—the way I’d put it is, that’s a commitment that you’d question the credibility of.  You’d question the credibility of that commitment.
+Does the passage contain contention or disagreement? Response from the model: Yes. There is contention or disagreement in the passage. This can be seen in the phrase "that’s a commitment that you’d question the credibility of." The speaker is expressing doubt or skepticism about the credibility of a commitment.
+
+
+****************DISAGREEMENT DETECTED*******************Passage number 202.
+ MR. KOCHERLAKOTA. Thank you. CHAIRMAN BERNANKE.  I would insert that credibility is not a 0/1 variable.  The facts show that we’ve had effects on rates out for a couple of years—now, maybe not 10 years, but maybe 2 years. Governor Duke. MS. DUKE.  Thank you, Mr. Chairman.  I think I’m going to largely agree with President Lacker. For the life of me, I’m having a hard time figuring out what problem it is we’re actually trying to solve. The first thing—is there some agreement we’ve reached that we think we need to communicate to the public that we haven’t.  I just don’t sense that there’s that level of agreement out there that we need, in the interest of transparency, to communicate.  And then the second thing is, I don’t see that there’s a level of confusion in the marketplace that necessitates us communicating something.  And I would go to the same panel 3 that President Lacker referenced in Brian’s presentation.  It looks to me as though the market understands there’s a tradeoff between unemployment and inflation rates.  And when we published what we published, they moved down their expectations, but it seems to me that they heard us.  The new line, the March 2012 line, doesn’t look terribly different than what’s attempted to be described in a lot of these attachments. Furthermore, if you go to panel 2, which is the distribution of the first increase in the target fed funds rate, it gives me some information. It tells me when a group of dealers think that liftoff would be.  And it gives me an idea of what the move has been over the last intermeeting period.  That’s the same information we’re going to give about the participants on this Committee.  So I think that’s doing something.  I think the way market participants come to that is that they formed opinions about what the Committee is likely to do based on two things—one, what we say; and, two, what the Committee has actually done over time.  And then, finally, most of the public doesn’t care how we’re making these decisions.  Savers want to know, how much interest am I going to get and when.  Borrowers want to know, how much interest am I going to pay and when.  And investors want to know, what are my assets going to be worth and when. And as unsatisfactory as the date is to many of you, it works for them.  They can understand it.  So I have a tough time. To go to the specific questions, I think anything that includes two new data points, two new numbers, just gives us additional points of disagreement, additional reasons for someone to dissent from the statement and not find a way to support it.  It also gives an opportunity for those two new numbers to be different from the consensus statement that we did all agree to and publish.  It doesn’t weight the variations, and it is different from history, because every time I compare this with the fed funds paths in the alternative simulations, which are based on the historical actions of the Committee and a lot of information, if I assume that previous Committees made reasonable decisions, then it’s hard for me to assume that something that’s different from that is a reasonable thing for me to agree to. In terms of clarifying who projected what in the SEP—again, I think the only thing anybody really cares about is, what does the Chairman project. Once they know what the Chairman projects, their interest in what the rest of us project goes way down.  And it is a three-year horizon, and everybody will vote within that three-year horizon.  So to me, there’s a difference between committing some theoretical future Committee and committing the person who will actually vote on the decision in two years when they’re sitting right next to me and they’ve said that they don’t like it.  So I think that is a difference. Lastly, these discussions have all been about, again, when and how we exit.  There’s been no discussion about how we communicate thresholds for any future easing—for QE3—which is what I think there’s a lot of misunderstanding about, a lot of desire for information about, and that’s something that it would be fruitful to talk about.  And then the second question we discussed in the policy round—which is, what is the threshold and the increment for us moving the date that we have in our statement today.—we need to think about that carefully.  Thank you, Mr. Chairman. CHAIRMAN BERNANKE.  Thank you.  President Fisher, whenever you have to leave, please feel free.
+Does the passage contain contention or disagreement? Response from the model: Yes, there is contention in the passage. Ms. Duke expresses disagreement with President Lacker on the need to communicate certain information to the public. She also disagrees with the idea of including two new data points in the statement, as well as the importance of projecting individual Committee members' opinions in the SEP.
+
+
+Passage number 203.
+ MR. FISHER.  Thank you. CHAIRMAN BERNANKE.  Governor Tarullo.
+Does the passage contain contention or disagreement? Response from the model: No.
+
+
+****************DISAGREEMENT DETECTED*******************Passage number 204.
+ MR. LACKER.  Earlier in the meeting about today’s statement, about “2014,” the issue of commitment came up. I interpreted the view that having made the statement raises the bar for action as that it represents some commitment.  That contradicts what you’ve said in public about it being a forecast. I take the status quo to be that it’s a forecast.  Can I assume that it remains that way until we formally adopt— CHAIRMAN BERNANKE.  Well, I asked for discussion of that point today. I think one thing that I was trying to convey—and maybe I misunderstood your question originally—was, was this an unconditional commitment.  There may be some people in the public who say, “Well, the Fed says they’re not changing rates until late 2014—unconditionally.
+Does the passage contain contention or disagreement? Response from the model: Yes. The passage shows disagreement between Mr. Lacker and the speaker regarding the interpretation of the statement and the level of commitment it represents.
+
+
+Passage number 205.
+” MR. LACKER.  Right.   CHAIRMAN BERNANKE.  And I was very clear that that is certainly not what we’re doing, that this is conditional on the factors that we discuss in the statement.  However, I don’t think this Committee has really thoroughly hashed out whether or not the reaction function that is embedded in that conditional commitment is a Taylor rule or an attempt at an optimal policy under commitment or what.  And I think that question is not yet fully resolved.
+Does the passage contain contention or disagreement? Response from the model: No.
+
+Explanation: There is no contention or disagreement in this passage. The speaker simply states that the committee has not yet fully resolved a question regarding the reaction function.
+
+
